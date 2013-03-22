@@ -1,4 +1,4 @@
-dannyqiu.github.com
+stuykeyclub.org
 ===================
 
-Some website in development
+Future home of the Stuyvesant Key Club Website
