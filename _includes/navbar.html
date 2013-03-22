@@ -17,11 +17,11 @@
                                     <li><a href="/about/positions/">Leadership</a></li>
                                     <li><a href="/about/committees/">Committees</a></li>
                                 </ul>
-                            </li>
+                            </li> 
+                            <li class="divider-vertical"></li>
+                            <li{% if page.url == '/points/index.html' %} class="active"{% endif %}><a href="/points/">Points</a></li>
                             <li class="divider-vertical"></li>
                             <li{% if page.url == '/events/index.html' %} class="active"{% endif %}><a href="/events/">Events</a></li>
-                            <li class="divider-vertical"></li>
-                            <li{% if page.url contains '/news/' %} class="active"{% endif %}><a href="/news/">News</a></li>
                             <li class="divider-vertical"></li>
                             <li{% if page.url == '/contact/index.html' %} class="active"{% endif %}><a href="/contact/">Contact</a></li>
                         </ul>
