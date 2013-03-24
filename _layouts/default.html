@@ -8,7 +8,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <title>
             {% if page.url == '/index.html' %}
-                Stuyvesant Key Club
+               {{page.title}} 
             {% else %}
                 Stuy KC{% if page.title %} | {{page.title}} {% endif %}
             {% endif %}
@@ -26,11 +26,12 @@
         
        {% include navbar.html %}
 
-        <div class="container">
+        {% if page.url == '/index.html' %}<div class="container-fluid">
+        {% else %}<div class="container"> {% endif %}
 
             {{ content }}
 
-        </div> <!-- /containter -->
+        </div> <!-- /container -->
 
         <script src="http://code.jquery.com/jquery.js"></script>
         <script src="js/bootstrap.min.js"></script>
