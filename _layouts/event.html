@@ -1,0 +1,8 @@
+---
+layout: default
+---
+<h2>{{ page.title }}</h2>
+<div class="event-info">Date: {{ page.date | date: "%A, %B %d, %Y"}}{% if page.time %} ({{ page.time }}){% endif %}<br>Location: {{ page.location }}</div>
+<article>
+{{ content }}
+</article>

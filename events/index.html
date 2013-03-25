@@ -1,0 +1,44 @@
+---
+layout: page
+title: Events
+---
+{% for event in paginator.posts %}
+    <div class="event-preview">
+        <h3><a href="{{ event.url }}">&raquo; {{ event.title }}</a></h3>
+        <div class="event-info">Date: {{ event.date | date: "%A, %B %d, %Y"}}{% if event.time %} ({{ event.time }}){% endif %}<br>Location: {{ event.location }}</div>
+        {{ event.content | split: "<!-- more -->" | first }}
+        {% if event.content contains "<!-- more -->" %}
+            <p><a href="{{ event.url }}">Read more &raquo;</a></p>
+        {% endif %}
+    </div>
+    {% unless forloop.last %}
+        <hr>
+    {% endunless %}
+{% endfor %}
+<div class="pagination pagination-centered">
+    <ul>
+        {% if paginator.previous_page %}
+            {% if paginator.previous_page == 1 %}
+                <li><a href="/events/">&laquo;</a></li>
+            {% else %}
+                <li><a href="/events/page{{ paginator.previous_page }}/">&laquo;</a></li>
+            {% endif %}
+        {% else %}
+            <li class="disabled"><span>&laquo;</span></li>
+        {% endif %}
+        {% for count in (1..paginator.total_pages) %}
+            {% if paginator.page == forloop.index %}
+                <li class="active"><span>{{ count }}</span></li>
+            {% elsif count == 1 %}
+                <li><a href="/events/">{{ count }}</a></li>
+            {% else %}
+                <li><a href="/events/page{{ count }}/">{{ count }}</a></li>
+            {% endif %}
+        {% endfor %}
+        {% if paginator.next_page %}
+            <li><a href="/events/page{{ paginator.next_page }}/">&raquo;</a></li>
+        {% else %}
+            <li class="disabled"><span>&raquo;</span></li>
+        {% endif %}
+    </ul>
+</div>

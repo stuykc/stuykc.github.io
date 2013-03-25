@@ -8,7 +8,7 @@ carousel:
     - img: http://placehold.it/1240x480
       caption-header: Election Results!
       caption-body: After extremely close results, we present to you the newest elected members of our 2013-2014 cabinet!
-      read-more-link: /news/electionresults2013
+      read-more-link: /news/electionresults2013/
     - img: http://placehold.it/1240x480
       caption-header: War between Key Club and Red Cross! 
       caption-body: It seems like Red Cross has declared war on Key Club for our recent takeover of the AIDS Walk. We must be prepared to fight their volunteers! 
@@ -32,4 +32,30 @@ carousel:
         <!-- Carousel nav -->
         <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
         <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="span9">
+                <h1>Upcoming Events:</h1>
+                {% for event in site.posts | limit 4 %}
+                    <div class="event-preview">
+                        <h3><a href="{{ event.url }}">&raquo; {{ event.title }}</a></h3>
+                        <div class="event-info">Date: {{ event.date | date: "%A, %B %d, %Y"}}{% if event.time %} ({{ event.time }}){% endif %}<br>Location: {{ event.location }}</div>
+                        {{ event.content | split: "<!-- more -->" | first }}
+                        {% if event.content contains "<!-- more -->" %}
+                            <p><a href="{{ event.url }}">Read more &raquo;</a></p>
+                        {% endif %}
+                    </div>
+                    <hr>
+                {% endfor %}
+                <h4><a href="/events/">All Events &raquo;</a></h4>
+            </div>
+            <div class="span3">
+                <h2>Key Club</h2>
+                <div class="keyclub-logo-container">
+                    <img class="keyclub-logo" src="/img/keyclub-logo.png" alt="Key Club International">
+                </div>
+                <p>The newly redesigned website for Stuyvesant Key Club. Built with all the love and care in the world.</p>
+            </div>
+        </div>
     </div>

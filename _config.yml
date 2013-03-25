@@ -1,1 +1,4 @@
 exclude: [README.md, bootstrap]
+permalink: /events/:year/:month/:day/:title
+paginate: 10
+paginate_path: /events/page:num
