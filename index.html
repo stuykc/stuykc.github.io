@@ -37,7 +37,7 @@ carousel:
         <div class="row">
             <div class="span9">
                 <h1>Upcoming Events:</h1>
-                {% for event in site.posts | limit 4 %}
+                {% for event in site.posts reversed | limit 4 %}
                     <div class="event-preview">
                         <h3><a href="{{ event.url }}">&raquo; {{ event.title }}</a></h3>
                         <div class="event-info">Date: {{ event.date | date: "%A, %B %d, %Y"}}{% if event.time %} ({{ event.time }}){% endif %}<br>Location: {{ event.location }}</div>
