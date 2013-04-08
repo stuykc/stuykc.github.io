@@ -5,10 +5,13 @@ title: Events
 {% for event in paginator.posts %}
     <div class="event-preview">
         <h3><a href="{{ event.url }}">&raquo; {{ event.title }}</a></h3>
-        <div class="event-info">Date: {{ event.date | date: "%A, %B %d, %Y"}}{% if event.time %} ({{ event.time }}){% endif %}<br>Location: {{ event.location }}</div>
+        <p class="event-info">Date: {{ event.date | date: "%A, %B %d, %Y"}}{% if event.time %} ({{ event.time }}){% endif %}<br>Location: {{ event.location }}</p>
         {{ event.content | split: "<!-- more -->" | first }}
         {% if event.content contains "<!-- more -->" %}
             <p><a href="{{ event.url }}">Read more &raquo;</a></p>
+        {% endif %}
+        {% if event.link %}
+            <span class="event-info">Sign up here:</span> <a href="{{ event.link }}">{{ event.link }}</a>
         {% endif %}
     </div>
     {% unless forloop.last %}
