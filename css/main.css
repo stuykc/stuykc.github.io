@@ -2,6 +2,18 @@
                         Custom Styling
    ========================================================= */
 
+.carousel {
+    margin-top: 10px;
+}
+
+.carousel .carousel-control {
+    opacity: 0; 
+}
+
+.carousel:hover .carousel-control {
+    opacity: .7; 
+}
+
 .keyclub-logo-container {
     text-align: center;
 }
