@@ -4,7 +4,8 @@ title: About Stuyvesant Key Club
 ---
 Stuyvesant Key Club was founded many years ago by a group of dedicated students willing to help and volunteer in their community. Starting from a small club at Stuy, StuyKC has grown to a club consisting of over 200 students.
 
-<h4>Our Pledge!</h4>
+### Our Pledge!
 I pledge, on my honor, to uphold the Objects of Key Club International; to build my home, school and community; to serve my nation and God; and combat all forces which tend to undermine these institutions.
-<h3>Our Motto!</h4>
+
+### Our Motto!
 Caring - Our Way of Life
