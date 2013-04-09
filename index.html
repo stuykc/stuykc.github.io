@@ -13,6 +13,8 @@ carousel:
       caption-body: After extremely close results, we present to you the newest elected members of our 2013-2014 cabinet!
       read-more-link: /news/electionresults2013/
 ---
+{% comment %} Hack to properly paginate a subdirectory because Jekyll only renders pagination with the root index.html. {% endcomment %}
+{% unless page.url contains '/events/page' %} {% comment %} Actual front page content should go in the unless block. {% endcomment %}
     <div id="myCarousel" class="carousel slide">
         <!-- Carousel items -->
         <div class="carousel-inner">
@@ -60,3 +62,51 @@ carousel:
             <p>The newly redesigned website for Stuyvesant Key Club. Built with all the love and care in the world.</p>
         </div>
     </div>
+{% else %} {% comment %} The else block should be an exact copy of /events/index.html. {% endcomment %}
+    <div class="page-header">
+        <h1>Events <small> - Page {{ paginator.page }}</small></h1>
+    </div>
+    {% for event in paginator.posts %}
+        <div class="event-preview">
+            <h3><a href="{{ event.url }}">&raquo; {{ event.title }}</a></h3>
+            <p class="event-info">Date: {{ event.date | date: "%A, %B %d, %Y"}}{% if event.time %} ({{ event.time }}){% endif %}<br>Location: {{ event.location }}</p>
+            {{ event.content | split: "<!-- more -->" | first }}
+            {% if event.content contains "<!-- more -->" %}
+                <p><a href="{{ event.url }}">Read more &raquo;</a></p>
+            {% endif %}
+            {% if event.link %}
+                <span class="event-info">Sign up here:</span> <a href="{{ event.link }}">{{ event.link }}</a>
+            {% endif %}
+        </div>
+        {% unless forloop.last %}
+            <hr>
+        {% endunless %}
+    {% endfor %}
+    <div class="pagination pagination-centered">
+        <ul>
+            {% if paginator.previous_page %}
+                {% if paginator.previous_page == 1 %}
+                    <li><a href="/events/">&laquo;</a></li>
+                {% else %}
+                    <li><a href="/events/page{{ paginator.previous_page }}/">&laquo;</a></li>
+                {% endif %}
+            {% else %}
+                <li class="disabled"><span>&laquo;</span></li>
+            {% endif %}
+            {% for count in (1..paginator.total_pages) %}
+                {% if paginator.page == forloop.index %}
+                    <li class="active"><span>{{ count }}</span></li>
+                {% elsif count == 1 %}
+                    <li><a href="/events/">{{ count }}</a></li>
+                {% else %}
+                    <li><a href="/events/page{{ count }}/">{{ count }}</a></li>
+                {% endif %}
+            {% endfor %}
+            {% if paginator.next_page %}
+                <li><a href="/events/page{{ paginator.next_page }}/">&raquo;</a></li>
+            {% else %}
+                <li class="disabled"><span>&raquo;</span></li>
+            {% endif %}
+        </ul>
+    </div>
+    {% endunless %}
