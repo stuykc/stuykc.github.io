@@ -34,6 +34,15 @@
 
         </div> <!-- /container -->
 
+        {% if page.url == '/index.html' %}
+        <script>
+            $(document).ready(function() {
+                $('.carousel').carousel({
+                    interval: 6000
+                });
+            });
+        </script>
+
         <script src="http://code.jquery.com/jquery.js"></script>
         <script src="/js/bootstrap.min.js"></script>
     </body>
