@@ -19,7 +19,7 @@
     font-weight: bold;
 }
 
-.keyclub-logo-container {
+.keyclub-logo-container .keyclub-banner-container {
     text-align: center;
 }
 
@@ -29,3 +29,8 @@
 
 .useful-links p {
     text-align: center;
+}
+
+.keyclub-banner {
+    margin: 20px 0px;
+}
