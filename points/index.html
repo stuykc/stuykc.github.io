@@ -1,5 +1,24 @@
 ---
-layout: page
-title: Check your points
+layout: default
+title: Check Your Points
 ---
-Some link to the spreadsheet with the points goes here
+<div class="container">
+    <div class="page-header" style="margin-bottom:0px;">
+        <h1>{{ page.title }}</h1>
+    </div>
+</div>
+<div id="points-alt" style="position:absolute; width:50%; left:25%; margin-top:30px;"></div>
+<iframe id="points" width='100%' frameborder='0' src='https://docs.google.com/spreadsheet/ccc?key=0AlAOqcXCxJl8dEt3amdFYWpBVTdEUEdTbHAyZEh1aFE#gid=0'></iframe>
+<script>
+    setInterval(function() {
+        $('#points').height($(window).height() + 90);
+        if ($(window).height() < 320) {
+            $('#points').hide();
+            $('#points-alt').text('Please use a device with a larger display to view this spreadsheet.');
+        }
+        else {
+            $('#points').show();
+            $('#points-alt').empty();
+        }
+    }, 700);
+</script>

@@ -27,10 +27,14 @@
     padding: 15px 0px;
 }
 
+.keyclub-banner {
+    margin: 20px 0px;
+}
+
 .useful-links p {
     text-align: center;
 }
 
-.keyclub-banner {
-    margin: 20px 0px;
+#points-alt {
+    text-align: center;
 }
