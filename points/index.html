@@ -3,8 +3,9 @@ layout: default
 title: Check Your Points
 ---
 <div class="container">
-    <div class="page-header" style="margin-bottom:0px;">
+    <div class="kc-header" style="margin-bottom:0px;">
         <h1>{{ page.title }}</h1>
+        <img class="kc-divider" src="/img/green-divider.png">
     </div>
 </div>
 <div class="points-alt"></div>
@@ -12,13 +13,5 @@ title: Check Your Points
 <script>
     setInterval(function() {
         $('#points').height($(window).height() + 90);
-        if ($(window).height() < 400) {
-            $('#points').hide();
-            $('.points-alt').text('Please use a device with a larger display to view this spreadsheet.');
-        }
-        else {
-            $('#points').show();
-            $('.points-alt').empty();
-        }
     }, 700);
 </script>
