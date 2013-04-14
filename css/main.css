@@ -14,12 +14,17 @@
     opacity: .7; 
 }
 
+.carousel-caption .btn {
+    margin-top: -2px;
+    vertical-align: top;
+}
+
 .event-info {
     font-size: 15px;
     font-weight: bold;
 }
 
-.keyclub-logo-container .keyclub-banner-container {
+.keyclub-logo-container {
     text-align: center;
 }
 
