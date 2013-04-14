@@ -3,7 +3,7 @@
    ========================================================= */
 
 .carousel {
-    margin-top: 10px;
+    margin-top: 15px;
 }
 
 .carousel .carousel-control {
@@ -27,8 +27,15 @@
     padding: 15px 0px;
 }
 
+.keyclub-navbar-logo {
+    width: 25px; 
+    height: 25px; 
+    margin-top: -11px; 
+    margin-bottom: -5px;
+}
+
 .keyclub-banner {
-    margin: 20px 0px;
+    margin-bottom: 30px;
 }
 
 .useful-links p {
