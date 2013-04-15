@@ -2,6 +2,8 @@
 layout: page
 title: About Key Club International
 ---
+*I pledge, on my honor, to uphold the Objects of Key Club International; to build my home, school and community; to serve my nation and God; and combat all forces which tend to undermine these institutions.*
+
 **Key Club International**, a service leadership program of Kiwanis International, is the oldest and largest service organization for high school students, and gives its members opportunities to provide service, build character and develop leadership skills.
 Started in California in the 1925, Key Club today thrives on more than 5,000 high school campuses with a total membership of 245,000 in 30 countries, including North America, the Caribbean nations, Central and South America, and most recently, Asia and Australia.
 
