@@ -77,8 +77,9 @@ carousel:
         </div>
     </div>
 {% else %} {% comment %} The else block should be an exact copy of /events/index.html. {% endcomment %}
-    <div class="page-header">
+    <div class="kc-header">
         <h1>Events <small> - Page {{ paginator.page }}</small></h1>
+        <img class="kc-divider" src="/img/green-divider.png">
     </div>
     {% for event in paginator.posts %}
         <div class="event-preview">

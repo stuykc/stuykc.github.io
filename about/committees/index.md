@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Committees
+title: About our Committees
 ---
 ### Advocacy (Briana Lui and Alvin Wei):
 
