@@ -34,9 +34,9 @@
         {% include navbar.html %}
 
         {% if page.url == '/points/index.html' %}
-        <div class="container-fluid">
+        <div class="container-fluid eliminate-container">
         {% else %}
-        <div class="container">
+        <div class="container eliminate-container eliminate-padding">
         {% endif %}
 
             {{ content }}
