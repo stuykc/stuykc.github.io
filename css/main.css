@@ -69,19 +69,3 @@
     width: 100%;
     height: 12px;
 }
-
-/* =========================================================
-                    For Eliminate Week 
-   ========================================================= */
-
-body {
-    background: fixed url('/img/eliminateproject.png');
-}
-
-.eliminate-container {
-    background-color: white;
-    border: groove #fed450 4px;
-}
-.eliminate-padding {
-    padding: 0px 40px 15px;
-}
