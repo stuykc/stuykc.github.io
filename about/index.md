@@ -8,10 +8,12 @@ Stuyvesant Key Club is a large community service club that focuses on helping ou
 Through the experiences we gain from voluteering and the people that we meet, our members develop leadership skills that can later make a difference in the world.
 
 Our club dues:
-- $6.50 for Key Club International
-- $5.00 for New York District Key Club
-- $&nbsp;&nbsp;.50 for Stuvesant Key Club
-- **$12.00** Total
+<ul style="list-style:none;">
+<li> $6.50 for Key Club International</li>
+<li> $5.00 for New York District Key Club</li>
+<li> $1.50 for Stuvesant Key Club</li>
+<li> = <strong>$13.00</strong> Total</li>
+</ul>
 
 <div class="row">
     <div class="span8 offset2">
