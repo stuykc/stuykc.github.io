@@ -1,10 +1,6 @@
 ---
-layout: default
+layout: page
 ---
-<div class="kc-header">
-    <a href="{{ page.url }}"><h1>{{ page.title }}</h1></a>
-    <img class="kc-divider" src="/img/green-divider.png" alt="Key Club Pencil">
-</div>
 <p class="event-info">Date: {{ page.date | date: "%A, %B %d, %Y"}}{% if page.time %} ({{ page.time }}){% endif %}<br>Location: {{ page.location }}</p>
 {{ content }}
 {% if page.link %}
