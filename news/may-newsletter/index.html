@@ -3,9 +3,13 @@ layout: page-large
 title: May Newsletter!
 title-small: 2013
 ---
-<iframe id="newsletter" style="width:100%;height:425px;" src="//e.issuu.com/embed.html#1074157/3637261" allowfullscreen seamless></iframe>
+<iframe id="newsletter" style="width:100%; height:425px;" src="//e.issuu.com/embed.html#1074157/3637261" allowfullscreen seamless></iframe>
+<!-- script -->
 <script>
-setInterval(function() {
-    $('#newsletter').height($('#newsletter').width() * .35);
-}, 1500);
+$(document).ready(function() {
+  $('#newsletter').height($('#newsletter').width() * .35);
+});  
+$(window).resize(function() {
+  $('#newsletter').height($('#newsletter').width() * .35);
+});
 </script>

@@ -3,8 +3,12 @@ layout: page-large
 title: Check Your Points
 ---
 <iframe id="points" style="position:absolute; margin-left:-20px; width:100%; min-height:480px;" src='https://docs.google.com/spreadsheet/ccc?key=0AlAOqcXCxJl8dEt3amdFYWpBVTdEUEdTbHAyZEh1aFE#gid=0'></iframe>
+<!-- script -->
 <script>
-    setInterval(function() {
-        $('#points').height($(window).height() + 90);
-    }, 750);
+$(document).ready(function() {
+  $('#points').height($(window).height() + 90);
+});  
+$(window).resize(function() {
+  $('#points').height($(window).height() + 90);
+});
 </script>
