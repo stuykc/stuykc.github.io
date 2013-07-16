@@ -1,0 +1,21 @@
+.event-info {
+    font-size: 15px;
+    font-weight: bold;
+}
+.event-preview a {
+    word-break: break-all;
+}
+.keyclub-navbar-logo {
+    width: 25px; 
+    height: 25px; 
+    margin: -11px 0px -5px;
+}
+.keyclub-banner {
+    margin-bottom: 30px;
+}
+.kc-header {
+    margin: 20px 0px;
+}
+.kc-divider {
+    width: 100%;
+}

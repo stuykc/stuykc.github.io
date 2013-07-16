@@ -23,7 +23,7 @@ carousel:
 <div class="container">
 {% comment %} Hack to properly paginate a subdirectory because Jekyll only renders pagination with the root index.html. {% endcomment %}
 {% unless page.url contains '/events/page' %} {% comment %} Actual front page content should go in the unless block. {% endcomment %}
-    <div id="myCarousel" class="carousel slide">
+    <div id="myCarousel" class="carousel slide" style="margin-top:15px;">
         <!-- Carousel items -->
         <div class="carousel-inner">
             {% for item in page.carousel %}
@@ -33,13 +33,14 @@ carousel:
                     <div class="carousel-caption">
                         <h4>{{ item.caption-header }}</h4>
                         <p>{{ item.caption-body }}
-                        {% if item.read-more-link %}<a href="{{ item.read-more-link }}" class="btn btn-mini">Read more <i class="icon-chevron-right"></i></a>{% endif %}</p>
+                        {% if item.read-more-link %}<a href="{{ item.read-more-link }}" class="btn btn-mini" style="margin-top:-2px; vertical-align:top;">Read more <i class="icon-chevron-right"></i></a>{% endif %}</p>
                     </div>
                     {% endif %}
                 </div>
             {% endfor %}
         </div>
         <!-- Carousel nav -->
+        <style>.carousel .carousel-control{opacity:0;} .carousel:hover .carousel-control {opacity:.7;}</style>
         <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
         <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
     </div>
@@ -64,7 +65,7 @@ carousel:
                             <p><a href="{{ event.url }}">Read more &raquo;</a></p>
                         {% endif %}
                         {% if event.link %}
-                            <span class="event-info">Sign Up!</span> <a href="{{ event.link }}">{{ event.link }}</a>
+                            <a href="{{ event.link }}"><span class="event-info">Sign up for this event!</span></a>
                         {% endif %}
                     </div>
                     <hr>
@@ -74,8 +75,8 @@ carousel:
         </div>
         <div class="span3">
             <h2>Key Club</h2>
-            <div class="keyclub-logo-container">
-                <img class="keyclub-logo" src="/img/logos/keyclub-logo.png" alt="Key Club International">
+            <div class="keyclub-logo-container" style="text-align:center;">
+                <img class="keyclub-logo" style="padding:15px 0px; max-width:90%;" src="/img/logos/keyclub-logo.png" alt="Key Club International">
             </div>
             <div class="keyclub-info">
                 <p>Stuyvesant Key Club is a service organization dedicated to helping our school and community.</p>
@@ -83,6 +84,7 @@ carousel:
             </div>
             <div class="useful-links">
                 <h4>Useful Links</h4>
+                <style>.useful-links p{text-align:center;}</style>
                 <p><a href="http://www.nydkc.org">New York District Key Club</a></p>
                 <p>
                     <a href="http://keyclub.org">Key Club International</a>
