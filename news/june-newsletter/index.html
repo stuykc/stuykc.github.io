@@ -6,10 +6,14 @@ title-small: 2013
 <iframe id="newsletter" style="width:100%; height:600px;" src="//e.issuu.com/embed.html#1074157/4053401" allowfullscreen seamless></iframe>
 <!-- script -->
 <script>
-$(document).ready(function() {
-  $('#newsletter').height($('#newsletter').width() * .63);
-});  
-$(window).resize(function() {
-  $('#newsletter').height($('#newsletter').width() * .63);
-});
+$(document).ready(newsletterFit);  
+$(window).resize(newsletterFit);
+function newsletterFit() {
+  if($('#newsletter').width() > 740) {
+    $('#newsletter').height($('#newsletter').width() * .64);
+  }
+  else {
+    $('#newsletter').height($('#newsletter').width() * .74);
+  }
+}
 </script>
