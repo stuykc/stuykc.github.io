@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About Stuyvesant Key Club
-title-small: Division 11
+title-small: – Division 11
 ---
 Stuyvesant Key Club is a large community service club that focuses on helping our community and our school. In accordance with our motto, "Caring - Our Way of Life", our members dedicate themselves to improving New York City through our support of various causes, small and large. We participate in a variety of events throughout all five boroughs, helping at major walks including Making Strides Against Breast Cancer and AIDS Walk, working to improve parks and gardens throughout the city, and making food for the city's homeless. We also organize a number of fund-raisers that occur year-round. 
 
