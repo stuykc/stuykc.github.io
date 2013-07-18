@@ -59,7 +59,25 @@ carousel:
                 {% for event in site.posts reversed limit: show %}
                     <div class="event-preview">
                         <h3><a href="{{ event.url }}">&raquo; {{ event.title }}</a></h3>
-                        <div class="event-info">Date: {{ event.date | date: "%A, %B %d, %Y"}}{% if event.time %} ({{ event.time }}){% endif %}<br>Location: {{ event.location }}</div>
+                        <div class="event-info">
+                        {% if event.dates %}
+                            <table class="clearfix">
+                                <tbody>
+                                    <tr>
+                                        <td style="vertical-align:top;">Dates:&nbsp;</td>
+                                        <td>{{ event.date | date: "%A, %B %d, %Y"}}{% if event.time %} ({{ event.time }}){% endif %}
+                                        {% for date in event.dates %}
+                                            <br>{{ date }}
+                                        {% endfor %}
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        {% else %}
+                            Date: {{ event.date | date: "%A, %B %d, %Y"}}{% if event.time %} ({{ event.time }}){% endif %}<br>
+                        {% endif %}
+                            Location: {{ event.location }}
+                        </div>
                         {{ event.content | split: "<!-- more -->" | first }}
                         {% if event.content contains "<!-- more -->" %}
                             <p><a href="{{ event.url }}">Read more &raquo;</a></p>

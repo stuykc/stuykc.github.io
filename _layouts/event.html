@@ -1,7 +1,25 @@
 ---
 layout: page
 ---
-<p class="event-info">Date: {{ page.date | date: "%A, %B %d, %Y"}}{% if page.time %} ({{ page.time }}){% endif %}<br>Location: {{ page.location }}</p>
+<div class="event-info">
+{% if page.dates %}
+    <table class="clearfix">
+        <tbody>
+            <tr>
+                <td style="vertical-align:top;">Dates:&nbsp;</td>
+                <td>{{ page.date | date: "%A, %B %d, %Y"}}{% if page.time %} ({{ page.time }}){% endif %}
+                {% for date in page.dates %}
+                    <br>{{ date }}
+                {% endfor %}
+                </td>
+            </tr>
+        </tbody>
+    </table>
+{% else %}
+    Date: {{ page.date | date: "%A, %B %d, %Y"}}{% if page.time %} ({{ page.time }}){% endif %}<br>
+{% endif %}
+    Location: {{ page.location }}
+</div>
 {{ content }}
 {% if page.link %}
 <span class="event-info">Sign up here:</span> <a href="{{ page.link }}">{{ page.link }}</a>
