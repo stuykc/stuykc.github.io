@@ -2,13 +2,12 @@
 layout: page-large
 title: Check Your Points
 ---
-<iframe id="points" style="position:absolute; margin-left:-20px; width:100%; min-height:480px;" src='https://docs.google.com/spreadsheet/ccc?key=0AlAOqcXCxJl8dEt3amdFYWpBVTdEUEdTbHAyZEh1aFE#gid=0'></iframe>
+<iframe id="points" style="position:relative; width:100%;" seamless src='https://docs.google.com/spreadsheet/pub?key=0Am7xy3_LFsTldF9XM2NBb0N4ZlA5QUNOdEU3eTh6Snc&output=html'></iframe>
 <!-- script -->
 <script>
-$(document).ready(function() {
-  $('#points').height($(window).height() + 90);
-});  
-$(window).resize(function() {
-  $('#points').height($(window).height() + 90);
-});
+$(document).ready(points);
+$(window).resize(points);
+function points() {
+  $('#points').height($(window).height());
+}
 </script>
