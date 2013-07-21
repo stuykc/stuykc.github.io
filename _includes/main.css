@@ -3,7 +3,7 @@
     font-weight: bold;
     padding-bottom: 10px;
 }
-.event-preview a {
+.event-preview > a {
     word-break: break-all;
 }
 .keyclub-navbar-logo {
