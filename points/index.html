@@ -2,12 +2,42 @@
 layout: page-large
 title: Check Your Points
 ---
-<iframe id="points" style="position:relative; width:100%;" seamless src='https://docs.google.com/spreadsheet/pub?key=0Am7xy3_LFsTldF9XM2NBb0N4ZlA5QUNOdEU3eTh6Snc&output=html'></iframe>
+<style>
+#points-container {position:absolute; margin-left:-20px; overflow:hidden; width:100%;}
+</style>
+<div class="hidden-desktop" id="points-container">
+    <iframe id="points" style="position:relative; width:100%;" seamless src='https://docs.google.com/spreadsheet/lv?key=0Am7xy3_LFsTldF9XM2NBb0N4ZlA5QUNOdEU3eTh6Snc#gid=0'></iframe>
+</div>
+<div class="visible-desktop" id="points-container">
+    <iframe id="points" style="position:absolute; width:100%; top:-143px; min-height:360px;" seamless src='https://docs.google.com/spreadsheet/ccc?key=0Am7xy3_LFsTldF9XM2NBb0N4ZlA5QUNOdEU3eTh6Snc#gid=0'></iframe>
+</div>
 <!-- script -->
 <script>
 $(document).ready(points);
 $(window).resize(points);
 function points() {
-  $('#points').height($(window).height());
+  var h = $(window).height();
+  var w = $(window).width();
+  if (w <= 767) {
+    $('div #points-container').each(function() {$(this).height(h - 5);});
+    $('div #points').each(function() {
+      $(this).height(h + 63);
+      $(this).css('top','0px');
+    });
+  }
+  else if (w <= 979) {
+    $('div #points-container').each(function() {$(this).height(h - 53);});
+    $('div #points').each(function() {
+      $(this).height(h);
+      $(this).css('top','0px');
+    });
+  }
+  else {
+    $('div #points-container').each(function() {$(this).height(h - 51);});
+    $('div #points').each(function() {
+      $(this).height(h + 143);
+      $(this).css('top','-143px');
+    });
+  }
 }
 </script>
