@@ -18,17 +18,24 @@ $(window).resize(points);
 function points() {
   var h = $(window).height();
   var w = $(window).width();
-  if (w <= 767) {
+  if (w <= 567) {
     $('div #points-container').each(function() {$(this).height(h - 5);});
     $('div #points').each(function() {
-      $(this).height(h + 63);
+      $(this).height(h + 58);
+      $(this).css('top','0px');
+    });
+  }
+  else if (w <= 767) {
+    $('div #points-container').each(function() {$(this).height(h - 5);});
+    $('div #points').each(function() {
+      $(this).height(h + 43);
       $(this).css('top','0px');
     });
   }
   else if (w <= 979) {
     $('div #points-container').each(function() {$(this).height(h - 53);});
     $('div #points').each(function() {
-      $(this).height(h);
+      $(this).height(h - 5);
       $(this).css('top','0px');
     });
   }
