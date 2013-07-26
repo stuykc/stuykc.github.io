@@ -4,12 +4,15 @@ title: Check Your Points
 ---
 <style>
 #points-container {position:absolute; margin-left:-20px; overflow:hidden; width:100%;}
+.hidden-desktop #points {position:relative; width:100%;}
+.visible-desktop #points {position:absolute; width:100%; top:-143px; min-height:360px;}
 </style>
+<!-- css -->
 <div class="hidden-desktop" id="points-container">
-    <iframe id="points" style="position:relative; width:100%;" seamless src='https://docs.google.com/spreadsheet/lv?key=0Am7xy3_LFsTldF9XM2NBb0N4ZlA5QUNOdEU3eTh6Snc#gid=0'></iframe>
+    <iframe id="points" src='https://docs.google.com/spreadsheet/lv?key=0Am7xy3_LFsTldF9XM2NBb0N4ZlA5QUNOdEU3eTh6Snc#gid=0'></iframe>
 </div>
 <div class="visible-desktop" id="points-container">
-    <iframe id="points" style="position:absolute; width:100%; top:-143px; min-height:360px;" seamless src='https://docs.google.com/spreadsheet/ccc?key=0Am7xy3_LFsTldF9XM2NBb0N4ZlA5QUNOdEU3eTh6Snc#gid=0'></iframe>
+    <iframe id="points" src='https://docs.google.com/spreadsheet/ccc?key=0Am7xy3_LFsTldF9XM2NBb0N4ZlA5QUNOdEU3eTh6Snc#gid=0'></iframe>
 </div>
 <!-- script -->
 <script>

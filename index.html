@@ -20,10 +20,19 @@ carousel:
       read-more-link: /news/election-results-2013/
 ---
 {% assign show = 3 %}
+<style>
+.carousel {margin-top:15px;}
+.carousel .btn {margin-top:-2px; vertical-align:top;}
+.carousel .carousel-control{opacity:0;}
+.carousel:hover .carousel-control {opacity:.7;}
+#events-header {padding-bottom:10px;}
+.keyclub-logo {padding:15px 0px; max-width:85%;} 
+</style>
+<!-- css -->
 <div class="container">
 {% comment %} Hack to properly paginate a subdirectory because Jekyll only renders pagination with the root index.html. {% endcomment %}
 {% unless page.url contains '/events/page' %} {% comment %} Actual front page content should go in the unless block. {% endcomment %}
-    <div id="myCarousel" class="carousel slide" style="margin-top:15px;">
+    <div id="myCarousel" class="carousel slide">
         <!-- Carousel items -->
         <div class="carousel-inner">
             {% for item in page.carousel %}
@@ -33,20 +42,19 @@ carousel:
                     <div class="carousel-caption">
                         <h4>{{ item.caption-header }}</h4>
                         <p>{{ item.caption-body }}
-                        {% if item.read-more-link %}<a href="{{ item.read-more-link }}" class="btn btn-mini" style="margin-top:-2px; vertical-align:top;">Read more <i class="icon-chevron-right"></i></a>{% endif %}</p>
+                        {% if item.read-more-link %}<a href="{{ item.read-more-link }}" class="btn btn-mini">Read more <i class="icon-chevron-right"></i></a>{% endif %}</p>
                     </div>
                     {% endif %}
                 </div>
             {% endfor %}
         </div>
         <!-- Carousel nav -->
-        <style>.carousel .carousel-control{opacity:0;} .carousel:hover .carousel-control {opacity:.7;}</style>
         <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
         <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
     </div>
     <div class="row">
         <div class="span9">
-            <h1 style="padding-bottom:10px;">Upcoming Events:</h1>
+            <h1 id="events-header">Upcoming Events:</h1>
             {% if show == 0 %}
                 <div class="event-preview">
                     <div class="event-info" style="margin-top:30px;color:#46a546;">
@@ -62,16 +70,13 @@ carousel:
                         <div class="event-info">
                         {% if event.dates %}
                             <table class="clearfix">
-                                <tbody>
-                                    <tr>
-                                        <td style="vertical-align:top;">Dates:&nbsp;</td>
-                                        <td>{{ event.date | date: "%A, %B %d, %Y"}}{% if event.time %} ({{ event.time }}){% endif %}
-                                        {% for date in event.dates %}
-                                            <br>{{ date }}
-                                        {% endfor %}
-                                        </td>
-                                    </tr>
-                                </tbody>
+                                <tbody><tr>
+                                    <td>Dates:&nbsp;</td>
+                                    <td>{{ event.date | date: "%A, %B %d, %Y"}}{% if event.time %} ({{ event.time }}){% endif %}
+                                    {% for date in event.dates %}
+                                        <br>{{ date }}
+                                    {% endfor %}</td>
+                                </tr></tbody>
                             </table>
                         {% else %}
                             Date: {{ event.date | date: "%A, %B %d, %Y"}}{% if event.time %} ({{ event.time }}){% endif %}<br>
@@ -93,27 +98,26 @@ carousel:
         </div>
         <div class="span3">
             <h2>Key Club</h2>
-            <div class="keyclub-logo-container" style="text-align:center;">
-                <img class="keyclub-logo" style="padding:15px 0px; max-width:90%;" src="/img/logos/keyclub-logo.png" alt="Key Club International">
+            <div class="keyclub-logo-container text-center">
+                <img class="keyclub-logo" src="/img/logos/keyclub-logo.png" alt="Key Club International">
             </div>
             <div class="keyclub-info">
                 <p>Stuyvesant Key Club is a service organization dedicated to helping both our school and community.</p>
-                <p style="text-align:right;"><a href="/about/">Learn more &raquo;</a></p>
+                <p class="text-right"><a href="/about/">Learn more &raquo;</a></p>
             </div>
             <div class="useful-links">
                 <h4>Useful Links</h4>
-                <style>.useful-links p{text-align:center;}</style>
-                <p><a href="http://www.nydkc.org">New York District Key Club</a></p>
-                <p>
-                    <a href="http://keyclub.org">Key Club International</a>
-                    <br><a href="http://kiwanis.org/alumni">Key Club Alumni</a>
-                    <br><a href="http://www.unicef.org">UNICEF</a>
-                </p>
+                <ul>
+                    <li><a href="http://www.nydkc.org">New York District Key Club</a></li>
+                    <li><a href="http://keyclub.org">Key Club International</a></li>
+                    <li><a href="http://kiwanis.org/alumni">Key Club Alumni</a></li>
+                    <li><a href="http://www.unicef.org">UNICEF</a></li>
+                </ul>
                 <h4>Service Partners</h4>
-                <p>
-                    <a href="http://childrensmiraclenetwork.org">Children's Miracle Network</a>
-                    <br><a href="http://marchofdimesyouth.com">March of Dimes</a>
-                </p>
+                <ul>
+                    <li><a href="http://childrensmiraclenetwork.org">Children's Miracle Network</a></li>
+                    <li><a href="http://marchofdimesyouth.com">March of Dimes</a></li>
+                </ul>
             </div>
         </div>
     </div>
@@ -128,16 +132,13 @@ carousel:
             <div class="event-info">
             {% if event.dates %}
                 <table class="clearfix">
-                    <tbody>
-                        <tr>
-                            <td style="vertical-align:top;">Dates:&nbsp;</td>
-                            <td>{{ event.date | date: "%A, %B %d, %Y"}}{% if event.time %} ({{ event.time }}){% endif %}
-                            {% for date in event.dates %}
-                                <br>{{ date }}
-                            {% endfor %}
-                            </td>
-                        </tr>
-                    </tbody>
+                    <tbody><tr>
+                        <td>Dates:&nbsp;</td>
+                        <td>{{ event.date | date: "%A, %B %d, %Y"}}{% if event.time %} ({{ event.time }}){% endif %}
+                        {% for date in event.dates %}
+                            <br>{{ date }}
+                        {% endfor %}</td>
+                    </tr></tbody>
                 </table>
             {% else %}
                 Date: {{ event.date | date: "%A, %B %d, %Y"}}{% if event.time %} ({{ event.time }}){% endif %}<br>
