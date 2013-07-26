@@ -14,6 +14,6 @@ Our club dues:
 <li> $1.50 for Stuvesant Key Club</li>
 <li> = <strong>$13.00</strong> Total</li>
 </ul>
-<div class="image-container">
+<div class="text-center">
     <img src="/img/photos/stuykc.jpg" alt="Stuyvesant Key Club">
 </div>
