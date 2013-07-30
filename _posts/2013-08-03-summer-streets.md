@@ -16,6 +16,9 @@ Summer Streets is an annual celebration of New York City’s most valuable publi
 
 Please bring this release form to one of the mandatory orientations before the event!
 
-- Thursday, August 1 (6pm - 7pm)
-- Thursday, August 8 (6pm - 7pm)
-- Thursday, August 15 (6pm - 7pm)
+- Thursday, August 1 (5:30pm - 6:30pm)
+- Monday, August 5 (5:30pm - 6:30pm)
+- Thursday, August 15 (5:30pm - 6:30pm)
+
+The location will be: **55 Water Street New York City, New York 10041**. 
+<br>*Note: This is a government building, so you'll need a valid government-issued form of identification*.
