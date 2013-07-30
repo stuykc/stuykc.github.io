@@ -14,7 +14,9 @@
 .event-info td {
     vertical-align: top;
 }
-.event-preview > a {
+.event-preview > a,
+.event-preview p a {
+-ms-word-break: break-all;
     word-break: break-all;
 }
 .kc-header {

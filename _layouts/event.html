@@ -4,24 +4,26 @@ layout: page
 {% if content contains "<!-- css -->" %}
     {{ content | split: "<!-- css -->" | first }} <!-- css -->
 {% endif %}
-<div class="event-info">
-{% if page.dates %}
-    <table class="clearfix">
-        <tbody><tr>
-            <td>Dates:&nbsp;</td>
-            <td>{{ page.date | date: "%A, %B %d, %Y"}}{% if page.time %} ({{ page.time }}){% endif %}
-            {% for date in page.dates %}
-                <br>{{ date }}
-            {% endfor %}
-            </td>
-        </tr></tbody>
-    </table>
-{% else %}
-    Date: {{ page.date | date: "%A, %B %d, %Y"}}{% if page.time %} ({{ page.time }}){% endif %}<br>
-{% endif %}
-    Location: {{ page.location }}
+<div class="event-preview">
+    <div class="event-info">
+    {% if page.dates %}
+        <table class="clearfix">
+            <tbody><tr>
+                <td>Dates:&nbsp;</td>
+                <td>{{ page.date | date: "%A, %B %d, %Y"}}{% if page.time %} ({{ page.time }}){% endif %}
+                {% for date in page.dates %}
+                    <br>{{ date }}
+                {% endfor %}
+                </td>
+            </tr></tbody>
+        </table>
+    {% else %}
+        Date: {{ page.date | date: "%A, %B %d, %Y"}}{% if page.time %} ({{ page.time }}){% endif %}<br>
+    {% endif %}
+        Location: {{ page.location }}
+    </div>
+    {{ content | split: "<!-- css -->" | last }}
+    {% if page.link %}
+    <span class="event-info">Sign up here:</span> <a href="{{ page.link }}">{{ page.link }}</a>
+    {% endif %}
 </div>
-{{ content | split: "<!-- css -->" | last }}
-{% if page.link %}
-<span class="event-info">Sign up here:</span> <a href="{{ page.link }}">{{ page.link }}</a>
-{% endif %}
