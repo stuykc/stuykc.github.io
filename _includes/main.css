@@ -14,6 +14,9 @@
 .event-info td {
     vertical-align: top;
 }
+.event-more {
+    margin: -8px 0 4px;
+}
 .event-preview > a,
 .event-preview p a {
 -ms-word-break: break-all;

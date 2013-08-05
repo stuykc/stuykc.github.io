@@ -26,7 +26,7 @@ title: Events
     </div>
     {{ event.content | split: "<!-- more -->" | first }}
     {% if event.content contains "<!-- more -->" %}
-    <p><a href="{{ event.url }}">Read more &raquo;</a></p>
+    <p class="text-center event-more"><a href="{{ event.url }}">More information on this event &raquo;</a></p>
     {% endif %}
     {% if event.link %}
     <a href="{{ event.link }}"><span class="event-info">Sign up for this event!</span></a>
