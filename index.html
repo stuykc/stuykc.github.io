@@ -56,43 +56,46 @@ carousel:
         <div class="span9">
             <h1 id="events-header">Upcoming Events:</h1>
             {% if show == 0 %}
-                <div class="event-preview">
-                    <div class="event-info" style="margin-top:30px;color:#46a546;">
-                        Sorry, we currently don't have any events for you :(<br>
-                        However, this doesn't mean you should stop volunteering!
-                    </div>
+            <div class="event-preview">
+                <div class="event-info" style="margin-top:30px;color:#46a546;">
+                    Sorry, we currently don't have any events for you :(<br>
+                    However, this doesn't mean you should stop volunteering!
                 </div>
-                <hr>
+            </div>
+            <hr>
             {% else %}
-                {% for event in site.posts reversed limit: show %}
-                    <div class="event-preview">
-                        <h3><a href="{{ event.url }}">&raquo; {{ event.title }}</a></h3>
-                        <div class="event-info">
-                        {% if event.dates %}
-                            <table class="clearfix">
-                                <tbody><tr>
-                                    <td>Dates:&nbsp;</td>
-                                    <td>{{ event.date | date: "%A, %B %d, %Y"}}{% if event.time %} ({{ event.time }}){% endif %}
-                                    {% for date in event.dates %}
-                                        <br>{{ date }}
-                                    {% endfor %}</td>
-                                </tr></tbody>
-                            </table>
-                        {% else %}
-                            Date: {{ event.date | date: "%A, %B %d, %Y"}}{% if event.time %} ({{ event.time }}){% endif %}<br>
-                        {% endif %}
-                            Location: {{ event.location }}
-                        </div>
-                        {{ event.content | split: "<!-- more -->" | first }}
-                        {% if event.content contains "<!-- more -->" %}
-                            <p><a href="{{ event.url }}">Read more &raquo;</a></p>
-                        {% endif %}
-                        {% if event.link %}
-                            <a href="{{ event.link }}"><span class="event-info">Sign up for this event!</span></a>
-                        {% endif %}
-                    </div>
-                    <hr>
-                {% endfor %}
+            {% for event in site.posts reversed limit: show %}
+            <div class="event-preview">
+                <h3><a href="{{ event.url }}">&raquo; {{ event.title }}</a></h3>
+                <div class="event-info">
+                    <table class="clearfix">
+                        <tbody><tr>
+                            <td>Dates:&nbsp;</td>
+                            <td>{{ event.date | date: "%A, %B %d, %Y"}}{% if event.time %} ({{ event.time }}){% endif %}
+                            {% if event.dates %}
+                            {% for date in event.dates %}
+                                <br>{{ date }}
+                            {% endfor %}</td>
+                            {% endif %}
+                        </tr></tbody>
+                    </table>
+                    <table class="clearfix">
+                        <tbody><tr>
+                            <td>Location:&nbsp;</td>
+                            <td>{{ event.location }}</td>
+                        </tr></tbody>
+                    </table>
+                </div>
+                {{ event.content | split: "<!-- more -->" | first }}
+                {% if event.content contains "<!-- more -->" %}
+                <p><a href="{{ event.url }}">Read more &raquo;</a></p>
+                {% endif %}
+                {% if event.link %}
+                <a href="{{ event.link }}"><span class="event-info">Sign up for this event!</span></a>
+                {% endif %}
+            </div>
+            <hr>
+            {% endfor %}
             {% endif %}
             <h4><a href="/events/">All Events &raquo;</a></h4>
         </div>

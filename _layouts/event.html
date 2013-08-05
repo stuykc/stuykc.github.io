@@ -6,21 +6,23 @@ layout: page
 {% endif %}
 <div class="event-preview">
     <div class="event-info">
-    {% if page.dates %}
         <table class="clearfix">
             <tbody><tr>
                 <td>Dates:&nbsp;</td>
                 <td>{{ page.date | date: "%A, %B %d, %Y"}}{% if page.time %} ({{ page.time }}){% endif %}
+                {% if page.dates %}
                 {% for date in page.dates %}
                     <br>{{ date }}
-                {% endfor %}
-                </td>
+                {% endfor %}</td>
+                {% endif %}
             </tr></tbody>
         </table>
-    {% else %}
-        Date: {{ page.date | date: "%A, %B %d, %Y"}}{% if page.time %} ({{ page.time }}){% endif %}<br>
-    {% endif %}
-        Location: {{ page.location }}
+        <table class="clearfix">
+            <tbody><tr>
+                <td>Location:&nbsp;</td>
+                <td>{{ page.location }}</td>
+            </tr></tbody>
+        </table>
     </div>
     {{ content | split: "<!-- css -->" | last }}
     {% if page.link %}
