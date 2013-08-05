@@ -12,9 +12,9 @@ Summer Streets is an annual celebration of New York City’s most valuable publi
 
 <!-- more -->
 
-<div markdown="1" class="row">
-<div class="span8">
-**You will also need to fill out [a volunteer release form](/resources/summer-streets-volunteer-release-form.pdf) for this event.**
+<div class="row">
+<div markdown="1" class="span8">
+**You will also need to fill out [a volunteer release form](https://docs.google.com/file/d/0B27xy3_LFsTlbWR4UmVGUDZ1QWs/edit) for this event.**
 
 Please bring this release form to one of the mandatory orientations before the event!
 
@@ -22,7 +22,7 @@ Please bring this release form to one of the mandatory orientations before the e
 - Monday, August 5 (5:30pm - 6:30pm)
 - Thursday, August 15 (5:30pm - 6:30pm)
 
-The location will be: **55 Water Street New York City, New York 10041.**
+The location will be: **55 Water Street New York City, New York 10041 (Back of the building)**
 
 *Note: This is a government building, so you'll need a valid government-issued form of identification (School ID will work just fine).*
 </div>

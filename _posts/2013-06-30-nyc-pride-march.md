@@ -7,4 +7,4 @@ link: https://docs.google.com/forms/d/1MMf-WaIPfHnPw5AC7jP3_19sl31PNTJRhX8HoVcwZ
 ---
 NYC Pride is an annual event that spreads awareness of the LGBT community and has broadened to include the fight against disease, violence, and neglect. Occurring on the 44th anniversary of the [Stonewall Riots](http://en.wikipedia.org/wiki/Stonewall_riots), this pride march will be used to celebrate our lives and how far we've come as a society. We won't be marching in the parade, but who needs to march when you can volunteer with crowd control, helping the marchers, and events happening along the march route? :)
 
-**You will also need to [sign a consent form](/resources/pride-march-consent-form.pdf) for this event!**
+**You will also need to [sign a consent form](https://docs.google.com/file/d/0B27xy3_LFsTlQm1CQ2tKM3cyUGc/edit) for this event!**
