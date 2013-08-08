@@ -70,13 +70,17 @@ carousel:
                 <div class="event-info">
                     <table class="clearfix">
                         <tbody><tr>
+                        {% if event.dates %}
                             <td>Dates:&nbsp;</td>
-                            <td>{{ event.date | date: "%A, %B %d, %Y"}}{% if event.time %} ({{ event.time }}){% endif %}
-                            {% if event.dates %}
+                            <td>
                             {% for date in event.dates %}
-                                <br>{{ date }}
-                            {% endfor %}</td>
-                            {% endif %}
+                                {{ date }}<br>
+                            {% endfor %}
+                            </td>
+                        {% else %}
+                            <td>Date:&nbsp;</td>
+                            <td>{{ event.date | date: "%a, %B %d, %Y"}}{% if event.time %} ({{ event.time }}){% endif %}</td>
+                        {% endif %}
                         </tr></tbody>
                     </table>
                     <table class="clearfix">

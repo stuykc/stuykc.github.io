@@ -2,7 +2,8 @@
 layout: event
 title: Hong Kong Dragon Boat Festival
 dates:
-    - Sunday, August 11, 2013 (7AM - 6PM)
+    - Sat, August 10, 2013 (7AM - 6PM)
+    - Sun, August 11, 2013 (7AM - 6PM)
 time: 7AM - 6PM
 location: Flushing Meadows Park
 link: https://docs.google.com/forms/d/19uy6S8HrAJMKB3qJBA5KSLA26N6vyacRN5cJIa79zk8

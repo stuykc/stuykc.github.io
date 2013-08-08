@@ -2,8 +2,9 @@
 layout: event
 title: Summer Streets
 dates:
-    - Saturday, August 10, 2013 (6:30AM - 10AM and 10AM - 1:30PM)
-    - Saturday, August 17, 2013 (6:30AM - 10AM and 10AM - 1:30PM)
+    - Sat, August 3, 2013 (6:30AM - 10AM, 10AM - 1:30PM)
+    - Sat, August 10, 2013 (6:30AM - 10AM, 10AM - 1:30PM)
+    - Sat, August 17, 2013 (6:30AM - 10AM, 10AM - 1:30PM)
 time: 6:30AM - 10AM and 10AM - 1:30PM
 location: <em>Zone 4</em> - 24th Street and Park Avenue (August 3rd)
 link: https://docs.google.com/forms/d/1mq75uZAdwqkx77zN__s-1VZPpgzvv5PUBiVxREr5tpw
