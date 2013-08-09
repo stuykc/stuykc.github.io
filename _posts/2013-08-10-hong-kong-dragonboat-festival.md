@@ -15,8 +15,8 @@ The HKDBF is an annual sporting and multicultural event held to celebrate the fi
 <!-- more -->
 
 ####Transportation:
-There will be volunteer buses leaving from the Sheraton LaGuardia Hotel (135-20 39th Ave Flushing, NY 11354) going to the festival site at 6:45, 7:15, and 7:45. IT IS VERY IMPORTANT THAT YOU DON'T MISS THE BUS. If you do, you'll need to take the [7 to Met-Willets Point and then take the special events bus to the festival site](http://www.mta.info/nyct/service/events/HongKongDragonBoatFestivalinFlushingMeadows2013.htm). We don't advise this option because this bus doesn't operate early in the morning and it will not drop you off directly in front of the volunteer tent, which will only make things confusing for you. **So, please try to get to the hotel on time to take the volunteer bus!** If you are coming later, there are buses at 12:45 and 1:15 that go to the festival site from the hotel as well.  
-When getting back from the festival site, there will be buses leaving from the festival site going to the hotel.  
+There will be volunteer buses leaving from the Sheraton LaGuardia Hotel (135-20 39th Ave Flushing, NY 11354) going to the festival site at 6:45, 7:15, and 7:45. IT IS VERY IMPORTANT THAT YOU DON'T MISS THE BUS. If you do happen to miss the buses, you'll need to take the [7 to Mets - Willets Point and then the special events bus to the festival site](http://www.mta.info/nyct/service/events/HongKongDragonBoatFestivalinFlushingMeadows2013.htm). We don't advise this option because this bus doesn't operate early in the morning and it will not drop you off directly in front of the volunteer tent, which will only make things confusing for you. **So, please try to get to the hotel on time to take the volunteer bus!** If you are coming later, there are volunteer buses at 12:45 and 1:15.  
+When getting back from the festival site, there will be buses leaving from the festival site going to the hotel.
 
 ####Notes:
 - Sign in with the festival staff at the volunteer tent when you get there! The project captain will also be there to sign you in for Key Club.
