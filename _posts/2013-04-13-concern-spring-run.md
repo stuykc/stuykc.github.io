@@ -7,5 +7,5 @@ link: https://docs.google.com/forms/d/1DN_bwXMuCkffFtr63Nnp-ILj6WubGi-pZWiSlkbcl
 ---
 Help out at this 4K run which aims to bring awareness about the extreme poverty that exists in some parts of the world!
 
-**Sign up officially here:** [https://secure.concernusa.org/faf/volunteerRegNew/contactUs.asp?ievent=1025591](https://secure.concernusa.org/faf/volunteerRegNew/contactUs.asp?ievent=1025591)
-<br>(Fill out the form at the bottom of the page)
+**Sign up officially here:** [https://secure.concernusa.org/faf/volunteerRegNew/contactUs.asp?ievent=1025591](https://secure.concernusa.org/faf/volunteerRegNew/contactUs.asp?ievent=1025591)  
+(Fill out the form at the bottom of the page)
