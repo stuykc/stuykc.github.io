@@ -16,12 +16,12 @@
 </url>
 <url>
   <loc>http://stuykc.org/about/committees/</loc>
-  <changefreq>weekly</changefreq>
+  <changefreq>daily</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://stuykc.org/about/keyclub/</loc>
-  <changefreq>weekly</changefreq>
+  <changefreq>daily</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
@@ -31,7 +31,7 @@
 </url>
 <url>
   <loc>http://stuykc.org/points/</loc>
-  <changefreq>weekly</changefreq>
+  <changefreq>daily</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
@@ -41,53 +41,58 @@
 </url>
 <url>
   <loc>http://stuykc.org/contact/</loc>
-  <changefreq>weekly</changefreq>
+  <changefreq>daily</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://stuykc.org/news/june-newsletter/</loc>
   <changefreq>weekly</changefreq>
-  <priority>0.80</priority>
+  <priority>0.70</priority>
 </url>
 <url>
   <loc>http://stuykc.org/news/may-newsletter/</loc>
   <changefreq>weekly</changefreq>
-  <priority>0.80</priority>
+  <priority>0.70</priority>
 </url>
 <url>
   <loc>http://stuykc.org/news/shirts/</loc>
   <changefreq>weekly</changefreq>
-  <priority>0.80</priority>
+  <priority>0.70</priority>
 </url>
 <url>
   <loc>http://stuykc.org/news/election-results-2013/</loc>
   <changefreq>weekly</changefreq>
-  <priority>0.80</priority>
+  <priority>0.70</priority>
 </url>
 <url>
   <loc>http://stuykc.org/events/2013/08/09/TRC-open-mic/</loc>
   <changefreq>weekly</changefreq>
-  <priority>0.80</priority>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>http://stuykc.org/events/2013/08/10/hong-kong-dragonboat-festival/</loc>
   <changefreq>weekly</changefreq>
-  <priority>0.80</priority>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://stuykc.org/events/2013/08/10/summer-streets/</loc>
+  <loc>http://stuykc.org/events/2013/08/17/summer-streets/</loc>
   <changefreq>weekly</changefreq>
-  <priority>0.80</priority>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>http://stuykc.org/events/2013/08/17/chinatown-beautification-day/</loc>
   <changefreq>weekly</changefreq>
-  <priority>0.80</priority>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>http://stuykc.org/resources/key-club-event-log.pdf</loc>
   <changefreq>weekly</changefreq>
-  <priority>0.64</priority>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>http://stuykc.org/resources/PRF.xlsx</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.70</priority>
 </url>
 <url>
   <loc>http://stuykc.org/events/2013/07/28/world-hepatitis-day/</loc>
@@ -122,106 +127,106 @@
 <url>
   <loc>http://stuykc.org/events/page2/</loc>
   <changefreq>daily</changefreq>
-  <priority>0.64</priority>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>http://stuykc.org/events/page3/</loc>
   <changefreq>daily</changefreq>
-  <priority>0.64</priority>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>http://stuykc.org/events/2013/06/20/induction/</loc>
   <changefreq>weekly</changefreq>
-  <priority>0.51</priority>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>http://stuykc.org/events/2013/06/14/june-divisional/</loc>
   <changefreq>weekly</changefreq>
-  <priority>0.51</priority>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>http://stuykc.org/events/2013/06/02/cystic-fibrosis-great-strides-walk/</loc>
   <changefreq>weekly</changefreq>
-  <priority>0.51</priority>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>http://stuykc.org/events/2013/06/02/chinatown-street-fair/</loc>
   <changefreq>weekly</changefreq>
-  <priority>0.51</priority>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>http://stuykc.org/events/2013/05/25/amazing-race/</loc>
   <changefreq>weekly</changefreq>
-  <priority>0.51</priority>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>http://stuykc.org/events/2013/05/19/AIDS-walk/</loc>
   <changefreq>weekly</changefreq>
-  <priority>0.51</priority>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>http://stuykc.org/events/2013/05/05/walk-now-for-autism/</loc>
   <changefreq>weekly</changefreq>
-  <priority>0.51</priority>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>http://stuykc.org/events/2013/05/04/EIF-revlon-walk/</loc>
   <changefreq>weekly</changefreq>
-  <priority>0.51</priority>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>http://stuykc.org/events/2013/04/28/march-of-dimes/</loc>
   <changefreq>weekly</changefreq>
-  <priority>0.51</priority>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>http://stuykc.org/events/2013/04/27/parkinsons-unity-walk/</loc>
   <changefreq>weekly</changefreq>
-  <priority>0.51</priority>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>http://stuykc.org/events/2013/04/24/JCC-operation-teenage-chicken-soup/</loc>
   <changefreq>weekly</changefreq>
-  <priority>0.51</priority>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>http://stuykc.org/events/2013/04/20/vision-walk/</loc>
   <changefreq>weekly</changefreq>
-  <priority>0.51</priority>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>http://stuykc.org/events/2013/04/13/concern-spring-run/</loc>
   <changefreq>weekly</changefreq>
-  <priority>0.51</priority>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>http://stuykc.org/events/2013/04/06/hamilton-madison-house-booksale/</loc>
   <changefreq>weekly</changefreq>
-  <priority>0.51</priority>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>http://stuykc.org/events/2013/04/06/crossroads/</loc>
   <changefreq>weekly</changefreq>
-  <priority>0.51</priority>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>http://stuykc.org/events/2013/04/05/HSMSE-charity-flix/</loc>
   <changefreq>weekly</changefreq>
-  <priority>0.51</priority>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>http://stuykc.org/events/2013/04/05/BTHS-relay-for-life/</loc>
   <changefreq>weekly</changefreq>
-  <priority>0.51</priority>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>http://stuykc.org/events/2013/03/26/karaoke-fundraiser/</loc>
   <changefreq>weekly</changefreq>
-  <priority>0.51</priority>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>http://stuykc.org/events/2013/03/24/leadership-training-conference/</loc>
   <changefreq>weekly</changefreq>
-  <priority>0.51</priority>
+  <priority>0.64</priority>
 </url>
 </urlset>
