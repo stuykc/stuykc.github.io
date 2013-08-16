@@ -14,7 +14,7 @@ Our club dues:
 <li> $6.50 for Key Club International</li>
 <li> $5.00 for New York District Key Club</li>
 <li> $1.50 for Stuvesant Key Club</li>
-<li> = <strong>$13.00</strong> Total</li>
+<li> = **$13.00** Total</li>
 </ul>
 
 <div class="text-center">

@@ -1,13 +1,15 @@
 ---
 layout: event
 title: Summer Streets
-dates:
+past-dates:
     - Sat, August 3, 2013 (6:30AM - 10AM, 10AM - 1:30PM)
     - Sat, August 10, 2013 (6:30AM - 10AM, 10AM - 1:30PM)
     - Sat, August 17, 2013 (6:30AM - 10AM, 10AM - 1:30PM)
-time: 6:30AM - 10AM and 10AM - 1:30PM
-location: <em>Zone 2</em> - 51st Street and Park Avenue (August 10th)
-past-locations: <em>Zone 4</em> - 24th Street and Park Avenue (August 3rd)
+time: 6:30AM - 10AM, 10AM - 1:30PM
+location: <em>Zone 3</em> - 24th Street and Park Avenue (August 17th)
+past-locations:
+    - <em>Zone 4</em> - 24th Street and Park Avenue (August 3rd)
+    - <em>Zone 2</em> - 51st Street and Park Avenue (August 10th)
 link: https://docs.google.com/forms/d/1mq75uZAdwqkx77zN__s-1VZPpgzvv5PUBiVxREr5tpw
 ---
 Summer Streets is an annual celebration of New York City’s most valuable public space—our streets. Summer Streets provides space for healthy recreation and encourages New Yorkers to use more sustainable forms of transportation. There will be various activities such as zip-lining, dancing, and biking. You will be marshalling the route, directing participants, and helping thousands of New Yorkers enjoy Summer Streets - and you'll have a great time too!
