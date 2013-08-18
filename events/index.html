@@ -23,8 +23,17 @@ title: Events
         </table>
         <table class="clearfix">
             <tbody><tr>
+            {% if event.locations %}
+                <td>Locations:&nbsp;</td>
+                <td>
+                {% for location in event.locations %}
+                    {{ location }}<br>
+                {% endfor %}
+                </td>
+            {% else %}
                 <td>Location:&nbsp;</td>
                 <td>{{ event.location }}</td>
+            {% endif %}
             </tr></tbody>
         </table>
     </div>

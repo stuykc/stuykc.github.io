@@ -23,8 +23,17 @@ layout: page
         </table>
         <table class="clearfix">
             <tbody><tr>
+            {% if page.locations %}
+                <td>Locations:&nbsp;</td>
+                <td>
+                {% for location in page.locations %}
+                    {{ location }}<br>
+                {% endfor %}
+                </td>
+            {% else %}
                 <td>Location:&nbsp;</td>
                 <td>{{ page.location }}</td>
+            {% endif %}
             </tr></tbody>
         </table>
     </div>
