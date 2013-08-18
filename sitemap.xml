@@ -53,6 +53,18 @@
   <changefreq>daily</changefreq>
 </url>
 <url>
+  <loc>http://stuykc.org/resources/key-club-event-log.pdf</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://stuykc.org/resources/PRF.xlsx</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://stuykc.org/events/2013/08/24/divisional-training-conference/</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
   <loc>http://stuykc.org/events/2013/08/17/chinatown-beautification-day/</loc>
   <changefreq>daily</changefreq>
 </url>
@@ -66,10 +78,6 @@
 </url>
 <url>
   <loc>http://stuykc.org/events/2013/08/30/komen-goody-bag-stuffing/</loc>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://stuykc.org/resources/key-club-event-log.pdf</loc>
   <changefreq>daily</changefreq>
 </url>
 <url>
