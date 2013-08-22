@@ -1,8 +1,8 @@
 ---
 layout: page
 ---
-{% if content contains "<!-- css -->" %}
-    {{ content | split: "<!-- css -->" | first }} <!-- css -->
+{% if content contains "<!-- event-css -->" %}
+    {{ content | split: "<!-- event-css -->" | first }} <!-- css -->
 {% endif %}
 <div class="event-preview">
     <div class="event-info">
@@ -37,8 +37,11 @@ layout: page
             </tr></tbody>
         </table>
     </div>
-    {{ content | split: "<!-- css -->" | last }}
+    {{ content | split: "<!-- event-css -->" | last | split: "<!-- event-scripts -->" | first }}
     {% if page.link %}
     <span class="event-info">Sign up here:</span> <a href="{{ page.link }}">{{ page.link }}</a>
     {% endif %}
 </div>
+{% if content contains "<!-- event-scripts -->" %}
+    <!-- scripts --> {{ content | split: "<!-- event-scripts -->" | last }}
+{% endif %}

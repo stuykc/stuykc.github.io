@@ -11,5 +11,8 @@ layout: default
             <img class="kc-divider" src="/img/green-divider.png" alt="Key Club Pencil">
         </div>
     </div>
-    {{ content | split: "<!-- css -->" | last }}
+    {{ content | split: "<!-- css -->" | last | split: "<!-- scripts -->" | first }}
 </div>
+{% if content contains "<!-- scripts -->" %}
+    <!-- scripts --> {{ content | split: "<!-- scripts -->" | last }}
+{% endif %}

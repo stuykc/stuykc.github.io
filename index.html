@@ -28,6 +28,11 @@ carousel:
 #events-header {padding-bottom:10px;}
 .keyclub-logo {padding:15px 0px; max-width:85%;} 
 </style>
+{% for event in site.posts reversed limit: show %}
+    {% if event.content contains "<!-- event-css -->" %}
+        {{ event.content | split: "<!-- event-css -->" | first }}
+    {% endif %}
+{% endfor %}
 <!-- css -->
 <div class="container">
 {% comment %} Hack to properly paginate a subdirectory because Jekyll only renders pagination with the root index.html. {% endcomment %}
@@ -99,7 +104,7 @@ carousel:
                         </tr></tbody>
                     </table>
                 </div>
-                {{ event.content | split: "<!-- more -->" | first }}
+                {{ event.content | split: "<!-- event-css -->" | last | split: "<!-- event-scripts -->" | first | split: "<!-- more -->" | first }}
                 {% if event.content contains "<!-- more -->" %}
                 <p class="text-center event-more"><a href="{{ event.url }}">More information on this event &raquo;</a></p>
                 {% endif %}
@@ -143,66 +148,82 @@ carousel:
         <img class="kc-divider" src="/img/green-divider.png">
     </div>
     {% for event in paginator.posts %}
-        <div class="event-preview">
-            <h3><a href="{{ event.url }}">&raquo; {{ event.title }}</a></h3>
-            <div class="event-info">
-            {% if event.dates %}
-                <table class="clearfix">
-                    <tbody><tr>
-                        <td>Dates:&nbsp;</td>
-                        <td>{{ event.date | date: "%A, %B %d, %Y"}}{% if event.time %} ({{ event.time }}){% endif %}
-                        {% for date in event.dates %}
-                            <br>{{ date }}
-                        {% endfor %}</td>
-                    </tr></tbody>
-                </table>
-            {% else %}
-                Date: {{ event.date | date: "%A, %B %d, %Y"}}{% if event.time %} ({{ event.time }}){% endif %}<br>
-            {% endif %}
-                Location: {{ event.location }}
-            </div>
-            {{ event.content | split: "<!-- more -->" | first }}
-            {% if event.content contains "<!-- more -->" %}
-                <p><a href="{{ event.url }}">Read more &raquo;</a></p>
-            {% endif %}
-            {% if event.link %}
-                <span class="event-info">Sign up here:</span> <a href="{{ event.link }}">{{ event.link }}</a>
-            {% endif %}
+    <div class="event-preview">
+        <h3><a href="{{ event.url }}">&raquo; {{ event.title }}</a></h3>
+        <div class="event-info">
+            <table class="clearfix">
+                <tbody><tr>
+                {% if event.dates %}
+                    <td>Dates:&nbsp;</td>
+                    <td>
+                    {% for date in event.dates %}
+                        {{ date }}<br>
+                    {% endfor %}
+                    </td>
+                {% else %}
+                    <td>Date:&nbsp;</td>
+                    <td>{{ event.date | date: "%a, %B %d, %Y"}}{% if event.time %} ({{ event.time }}){% endif %}</td>
+                {% endif %}
+                </tr></tbody>
+            </table>
+            <table class="clearfix">
+                <tbody><tr>
+                {% if event.locations %}
+                    <td>Locations:&nbsp;</td>
+                    <td>
+                    {% for location in event.locations %}
+                        {{ location }}<br>
+                    {% endfor %}
+                    </td>
+                {% else %}
+                    <td>Location:&nbsp;</td>
+                    <td>{{ event.location }}</td>
+                {% endif %}
+                </tr></tbody>
+            </table>
         </div>
-        {% unless forloop.last %}
-            <hr>
-        {% endunless %}
+        {{ event.content | split: "<!-- event-css -->" | last | split: "<!-- event-scripts -->" | first | split: "<!-- more -->" | first }}
+        {% if event.content contains "<!-- more -->" %}
+        <p class="text-center event-more"><a href="{{ event.url }}">More information on this event &raquo;</a></p>
+        {% endif %}
+        {% if event.link %}
+        <a href="{{ event.link }}"><span class="event-info">Sign up for this event!</span></a>
+        {% endif %}
+    </div>
+    {% unless forloop.last %}
+    <hr>
+    {% endunless %}
     {% endfor %}
     <div class="pagination pagination-centered">
         <ul>
-            {% if paginator.previous_page %}
-                {% if paginator.previous_page == 1 %}
-                    <li><a href="/events/">&laquo;</a></li>
-                {% else %}
-                    <li><a href="/events/page{{ paginator.previous_page }}/">&laquo;</a></li>
-                {% endif %}
+        {% if paginator.previous_page %}
+            {% if paginator.previous_page == 1 %}
+                <li><a href="/events/">&laquo;</a></li>
             {% else %}
-                <li class="disabled"><span>&laquo;</span></li>
+                <li><a href="/events/page{{ paginator.previous_page }}/">&laquo;</a></li>
             {% endif %}
-            {% for count in (1..paginator.total_pages) %}
-                {% if paginator.page == forloop.index %}
-                    <li class="active"><span>{{ count }}</span></li>
-                {% elsif count == 1 %}
-                    <li><a href="/events/">{{ count }}</a></li>
-                {% else %}
-                    <li><a href="/events/page{{ count }}/">{{ count }}</a></li>
-                {% endif %}
-            {% endfor %}
-            {% if paginator.next_page %}
-                <li><a href="/events/page{{ paginator.next_page }}/">&raquo;</a></li>
+        {% else %}
+            <li class="disabled"><span>&laquo;</span></li>
+        {% endif %}
+        {% for count in (1..paginator.total_pages) %}
+            {% if paginator.page == forloop.index %}
+                <li class="active"><span>{{ count }}</span></li>
+            {% elsif count == 1 %}
+                <li><a href="/events/">{{ count }}</a></li>
             {% else %}
-                <li class="disabled"><span>&raquo;</span></li>
+                <li><a href="/events/page{{ count }}/">{{ count }}</a></li>
             {% endif %}
+        {% endfor %}
+        {% if paginator.next_page %}
+            <li><a href="/events/page{{ paginator.next_page }}/">&raquo;</a></li>
+        {% else %}
+            <li class="disabled"><span>&raquo;</span></li>
+        {% endif %}
         </ul>
     </div>
 {% endunless %}
 </div>
-<!-- script -->
+<!-- scripts -->
 <script>
 $(document).ready(function() {
   $('.carousel').carousel({
@@ -210,3 +231,8 @@ $(document).ready(function() {
   });
 });
 </script>
+{% for event in site.posts reversed limit: show %}
+    {% if event.content contains "<!-- event-scripts -->" %}
+        {{ event.content | split: "<!-- event-scripts -->" | last }}
+    {% endif %}
+{% endfor %}

@@ -37,7 +37,7 @@ title: Events
             </tr></tbody>
         </table>
     </div>
-    {{ event.content | split: "<!-- more -->" | first }}
+    {{ event.content | split: "<!-- event-css -->" | last | split: "<!-- event-scripts -->" | first | split: "<!-- more -->" | first }}
     {% if event.content contains "<!-- more -->" %}
     <p class="text-center event-more"><a href="{{ event.url }}">More information on this event &raquo;</a></p>
     {% endif %}
