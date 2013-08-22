@@ -1,7 +1,7 @@
 ---
 layout: event
 title: Chinatown Wellness Festival
-time: 12PM - 2PM
+time: 10AM - 3PM
 location: 60 St. James Place in Chinatown
 link: https://docs.google.com/spreadsheet/viewform?formkey=dFpYTmZVUGRabXJMT1pmQkVSWEw5OVE6MA
 ---
