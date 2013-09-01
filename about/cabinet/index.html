@@ -27,50 +27,51 @@ cabinet:
         img: http://placehold.it/150x150
         bio: 
 ---
-<div class="media">
-    <img class="media-object pull-left" alt="{{ page.cabinet.pres.name }}" src="{{ page.cabinet.pres.img }}">
-    <div class="media-body">
-        <h2 class="media-heading">President <small>- {{ page.cabinet.pres.name }}</small></h2>
-        <p>{{ page.cabinet.pres.bio }}</p>
+<div class="row">
+    <div class="span6">
+        <h3>President <small>- {{ page.cabinet.pres.name }}</small></h3>
+        <div class="bio">
+            <img class="pull-left bio-photo" alt="{{ page.cabinet.pres.name }}" src="{{ page.cabinet.pres.img }}">
+            <p class="bio-paragraph">{{ page.cabinet.pres.bio }}</p>
+        </div>
+    </div>
+    <div class="span6">
+        <h3>Vice President <small>- {{ page.cabinet.vp.name }}</small></h3>
+        <div class="bio">
+            <img class="pull-left bio-photo" alt="{{ page.cabinet.vp.name }}" src="{{ page.cabinet.vp.img }}">
+            <p class="bio-paragraph">{{ page.cabinet.vp.bio }}</p>
+        </div>
     </div>
 </div>
-<hr>
-<div class="media">
-    <img class="media-object pull-left" alt="{{ page.cabinet.vp.name }}" src="{{ page.cabinet.vp.img }}">
-    <div class="media-body">
-        <h2 class="media-heading">Vice President <small>- {{ page.cabinet.vp.name }}</small></h2>
-        <p>{{ page.cabinet.vp.bio }}</p>
+<div class="row">
+    <div class="span6">
+        <h3>Secretary <small>- {{ page.cabinet.sec.name }}</small></h3>
+        <div class="bio">
+            <img class="pull-left bio-photo" alt="{{ page.cabinet.vp.name }}" src="{{ page.cabinet.vp.img }}">
+            <p class="bio-paragraph">{{ page.cabinet.sec.bio }}</p>
+        </div>
+    </div>
+    <div class="span6">
+        <h3>Treasurer <small>- {{ page.cabinet.treas.name }}</small></h3>
+        <div class="bio">
+            <img class="pull-left bio-photo" alt="{{ page.cabinet.treas.name }}" src="{{ page.cabinet.treas.img }}">
+            <p class="bio-paragraph">{{ page.cabinet.treas.bio }}</p>
+        </div>
     </div>
 </div>
-<hr>
-<div class="media">
-    <img class="media-object pull-left" alt="{{ page.cabinet.vp.name }}" src="{{ page.cabinet.vp.img }}">
-    <div class="media-body">
-        <h2 class="media-heading">Secretary <small>- {{ page.cabinet.sec.name }}</small></h2>
-        <p>{{ page.cabinet.sec.bio }}</p>
+<div class="row">
+    <div class="span6">
+        <h3>Editor <small>- {{ page.cabinet.edit.name }}</small></h3>
+        <div class="bio">
+            <img class="pull-left bio-photo" alt="{{ page.cabinet.edit.name }}" src="{{ page.cabinet.edit.img }}">
+            <p class="bio-paragraph">{{ page.cabinet.edit.bio }}</p>
+        </div>
     </div>
-</div>
-<hr>
-<div class="media">
-    <img class="media-object pull-left" alt="{{ page.cabinet.treas.name }}" src="{{ page.cabinet.treas.img }}">
-    <div class="media-body">
-        <h2 class="media-heading">Treasurer <small>- {{ page.cabinet.treas.name }}</small></h2>
-        <p>{{ page.cabinet.treas.bio }}</p>
-    </div>
-</div>
-<hr>
-<div class="media">
-    <img class="media-object pull-left" alt="{{ page.cabinet.edit.name }}" src="{{ page.cabinet.edit.img }}">
-    <div class="media-body">
-        <h2 class="media-heading">Editor <small>- {{ page.cabinet.edit.name }}</small></h2>
-        <p>{{ page.cabinet.edit.bio }}</p>
-    </div>
-</div>
-<hr>
-<div class="media">
-    <img class="media-object pull-left" alt="{{ page.cabinet.web.name }}" src="{{ page.cabinet.web.img }}">
-    <div class="media-body">
-        <h2 class="media-heading">Webmaster <small>- {{ page.cabinet.web.name }}</small></h2>
-        <p>{{ page.cabinet.web.bio }}</p>
+    <div class="span6">
+        <h3>Webmaster <small>- {{ page.cabinet.web.name }}</small></h3>
+        <div class="bio">
+            <img class="pull-left bio-photo" alt="{{ page.cabinet.web.name }}" src="{{ page.cabinet.web.img }}">
+            <p class="bio-paragraph">{{ page.cabinet.web.bio }}</p>
+        </div>
     </div>
 </div>
