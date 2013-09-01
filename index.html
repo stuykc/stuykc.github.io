@@ -2,18 +2,39 @@
 layout: default
 title: Stuyvesant High School Key Club 
 carousel:
+    - img: /img/carousel/june-newsletter.jpg
+      caption-header: June Newsletter
+      caption-body: What is summer without the release of our June newletter? Check it out!
+      read-more-link: /news/june-newsletter/
+    - img: /img/carousel/may-newsletter.jpg
+      caption-header: May Newsletter
+      caption-body: The May issue of our newsletter has arrived! Our locksmith committee has worked extremely hard in making this publication!
+      read-more-link: /news/may-newsletter/
     - img: /img/carousel/shirts.png
       caption-header: T-SHIRTS!!
       caption-body: It's time to order your Stuyvesant Key Club t-shirt! Show your support for stuykc with one of these amazing shirts!
       read-more-link: /news/shirts/
-    - img: /img/carousel/wristbands.jpg
-      caption-header: BEAVER ONE BEAVER ALL! LET'S ALL DO THE BEAVER CALL!
-      caption-body: We are selling wristbands to raise money for the Eliminate Project! Get yours at the next club meeting!
-    - img: /img/carousel/elections2013.jpg 
+    - img: /img/carousel/elections-2013.jpg 
       caption-header: Election Results!
       caption-body: After extremely close results, we present to you the newest elected members of our 2013-2014 cabinet!
-      read-more-link: /news/electionresults2013/
+      read-more-link: /news/election-results-2013/
 ---
+{% assign show = 4 %}
+<style>
+.carousel {margin-top:15px;}
+.carousel .btn {margin-top:-2px; vertical-align:top;}
+.carousel .carousel-control{opacity:0;}
+.carousel:hover .carousel-control {opacity:.7;}
+#events-header {padding-bottom:10px;}
+.keyclub-logo {padding:15px 0px; max-width:85%;} 
+</style>
+{% for event in site.posts reversed limit: show %}
+    {% if event.content contains "<!-- event-css -->" %}
+        {{ event.content | split: "<!-- event-css -->" | first }}
+    {% endif %}
+{% endfor %}
+<!-- css -->
+<div class="container">
 {% comment %} Hack to properly paginate a subdirectory because Jekyll only renders pagination with the root index.html. {% endcomment %}
 {% unless page.url contains '/events/page' %} {% comment %} Actual front page content should go in the unless block. {% endcomment %}
     <div id="myCarousel" class="carousel slide">
@@ -38,45 +59,86 @@ carousel:
     </div>
     <div class="row">
         <div class="span9">
-            <h1>Upcoming Events:</h1>
-            {% for event in site.posts reversed limit: 3 %}
-                <div class="event-preview">
-                    <h3><a href="{{ event.url }}">&raquo; {{ event.title }}</a></h3>
-                    <div class="event-info">Date: {{ event.date | date: "%A, %B %d, %Y"}}{% if event.time %} ({{ event.time }}){% endif %}<br>Location: {{ event.location }}</div>
-                    {{ event.content | split: "<!-- more -->" | first }}
-                    {% if event.content contains "<!-- more -->" %}
-                        <p><a href="{{ event.url }}">Read more &raquo;</a></p>
-                    {% endif %}
-                    {% if event.link %}
-                        <span class="event-info">Sign Up!</span> <a href="{{ event.link }}">{{ event.link }}</a>
-                    {% endif %}
+            <h1 id="events-header">Upcoming Events:</h1>
+            {% if show == 0 %}
+            <div class="event-preview">
+                <div class="event-info" style="margin-top:30px;color:#46a546;">
+                    Sorry, we currently don't have any events for you :(<br>
+                    However, this doesn't mean you should stop volunteering!
                 </div>
-                <hr>
+            </div>
+            <hr>
+            {% else %}
+            {% for event in site.posts reversed limit: show %}
+            <div class="event-preview">
+                <h3><a href="{{ event.url }}">&raquo; {{ event.title }}</a></h3>
+                <div class="event-info">
+                    <table class="clearfix">
+                        <tbody><tr>
+                        {% if event.dates %}
+                            <td>Dates:&nbsp;</td>
+                            <td>
+                            {% for date in event.dates %}
+                                {{ date }}<br>
+                            {% endfor %}
+                            </td>
+                        {% else %}
+                            <td>Date:&nbsp;</td>
+                            <td>{{ event.date | date: "%a, %B %d, %Y"}}{% if event.time %} ({{ event.time }}){% endif %}</td>
+                        {% endif %}
+                        </tr></tbody>
+                    </table>
+                    <table class="clearfix">
+                        <tbody><tr>
+                        {% if event.locations %}
+                            <td>Locations:&nbsp;</td>
+                            <td>
+                            {% for location in event.locations %}
+                                {{ location }}<br>
+                            {% endfor %}
+                            </td>
+                        {% else %}
+                            <td>Location:&nbsp;</td>
+                            <td>{{ event.location }}</td>
+                        {% endif %}
+                        </tr></tbody>
+                    </table>
+                </div>
+                {{ event.content | split: "<!-- event-css -->" | last | split: "<!-- event-scripts -->" | first | split: "<!-- more -->" | first }}
+                {% if event.content contains "<!-- more -->" %}
+                <p class="text-center event-more"><a href="{{ event.url }}">More information on this event &raquo;</a></p>
+                {% endif %}
+                {% if event.link %}
+                <a href="{{ event.link }}"><span class="event-info">Sign up for this event!</span></a>
+                {% endif %}
+            </div>
+            <hr>
             {% endfor %}
+            {% endif %}
             <h4><a href="/events/">All Events &raquo;</a></h4>
         </div>
         <div class="span3">
             <h2>Key Club</h2>
-            <div class="keyclub-logo-container">
+            <div class="keyclub-logo-container text-center">
                 <img class="keyclub-logo" src="/img/logos/keyclub-logo.png" alt="Key Club International">
             </div>
             <div class="keyclub-info">
-                <p>The newly redesigned website for Stuyvesant Key Club. Built with all the love and care in the world.</p>
-                <p class="pull-right"><a href="/about/">Learn more about StuyKC &raquo;</a></p>
+                <p>Stuyvesant Key Club is a service organization dedicated to helping both our school and community.</p>
+                <p class="text-right"><a href="/about/">Learn more &raquo;</a></p>
             </div>
             <div class="useful-links">
                 <h4>Useful Links</h4>
-                <p><a href="http://www.nydkc.org">New York District Key Club</a></p>
-                <p>
-                    <a href="http://keyclub.org">Key Club International</a>
-                    <br><a href="http://kiwanis.org/alumni">Key Club Alumni</a>
-                    <br><a href="http://www.unicef.org">UNICEF</a>
-                </p>
+                <ul>
+                    <li><a href="http://www.nydkc.org">New York District Key Club</a></li>
+                    <li><a href="http://www.keyclub.org/home.aspx">Key Club International</a></li>
+                    <li><a href="http://sites.kiwanis.org/Kiwanis/en/Alumni/Home/AlumniReconnect.aspx">Key Club Alumni</a></li>
+                </ul>
                 <h4>Service Partners</h4>
-                <p>
-                    <a href="http://childrensmiraclenetwork.org">Children's Miracle Network</a>
-                    <br><a href="http://marchofdimesyouth.com">March of Dimes</a>
-                </p>
+                <ul>
+                    <li><a href="http://www.unicef.org">UNICEF</a></li>
+                    <li><a href="http://childrensmiraclenetworkhospitals.org">Children's Miracle Network</a></li>
+                    <li><a href="http://marchofdimesyouth.com">March of Dimes</a></li>
+                </ul>
             </div>
         </div>
     </div>
@@ -86,46 +148,91 @@ carousel:
         <img class="kc-divider" src="/img/green-divider.png">
     </div>
     {% for event in paginator.posts %}
-        <div class="event-preview">
-            <h3><a href="{{ event.url }}">&raquo; {{ event.title }}</a></h3>
-            <p class="event-info">Date: {{ event.date | date: "%A, %B %d, %Y"}}{% if event.time %} ({{ event.time }}){% endif %}<br>Location: {{ event.location }}</p>
-            {{ event.content | split: "<!-- more -->" | first }}
-            {% if event.content contains "<!-- more -->" %}
-                <p><a href="{{ event.url }}">Read more &raquo;</a></p>
-            {% endif %}
-            {% if event.link %}
-                <span class="event-info">Sign up here:</span> <a href="{{ event.link }}">{{ event.link }}</a>
-            {% endif %}
+    <div class="event-preview">
+        <h3><a href="{{ event.url }}">&raquo; {{ event.title }}</a></h3>
+        <div class="event-info">
+            <table class="clearfix">
+                <tbody><tr>
+                {% if event.dates %}
+                    <td>Dates:&nbsp;</td>
+                    <td>
+                    {% for date in event.dates %}
+                        {{ date }}<br>
+                    {% endfor %}
+                    </td>
+                {% else %}
+                    <td>Date:&nbsp;</td>
+                    <td>{{ event.date | date: "%a, %B %d, %Y"}}{% if event.time %} ({{ event.time }}){% endif %}</td>
+                {% endif %}
+                </tr></tbody>
+            </table>
+            <table class="clearfix">
+                <tbody><tr>
+                {% if event.locations %}
+                    <td>Locations:&nbsp;</td>
+                    <td>
+                    {% for location in event.locations %}
+                        {{ location }}<br>
+                    {% endfor %}
+                    </td>
+                {% else %}
+                    <td>Location:&nbsp;</td>
+                    <td>{{ event.location }}</td>
+                {% endif %}
+                </tr></tbody>
+            </table>
         </div>
-        {% unless forloop.last %}
-            <hr>
-        {% endunless %}
+        {{ event.content | split: "<!-- event-css -->" | last | split: "<!-- event-scripts -->" | first | split: "<!-- more -->" | first }}
+        {% if event.content contains "<!-- more -->" %}
+        <p class="text-center event-more"><a href="{{ event.url }}">More information on this event &raquo;</a></p>
+        {% endif %}
+        {% if event.link %}
+        <a href="{{ event.link }}"><span class="event-info">Sign up for this event!</span></a>
+        {% endif %}
+    </div>
+    {% unless forloop.last %}
+    <hr>
+    {% endunless %}
     {% endfor %}
     <div class="pagination pagination-centered">
         <ul>
-            {% if paginator.previous_page %}
-                {% if paginator.previous_page == 1 %}
-                    <li><a href="/events/">&laquo;</a></li>
-                {% else %}
-                    <li><a href="/events/page{{ paginator.previous_page }}/">&laquo;</a></li>
-                {% endif %}
+        {% if paginator.previous_page %}
+            {% if paginator.previous_page == 1 %}
+                <li><a href="/events/">&laquo;</a></li>
             {% else %}
-                <li class="disabled"><span>&laquo;</span></li>
+                <li><a href="/events/page{{ paginator.previous_page }}/">&laquo;</a></li>
             {% endif %}
-            {% for count in (1..paginator.total_pages) %}
-                {% if paginator.page == forloop.index %}
-                    <li class="active"><span>{{ count }}</span></li>
-                {% elsif count == 1 %}
-                    <li><a href="/events/">{{ count }}</a></li>
-                {% else %}
-                    <li><a href="/events/page{{ count }}/">{{ count }}</a></li>
-                {% endif %}
-            {% endfor %}
-            {% if paginator.next_page %}
-                <li><a href="/events/page{{ paginator.next_page }}/">&raquo;</a></li>
+        {% else %}
+            <li class="disabled"><span>&laquo;</span></li>
+        {% endif %}
+        {% for count in (1..paginator.total_pages) %}
+            {% if paginator.page == forloop.index %}
+                <li class="active"><span>{{ count }}</span></li>
+            {% elsif count == 1 %}
+                <li><a href="/events/">{{ count }}</a></li>
             {% else %}
-                <li class="disabled"><span>&raquo;</span></li>
+                <li><a href="/events/page{{ count }}/">{{ count }}</a></li>
             {% endif %}
+        {% endfor %}
+        {% if paginator.next_page %}
+            <li><a href="/events/page{{ paginator.next_page }}/">&raquo;</a></li>
+        {% else %}
+            <li class="disabled"><span>&raquo;</span></li>
+        {% endif %}
         </ul>
     </div>
 {% endunless %}
+</div>
+<!-- scripts -->
+<script>
+$(document).ready(function() {
+  $('.carousel').carousel({
+    interval: 6000
+  });
+});
+</script>
+{% for event in site.posts reversed limit: show %}
+    {% if event.content contains "<!-- event-scripts -->" %}
+        {{ event.content | split: "<!-- event-scripts -->" | last }}
+    {% endif %}
+{% endfor %}

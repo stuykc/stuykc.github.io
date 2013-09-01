@@ -1,0 +1,18 @@
+---
+layout: default
+---
+{% if content contains "<!-- css -->" %}
+    {{ content | split: "<!-- css -->" | first }} <!-- css -->
+{% endif %}
+<div class="container-fluid">
+    <div class="container">
+        <div class="kc-header">
+            <h1>{{ page.title }} {% if page.title-small %}<small>{{ page.title-small }}</small>{% endif %}</h1>
+            <img class="kc-divider" src="/img/green-divider.png" alt="Key Club Pencil">
+        </div>
+    </div>
+    {{ content | split: "<!-- css -->" | last | split: "<!-- scripts -->" | first }}
+</div>
+{% if content contains "<!-- scripts -->" %}
+    <!-- scripts --> {{ content | split: "<!-- scripts -->" | last }}
+{% endif %}

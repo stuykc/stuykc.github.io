@@ -1,17 +1,53 @@
 ---
-layout: default
+layout: page-large
 title: Check Your Points
 ---
-<div class="container">
-    <div class="kc-header" style="margin-bottom:0px;">
-        <h1>{{ page.title }}<small><span class="pull-right"><a href="https://docs.google.com/spreadsheet/ccc?key=0AlAOqcXCxJl8dEt3amdFYWpBVTdEUEdTbHAyZEh1aFE#gid=0">External Link &raquo;</a></small></span></h1>
-        <img class="kc-divider" src="/img/green-divider.png">
-    </div>
+<style>
+#points-container {position:absolute; margin-left:-20px; overflow:hidden; width:100%;}
+.hidden-desktop #points {position:relative; width:100%;}
+.visible-desktop #points {position:absolute; width:100%; top:-143px; min-height:360px;}
+</style>
+<!-- css -->
+<div class="hidden-desktop" id="points-container">
+    <iframe id="points" src='https://docs.google.com/spreadsheet/lv?key=0Am7xy3_LFsTldF9XM2NBb0N4ZlA5QUNOdEU3eTh6Snc#gid=0'></iframe>
 </div>
-<div class="points-alt"></div>
-<iframe id="points" width='100%' frameborder='0' src='https://docs.google.com/spreadsheet/ccc?key=0AlAOqcXCxJl8dEt3amdFYWpBVTdEUEdTbHAyZEh1aFE#gid=0'></iframe>
+<div class="visible-desktop" id="points-container">
+    <iframe id="points" src='https://docs.google.com/spreadsheet/ccc?key=0Am7xy3_LFsTldF9XM2NBb0N4ZlA5QUNOdEU3eTh6Snc#gid=0'></iframe>
+</div>
+<!-- scripts -->
 <script>
-    setInterval(function() {
-        $('#points').height($(window).height() + 90);
-    }, 750);
+$(document).ready(points);
+$(window).resize(points);
+function points() {
+  var h = $(window).height();
+  var w = $(window).width();
+  if (w <= 567) {
+    $('div #points-container').each(function() {$(this).height(h - 5);});
+    $('div #points').each(function() {
+      $(this).height(h + 58);
+      $(this).css('top','0px');
+    });
+  }
+  else if (w <= 767) {
+    $('div #points-container').each(function() {$(this).height(h - 5);});
+    $('div #points').each(function() {
+      $(this).height(h + 43);
+      $(this).css('top','0px');
+    });
+  }
+  else if (w <= 979) {
+    $('div #points-container').each(function() {$(this).height(h - 53);});
+    $('div #points').each(function() {
+      $(this).height(h - 5);
+      $(this).css('top','0px');
+    });
+  }
+  else {
+    $('div #points-container').each(function() {$(this).height(h - 51);});
+    $('div #points').each(function() {
+      $(this).height(h + 143);
+      $(this).css('top','-143px');
+    });
+  }
+}
 </script>
