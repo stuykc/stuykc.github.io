@@ -9,7 +9,7 @@ cabinet:
     vp:
         name: Wendy Huang
         img: /img/cabinet/wendyhuang.jpg
-        bio: Say hello to the vice president, Wendy Huang! Since she found out about Key Club during her freshman year of high school, she has come to love every aspect of it. Wendy is a great person to talk to and she tries to be as helpful as she can. And so, with this new school year, she is trying to make every member feel as comfortable as possible. Have any questions about Key Club or anything in general? She is the one to talk to! Email her at <a href="mailto:wendyhuang.vp@stuykc.org">wendyhuang.vp@stuykc.org</a>.
+        bio: Hi StuyKC! I'm Wendy Huang, vice president of the 2013-2014 service year. After discovering Key Club since freshmen year, I have truly fell for everything that Key Club represents. From making new friends to volunteering at various events, Key Club has played a major role within my social life, contrary to popular belief that Stuy students don't have social lives. Outside of school and Key Club, I enjoy swimming, playing badminton, dancing, and shopping. If you guys have any questions or concerns, feel free to email me at wendyhuang.vp@stuykc.org or just chat me on Facebook instead.
     sec:
         name: Cindy Lee
         img: /img/cabinet/cindylee.jpg
@@ -39,7 +39,7 @@ cabinet:
         <h3>Vice President <small>- {{ page.cabinet.vp.name }}</small></h3>
         <div class="bio">
             <img id="vp-photo" class="pull-left bio-photo" alt="{{ page.cabinet.vp.name }}" src="/img/cabinet/clicktoinsert.jpg">
-            <p id="vp-bio" class="bio-paragraph">Click to insert bio</p>
+            <p class="bio-paragraph">{{ page.cabinet.vp.bio }}</p>
         </div>
     </div>
 </div>
@@ -55,7 +55,7 @@ cabinet:
         <h3>Treasurer <small>- {{ page.cabinet.treas.name }}</small></h3>
         <div class="bio">
             <img id="treas-photo" class="pull-left bio-photo" alt="{{ page.cabinet.treas.name }}" src="/img/cabinet/clicktoinsert.jpg">
-            <p id="treas-bio" class="bio-paragraph">Click to insert bio</p>
+            <p class="bio-paragraph">{{ page.cabinet.treas.bio }}</p>
         </div>
     </div>
 </div>
@@ -84,12 +84,6 @@ $(document).ready(function() {
   });
   $('#treas-photo').click(function() {
     $(this).attr('src', '{{page.cabinet.treas.img}}');
-  });
-  $('#vp-bio').click(function() {
-    $(this).empty().append('{{page.cabinet.vp.bio}}');
-  });
-  $('#treas-bio').click(function() {
-    $(this).empty().append('{{page.cabinet.treas.bio}}');
   });
 });
 </script>
