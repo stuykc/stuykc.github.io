@@ -9,7 +9,7 @@
 
         <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
         <link rel="stylesheet" type="text/css" href="/css/bootstrap-responsive.min.css">
-        <style>{% include main.css %}</style>
+        <link rel="stylesheet" type="text/css" href="/css/main.css">
         {% if content contains "<!-- css -->" %}
             {{ content | split: "<!-- css -->" | first }}
         {% endif %}
