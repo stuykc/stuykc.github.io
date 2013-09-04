@@ -36,3 +36,15 @@ iframe {
     margin: 0;
     border: 0;
 }
+.bio {
+    display: inline-block;
+}
+.bio-photo {
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+.bio-paragraph {
+    font-family: Open Sans;
+    font-size: 13px;
+    line-height: 20px;
+}
