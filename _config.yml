@@ -1,4 +1,5 @@
-exclude: [README.md, CNAME, bootstrap, Gemfile]
+url: http://stuykc.org
+exclude: ['README.md', 'CNAME', bootstrap, 'Gemfile', '404_template.html']
 permalink: /events/:year/:month/:day/:title
 paginate: 10
 paginate_path: /events/page:num
