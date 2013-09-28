@@ -1,4 +1,10 @@
 _site/
-*.swp
-*~
+
+Thumbs.db
+ehthumbs.db
 .DS_Store
+
+*.s[a-w][a-z]
+*~
+\#*\#
+.\#*
