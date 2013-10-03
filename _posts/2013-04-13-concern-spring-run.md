@@ -2,7 +2,7 @@
 layout: event
 title: Concern Spring Run
 time: 8AM ~ 12PM
-location: Central Park - 102nd Street Transverse (102nd Street and East Drive by the ball fields)
+location: Central Park - 102nd Street and East Drive by the ball fields
 link: https://docs.google.com/forms/d/1DN_bwXMuCkffFtr63Nnp-ILj6WubGi-pZWiSlkbclMQ
 ---
 Help out at this 4K run which aims to bring awareness about the extreme poverty that exists in some parts of the world!
