@@ -1,12 +1,11 @@
 ---
 layout: event
 title: JDRF Walk to Cure Diabetes
-past-dates:
+dates:
     - Sun, September 29, 2013 (7AM - 11AM)
     - Sun, October 6, 2013 (7AM - 11AM)
 time: 7AM - 11AM
-location: Flushing Meadows Corona Park
-past-locations:
+locations:
     - Flushing Meadows Corona Park (October 6)
     - Foley Square (September 29)
 link: https://docs.google.com/forms/d/14FM6tRFwWlwKtE7zpbOJamZ8Vj7g5O8VvYaJ1APFvcQ

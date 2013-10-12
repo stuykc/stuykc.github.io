@@ -8,4 +8,5 @@ time: 5PM - 7PM
 location: Stuyvesant High School
 link: https://docs.google.com/forms/d/1MzFnsYAaB_WFHXgoIQ-dUI5_9qz2TRP3jNm2PIOcSkA
 ---
-Students and parents who are interested in Stuyvesant will be attending Open House. Give tours and show them how amazing Stuy is! Freshmen will not be allowed to help out, but there will be plenty of other volunteering opportunities, so don't worry!
+Students and parents who are interested in Stuyvesant will be attending Open House. Give tours and show them how amazing Stuy is! Freshmen will not be allowed to help out, but there will be plenty of other volunteering opportunities, so don't worry!  
+**There will be a mandatory briefing at 4:15 in the theater, where you will be given jobs to do along with important information you need to know about Open House.**
