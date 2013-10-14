@@ -1,7 +1,7 @@
 ---
 layout: event
 title: Brooklyn Take Steps for Crohn's & Colitis
-time: 9:30AM - 12:30PM
+time: 9:30AM - 1:30PM
 location: Prospect Park - <a href="http://online.ccfa.org/images/content/pagebuilder/Oriental_Pavilion.jpg">Oriental Pavilion</a>
 link: https://docs.google.com/forms/d/1yftBBzbeFFsWE8kyB7Oet1MN4slNTYWQCFiKX6kbLgo
 ---
