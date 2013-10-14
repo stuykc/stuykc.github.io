@@ -4,12 +4,12 @@ title: Check Your Points
 ---
 <style>
 #points-container {position:absolute; margin-left:-20px; overflow:hidden; width:100%;}
-.hidden-desktop #points {position:relative; width:100%;}
-.visible-desktop #points {position:absolute; width:100%; top:-143px; min-height:360px;}
+.hidden-desktop #points {position:relative; width:100%; top:-43px;}
+.visible-desktop #points {position:absolute; width:100%; top:-142px; min-height:360px;}
 </style>
 <!-- css -->
 <div class="hidden-desktop" id="points-container">
-    <iframe id="points" src='https://docs.google.com/spreadsheet/lv?key=0Am7xy3_LFsTldF9XM2NBb0N4ZlA5QUNOdEU3eTh6Snc#gid=0'></iframe>
+    <iframe id="points" src='https://docs.google.com/spreadsheet/lv?key=0Am7xy3_LFsTldF9XM2NBb0N4ZlA5QUNOdEU3eTh6Snc&rowsperpage=500'></iframe>
 </div>
 <div class="visible-desktop" id="points-container">
     <iframe id="points" src='https://docs.google.com/spreadsheet/ccc?key=0Am7xy3_LFsTldF9XM2NBb0N4ZlA5QUNOdEU3eTh6Snc#gid=0'></iframe>
@@ -23,31 +23,19 @@ function points() {
   var w = $(window).width();
   if (w <= 567) {
     $('div #points-container').each(function() {$(this).height(h - 5);});
-    $('div #points').each(function() {
-      $(this).height(h + 58);
-      $(this).css('top','0px');
-    });
+    $('div #points').each(function() {$(this).height(h + 90);});
   }
   else if (w <= 767) {
     $('div #points-container').each(function() {$(this).height(h - 5);});
-    $('div #points').each(function() {
-      $(this).height(h + 43);
-      $(this).css('top','0px');
-    });
+    $('div #points').each(function() {$(this).height(h + 82);});
   }
   else if (w <= 979) {
     $('div #points-container').each(function() {$(this).height(h - 53);});
-    $('div #points').each(function() {
-      $(this).height(h - 5);
-      $(this).css('top','0px');
-    });
+    $('div #points').each(function() {$(this).height(h + 35);});
   }
   else {
     $('div #points-container').each(function() {$(this).height(h - 51);});
-    $('div #points').each(function() {
-      $(this).height(h + 143);
-      $(this).css('top','-143px');
-    });
+    $('div #points').each(function() {$(this).height(h + 185);});
   }
 }
 </script>
