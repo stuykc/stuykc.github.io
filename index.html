@@ -2,6 +2,9 @@
 layout: default
 title: Stuyvesant High School Key Club 
 carousel:
+    - img: /img/carousel/trick-or-treat-unicef.jpg
+      caption-body: Get your UNICEF box today and start raising money for The Eliminate Project!
+      read-more-link: /news/trick-or-treat-unicef
     - img: /img/carousel/october-newsletter.jpg
       caption-header: The October Newsletter has arrived!
       caption-body: This month, we have letters from the cabinet and event reflections by members! Truly, a great way to start off the school year.
@@ -39,7 +42,7 @@ carousel:
             {% for item in page.carousel %}
                 <div class="{% if forloop.first %}active {% endif %}item">
                     <img src="{{ item.img }}" alt="{{ item.caption-header }}">
-                    {% if item.caption-header %}
+                    {% if item.caption-header or item.caption-body %}
                     <div class="carousel-caption">
                         <h4>{{ item.caption-header }}</h4>
                         <p>{{ item.caption-body }}

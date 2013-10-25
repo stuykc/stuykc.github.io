@@ -1,0 +1,34 @@
+---
+layout: page
+title: Unicef Boxes
+---
+<style>
+h3 {color:#00aeef;}
+body {
+    background-image: -ms-radial-gradient(center top, circle farthest-corner, #FFFFFF 0%, #F8AE3E 200%);
+    background-image: -moz-radial-gradient(center top, circle farthest-corner, #FFFFFF 0%, #F8AE3E 200%);
+    background-image: -o-radial-gradient(center top, circle farthest-corner, #FFFFFF 0%, #F8AE3E 200%);
+    background-image: -webkit-gradient(radial, center top, 0, center top, 554, color-stop(0, #FFFFFF), color-stop(2, #F8AE3E));
+    background-image: -webkit-radial-gradient(center top, circle farthest-corner, #FFFFFF 0%, #F8AE3E 200%);
+    background-image: radial-gradient(circle farthest-corner at center top, #FFFFFF 0%, #F8AE3E 200%);
+}
+</style>
+<!-- css -->
+<p class="lead">This Halloween, we're raising money for <a href="http://www.keyclub.org/service/TheEliminateProject.aspx">The Eliminate Project</a> through Trick-or-Treat For UNICEF! Get a box at one of our meetings or find a cabinet member during school. Spread the word and ELIMINATE!</p>
+<div class="text-center">
+    <img src="/img/photos/unicef-boxes.jpg" />
+</div>
+<div class="row">
+    <div class="span7">
+        <h3>A Preventable Tragedy</h3>
+        <p>In Sierra Leone, 19-year-old Memunata gives birth to a healthy baby girl. But this joyous event has taken place on the floor of her home. And Memunata’s childbirth has been assisted by a traditional but unskilled birth attendant. In fact, Memunata herself hasn’t been fully immunized against tetanus.</p>
+        <p>The umbilical cord is cut with an unclean blade. Deadly tetanus spores, found in soil everywhere, infect the cord. Within days, tetanus has spread throughout the baby’s body, causing muscle rigidity leading to locked jaw, arched spine, convulsions and difficult breathing. The slightest sound, light or touch triggers painful spasms—robbing Memunata of the chance to provide even the comfort of a mother’s embrace.</p>
+        <p>After a few days, the baby dies. Memunata is helpless. All she can do is watch. Every year, thousands of mothers share this pain. Thousands of babies will never laugh or play or dream about the future—or experience the bond between mother and child. We have a chance to protect those lives ... and protect that crucial connection.</p>
+    </div>
+    <div class="span5">
+        <h3>The Solution</h3>
+        <p>Started in 2012, The Eliminate Project focuses on removing MNT (Maternal and Neonatal Tetanus) from the face of the Earth. This requires vaccines, safe tranport &amp; storage, education of communities, training of health workers and much more.</p>
+        <p><strong>Just three vacination doses - roughly $1.80 - can save a mother and her future babies.</strong></p>
+        <p>The Eliminate Project is Key Club's biggest campaign for children to date. It will save thousands of lives and protect millions of mothers and their future newborns. Together with the K-family, we will reach our goal of $110 million. And we will eliminate MNT.</p>
+    </div>
+</div>
