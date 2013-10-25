@@ -5,12 +5,12 @@ title: Unicef Boxes
 <style>
 h3 {color:#00aeef;}
 body {
-    background-image: -ms-radial-gradient(center top, circle farthest-corner, #FFFFFF 0%, #F8AE3E 200%);
-    background-image: -moz-radial-gradient(center top, circle farthest-corner, #FFFFFF 0%, #F8AE3E 200%);
-    background-image: -o-radial-gradient(center top, circle farthest-corner, #FFFFFF 0%, #F8AE3E 200%);
-    background-image: -webkit-gradient(radial, center top, 0, center top, 554, color-stop(0, #FFFFFF), color-stop(2, #F8AE3E));
-    background-image: -webkit-radial-gradient(center top, circle farthest-corner, #FFFFFF 0%, #F8AE3E 200%);
-    background-image: radial-gradient(circle farthest-corner at center top, #FFFFFF 0%, #F8AE3E 200%);
+    background-image: -ms-radial-gradient(center top, circle farthest-corner, #FFFFFF 0%, #F8AE3E 150%);
+    background-image: -moz-radial-gradient(center top, circle farthest-corner, #FFFFFF 0%, #F8AE3E 150%);
+    background-image: -o-radial-gradient(center top, circle farthest-corner, #FFFFFF 0%, #F8AE3E 150%);
+    background-image: -webkit-gradient(radial, center top, 0, center top, 554, color-stop(0, #FFFFFF), color-stop(1.5, #F8AE3E));
+    background-image: -webkit-radial-gradient(center top, circle farthest-corner, #FFFFFF 0%, #F8AE3E 150%);
+    background-image: radial-gradient(circle farthest-corner at center top, #FFFFFF 0%, #F8AE3E 150%);
 }
 </style>
 <!-- css -->
