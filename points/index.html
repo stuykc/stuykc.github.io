@@ -9,10 +9,10 @@ title: Check Your Points
 </style>
 <!-- css -->
 <div class="hidden-desktop" id="points-container">
-    <iframe id="points" src='https://docs.google.com/spreadsheet/lv?key=0Am7xy3_LFsTldF9XM2NBb0N4ZlA5QUNOdEU3eTh6Snc&rowsperpage=500'></iframe>
+    <iframe id="points" src='//docs.google.com/spreadsheet/lv?key=0Am7xy3_LFsTldF9XM2NBb0N4ZlA5QUNOdEU3eTh6Snc&rowsperpage=500'></iframe>
 </div>
 <div class="visible-desktop" id="points-container">
-    <iframe id="points" src='https://docs.google.com/spreadsheet/ccc?key=0Am7xy3_LFsTldF9XM2NBb0N4ZlA5QUNOdEU3eTh6Snc#gid=0'></iframe>
+    <iframe id="points" src='//docs.google.com/spreadsheet/ccc?key=0Am7xy3_LFsTldF9XM2NBb0N4ZlA5QUNOdEU3eTh6Snc#gid=0'></iframe>
 </div>
 <!-- scripts -->
 <script>
@@ -35,7 +35,21 @@ function points() {
   }
   else {
     $('div #points-container').each(function() {$(this).height(h - 51);});
-    $('div #points').each(function() {$(this).height(h + 185);});
+    $('div #points').each(function() {$(this).height(h + 125);});
   }
 }
+</script>
+<script>
+$(document).ready(function() {
+  $(window).focus(function() {
+    $('div[id="points-container"]').each(function() {
+      $(this).css("top", "").css("position", "absolute");
+    });
+  });
+  $(window).blur(function() {
+    $('div[id="points-container"]').each(function() {
+      $(this).css("top", "50px").css("position", "fixed");
+    });
+  });
+});
 </script>
