@@ -1,7 +1,7 @@
 ---
 layout: event
 title: Komen Greater NYC Race for the Cure
-time: 6 AM - 1 PM
+time: 6AM - 1PM
 location: Central Park West & 72nd Street New York, NY 10018
 link: https://docs.google.com/spreadsheet/viewform?formkey=dG95LTVfSlhySlc1UWVHWkd1bFZxREE6MA
 ---

@@ -1,7 +1,7 @@
 ---
 layout: event
 title: Making Strides Against Breast Cancer Walk
-time: 6:30 AM - 12 PM
+time: 6:30AM - 12PM
 location: Central Park - 72nd Street Bandshell
 link: https://docs.google.com/forms/d/1U-5t9xDqPi2blf3VGShixZkVs2vym_YxQQ64yt924gM
 ---

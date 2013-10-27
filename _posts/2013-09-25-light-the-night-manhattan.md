@@ -1,7 +1,7 @@
 ---
 layout: event
 title: Light the Night Walk (Manhattan)
-time: 4 PM - 7 PM
+time: 4PM - 7PM
 location: Hudson River Greenway Pier 57, Manhattan NY
 link: https://docs.google.com/spreadsheet/viewform?formkey=dHQwUE9HeTNscHZjUHk2bDVXZDlteUE6MA
 ---

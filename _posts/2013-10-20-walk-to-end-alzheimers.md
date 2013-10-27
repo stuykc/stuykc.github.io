@@ -1,7 +1,7 @@
 ---
 layout: event
 title: Walk to End Alzheimer's
-time: 8 AM - 12:30 PM
+time: 8AM - 12:30PM
 location: Riverside Park - W. 97th Street & Riverside Drive
 link: https://docs.google.com/forms/d/1LBXxMznejG217N5XYgkKc0fKooTbGnMTfd8y2b6wpyw
 ---

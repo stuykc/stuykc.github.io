@@ -1,7 +1,7 @@
 ---
 layout: event
 title: The Color Run 5k
-time: 7 AM - 1 PM
+time: 7AM - 1PM
 location: Aviator Sports - 3159 Flatbush Ave, Brooklyn, NY 11234
 link: https://docs.google.com/spreadsheet/viewform?formkey=dEZibUsyRzI0SGgyRHA0ZVM0ZWU3WkE6MA
 ---
