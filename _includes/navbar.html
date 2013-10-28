@@ -23,7 +23,7 @@
                     <li class="divider-vertical"></li>
                     <li{% if page.url == '/points/index.html' %} class="active"{% endif %}><a href="/points/">Points</a></li>
                     <li class="divider-vertical"></li>
-                    <li{% if page.url == '/events/index.html' %} class="active"{% endif %}><a href="/events/">Events</a></li>
+                    <li{% if page.url contains '/events/' %} class="active"{% endif %}><a href="/events/">Events</a></li>
                     <li class="divider-vertical"></li>
                     <li{% if page.url == '/contact/index.html' %} class="active"{% endif %}><a href="/contact/">Contact</a></li>
                 </ul>
