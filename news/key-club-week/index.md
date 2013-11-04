@@ -1,10 +1,11 @@
 ---
 layout: page
-title: Key Club Week 2013
+title: Key Club Week
 ---
 <style>
 h2 {color: #C41230; padding-bottom: 15px;}
 .text-center img {padding: 3px 5px;}
+@media (max-width: 767px) {.text-center img {width: 15%;}}
 </style>
 <!-- css -->
 <div class="row" markdown="1">
