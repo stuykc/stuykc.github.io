@@ -25,7 +25,7 @@ Throughout the week, we encourage you to spread the word about Key Club! You can
 
 As a treat, the cabinet members will be giving candy to whoever we see rocking their Key Club apparel throughout the week! So stalk us out!
 
-On Friday November 8, we will be holding a party at a room TBA. We may go over some upcoming Key Club events and talk a bit about Key Club Week, but the majority of the time will be spent eating food and playing icebreakers. It will definitely be a great way to have some fun, bond with Key Club members, and celebrate the end to Key Club Week!
+On Friday November 8, we will be holding a party in **room 335**. We may go over some upcoming Key Club events and talk a bit about Key Club Week, but the majority of the time will be spent eating food and playing icebreakers. It will definitely be a great way to have some fun, bond with Key Club members, and celebrate the end to Key Club Week!
 
 **We will also be collecting [UNICEF boxes](/news/trick-or-treat-unicef) for those of you who have them!**
     </div>
