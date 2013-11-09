@@ -1,6 +1,6 @@
 ---
 layout: event
-title: Bring Chinese Culture to Families Fair
+title: Chinatown Weekend Walk
 time: 8:15AM - 6PM
 location: Chinatown - from Mott St. to Worth St.
 link: https://docs.google.com/forms/d/1DFLnCSHVdHKp-GYTvOC8SlEEXMTb4Zx_HOk5HlFflOY
