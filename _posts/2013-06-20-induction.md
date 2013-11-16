@@ -2,7 +2,7 @@
 layout: event
 title: Induction
 time: 2PM - 5PM
-location: Lok Ting Restaurant, 290 Grand Street
+location: Lok Ting Restaurant - 290 Grand Street
 link:  https://docs.google.com/forms/d/1pzbJAME3jdj6N6hwld7PMfUjqjxdSgxdKAmfnKwR34A
 ---
 Come to this end of the year ceremony to bond with Key Clubbers, get your certificates, and be recognized for your accomplishments! There will be plenty of food and speeches by the old and new cabinet. This year, we will not only be presenting certificates for Key Clubbers with 25+ hours, but giving out special certificates for people who have done exemplary work, so come! Who knows, you just may be one of them (:

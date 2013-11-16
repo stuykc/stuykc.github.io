@@ -2,24 +2,24 @@
 layout: default
 title: Stuyvesant High School Key Club 
 carousel:
-    - img: /img/carousel/join.jpg
-      caption-header: Join Us!
-      caption-body: Sign up to be part of the world's largest high school service organization with over 260,000 members worldwide!
-      read-more-link: http://join.stuykc.org
-    - img: /img/carousel/june-newsletter.jpg
-      caption-header: June Newsletter
-      caption-body: What is summer without the release of our June newletter? Check it out!
-      read-more-link: /news/june-newsletter/
+    - img: /img/carousel/kiwanis-family-month.jpg
+      caption-header: November is Kiwanis Family Month!
+      caption-body: Celebrate this month with the K-Family during events such as Key to Your Future by the Young Professionals Kiwanis!
+      read-more-link: /events/2013/11/23/key-to-your-future/
+    - img: /img/carousel/trick-or-treat-unicef.jpg
+      caption-header: This Halloween, let's Trick-o-Treat for UNICEF!
+      caption-body: Get your box today and start raising money for The Eliminate Project!
+      read-more-link: /news/trick-or-treat-unicef/
+    - img: /img/carousel/october-newsletter.jpg
+      caption-header: The October Newsletter has arrived!
+      caption-body: This month, we have letters from the cabinet and event reflections by members! Truly, a great way to start off the school year.
+      read-more-link: /news/october-newsletter/
     - img: /img/carousel/shirts.png
       caption-header: T-SHIRTS!!
       caption-body: It's time to order your Stuyvesant Key Club t-shirt! Show your support for stuykc with one of these amazing shirts!
       read-more-link: /news/shirts/
-    - img: /img/carousel/elections-2013.jpg 
-      caption-header: Election Results!
-      caption-body: After extremely close results, we present to you the newest elected members of our 2013-2014 cabinet!
-      read-more-link: /news/election-results-2013/
 ---
-{% assign show = 3 %}
+{% assign show = 2 %}
 <style>
 .carousel {margin-top:15px;}
 .carousel .btn {margin-top:-2px; vertical-align:top;}
@@ -28,11 +28,13 @@ carousel:
 #events-header {padding-bottom:10px;}
 .keyclub-logo {padding:15px 0px; max-width:85%;} 
 </style>
+{% comment %}
 {% for event in site.posts reversed limit: show %}
     {% if event.content contains "<!-- event-css -->" %}
         {{ event.content | split: "<!-- event-css -->" | first }}
     {% endif %}
 {% endfor %}
+{% endcomment %}
 <!-- css -->
 <div class="container">
 {% comment %} Hack to properly paginate a subdirectory because Jekyll only renders pagination with the root index.html. {% endcomment %}
@@ -43,7 +45,7 @@ carousel:
             {% for item in page.carousel %}
                 <div class="{% if forloop.first %}active {% endif %}item">
                     <img src="{{ item.img }}" alt="{{ item.caption-header }}">
-                    {% if item.caption-header %}
+                    {% if item.caption-header or item.caption-body %}
                     <div class="carousel-caption">
                         <h4>{{ item.caption-header }}</h4>
                         <p>{{ item.caption-body }}
@@ -231,8 +233,10 @@ $(document).ready(function() {
   });
 });
 </script>
+{% comment %}
 {% for event in site.posts reversed limit: show %}
     {% if event.content contains "<!-- event-scripts -->" %}
         {{ event.content | split: "<!-- event-scripts -->" | last }}
     {% endif %}
 {% endfor %}
+{% endcomment %}

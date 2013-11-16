@@ -1,7 +1,7 @@
 ---
 layout: event
 title: Flagship Buddy Walk
-time: 10 AM - 3 PM
+time: 10AM - 3PM
 location: 106th Street and Central Park West
 link: https://docs.google.com/forms/d/1AytCGj9vVKt4UmIz5HrQr-NN_N4ZK8lY0XVojQxSBZk/
 ---

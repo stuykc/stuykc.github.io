@@ -1,7 +1,7 @@
 ---
 layout: event
 title: The Color Run 5k
-time: 7 AM - 1 PM
+time: 7AM - 1PM
 location: Aviator Sports - 3159 Flatbush Ave, Brooklyn, NY 11234
 link: https://docs.google.com/spreadsheet/viewform?formkey=dEZibUsyRzI0SGgyRHA0ZVM0ZWU3WkE6MA
 ---
@@ -11,13 +11,13 @@ Fill out [this form](http://www.doitsports.com/volunteer2/user-volunteer-signup.
 
 <!-- more -->
 
-###Transportation:
+### Transportation:
 - Those that will be driving will continue down Flatbush Avenue and enter in at Aviation Road to park.  There will be parking attendants to direct you, but please note that parking is limited and we expect quite a bit of traffic.
 - If you will be taking the subway to Brooklyn College Stop, there are a couple of options. The Color Run™ will be providing free shuttles starting at 7:30 am. These shuttle buses will look like SCHOOL BUSES. You can also take city buses with your transfer from subway to bus. The shuttles will continue running to take you back until 1:30pm. Please BE CAREFUL about which shuttle you take. There may be some companies that will charge you, so just remember to look for The Color Run's SCHOOL BUS shuttles. *Please note that those arriving via subway and shuttles will arrive after the requested 7:00 time!*
 
 When you arrive, look for the blue volunteer tent to check in. There will plenty of flags and signs to direct you.
 
-###What to Wear / Bring:
+### What to Wear / Bring:
 - The Color Run T-shirt (provided upon arrival)
 - Closed-toe shoes
 - Clothes that you don't mind getting COLORFUL!

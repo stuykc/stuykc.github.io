@@ -1,7 +1,7 @@
 ---
 layout: event
 title: Hamilton Madison House Booksale
-time: 9:45 AM - 1PM
+time: 9:45AM -1PM
 location: 253 South Street New York, NY 10002
 link: https://docs.google.com/forms/d/1G64fq9FkQ7mfHZ9uY_EOcQAoTkEpXG2QmploEnbsYjY
 ---

@@ -1,0 +1,36 @@
+---
+layout: event
+title: Key To Your Future
+time: 9:30AM - 3PM
+location: Soundview Academy, 885 Bolton Avenue
+link: https://docs.google.com/forms/d/1s_B9e-AIWVlJ-DWOXVu57W0NBbGLuqLYyBsjFeDKfmI
+---
+<style>
+body > .container {z-index: 9999;}
+.bg-cover {z-index: -5000; position: fixed; background: #fff; opacity: .9; top: 0; height: 100%; left: 0; width: 100%;}
+.bg.container {z-index: -9999; position: fixed; top: 46px; left: 50%;}
+@media (max-width: 767px) {.bg.container {width: 100%;}}
+.bg img {padding: 10px 10% 0px; height: 100%; width: auto;}
+</style>
+<!-- event-css -->
+<p>It is Stuyvesant Key Club's honor to have NYC Young Professionals of Kiwanis invite us to their 9th Annual Key to Your Future Day. In case you don't know, Kiwanis is the adult division of the K-Family, with Key Club being the High School division. Like us, Kiwanians serve their community and strive to make the world a better place. They also sponsor Key Clubs and help us develop into leaders.</p>
+<p>Get to know your Kiwanians and ask any questions about their fields! Their members have various professions ranging from finance, medical, journalism, media, engineering, and others! Panels are subject to change but as of now, they will cover a wide range of topics such as Writing Your First Resume, Preparing for an Interview, Financing Your Education, Choosing a College, and How to Network Effectively.</p>
+<p>This is an <em>AMAZING</em> opportunity not only for Key Club (meeting Key Clubbers and Kiwanians all around NYC), but for your college and career in general. All of the Kiwanians are highly professional and accomplished individuals and if you take the initiative to go, you will learn so much from the event!</p>
+<p>To attend, you must print <a href="https://drive.google.com/file/d/1KLU4htd4zsxm8H6U2p2rXWrlz4LI5T22SpMA1MOEVPKfDgb9L5H_v1zRqg5h/edit">this form</a> out and return it to us by <strong>November 19</strong>.</p>
+<!-- event-scripts -->
+<div class="bg-cover"></div>
+<div class="bg text-center container"><img src="/img/logos/kiwanis-logo.png" alt="Kiwanis Logo" /></div>
+<script>
+$(document).ready(background);
+$(window).resize(background);
+function background() {
+  var l = $('.kc-header').parent().width() / -2;
+  $('.bg img').height(Math.min($(window).height() - 65, $('.bg').width() * .452));
+  if ($(window).width() <= 767) {
+    $('.bg').css("margin-left", l - 20).css("top", "50%").css("margin-top", $('.bg').height() / -2);
+  }
+  else {
+    $('.bg').css("margin-left", l).css("top", "46px").css("margin-top", "0px");;
+  }
+}
+</script>
