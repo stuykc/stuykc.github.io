@@ -13,6 +13,7 @@ body {
     -o-background-size: cover;
     background-size: cover;
 }
+@media screen and (min-width: 0px) {body {background-image: url(http://i.imgur.com/WI6byxAm.jpg);}}
 @media screen and (min-width: 320px) {body {background-image: url(http://i.imgur.com/WI6byxAl.jpg);}}
 @media screen and (min-width: 640px) {body {background-image: url(http://i.imgur.com/WI6byxAh.jpg);}}
 @media screen and (min-width: 1024px) {body {background-image: url(http://i.imgur.com/WI6byxA.jpg);}}
@@ -24,15 +25,15 @@ body {
     left: 0;
     width: 100%;
     background: #fff;
-    filter: alpha(opacity=77);
-    -moz-opacity: 0.77;
-    opacity: .77;
-    background-image: -ms-radial-gradient(center top, circle farthest-corner, #FFFFFF 40%, #000000 110%);
-    background-image: -moz-radial-gradient(center top, circle farthest-corner, #FFFFFF 40%, #000000 110%);
-    background-image: -o-radial-gradient(center top, circle farthest-corner, #FFFFFF 40%, #000000 110%);
-    background-image: -webkit-gradient(radial, center top, 0, center top, 554, color-stop(.4, #FFFFFF), color-stop(1.1, #000000));
-    background-image: -webkit-radial-gradient(center top, circle farthest-corner, #FFFFFF 40%, #000000 110%);
-    background-image: radial-gradient(circle farthest-corner at center top, #FFFFFF 40%, #000000 110%);
+    filter: alpha(opacity=85);
+    -moz-opacity: .85;
+    opacity: .85;
+    background-image: -ms-radial-gradient(center top, circle farthest-corner, #FFFFFF 45%, #000000 110%);
+    background-image: -moz-radial-gradient(center top, circle farthest-corner, #FFFFFF 45%, #000000 110%);
+    background-image: -o-radial-gradient(center top, circle farthest-corner, #FFFFFF 45%, #000000 110%);
+    background-image: -webkit-gradient(radial, center top, 0, center top, 554, color-stop(.45, #FFFFFF), color-stop(1.1, #000000));
+    background-image: -webkit-radial-gradient(center top, circle farthest-corner, #FFFFFF 45%, #000000 110%);
+    background-image: radial-gradient(circle farthest-corner at center top, #FFFFFF 45%, #000000 110%);
 }
 </style>
 <!-- event-css -->
