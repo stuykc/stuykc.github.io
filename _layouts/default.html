@@ -9,13 +9,12 @@
         <meta name="msvalidate.01" content="4B42B721C8F24A5E99FACCF7ADAD3ED7" />
 
         <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
-        <link rel="stylesheet" type="text/css" href="/css/bootstrap-responsive.min.css">
         <link rel="stylesheet" type="text/css" href="/css/main.css">
         {% if content contains "<!-- css -->" %}
             {{ content | split: "<!-- css -->" | first }}
         {% endif %}
 
-        <link href='http://fonts.googleapis.com/css?family=Bree+Serif|Open+Sans' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Bree+Serif|Open+Sans:400,700' rel='stylesheet' type='text/css'>
     </head>
     <body>
 
