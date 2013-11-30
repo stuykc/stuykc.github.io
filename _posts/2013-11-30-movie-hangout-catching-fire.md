@@ -1,7 +1,7 @@
 ---
 layout: event
 title: Movie Hangout - Catching Fire
-time: TBD - most likely in the morning
+time: 9AM - 12PM
 location: 34th Street AMC theater
 link: https://docs.google.com/forms/d/17uCVKS-cfcbtIwge7vUhXUee8FjFwnME-r3QHr_-iMU
 ---
