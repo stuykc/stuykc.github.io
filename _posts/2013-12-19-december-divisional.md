@@ -1,0 +1,13 @@
+---
+layout: event
+title: December Divisional
+time: 5PM - 8PM
+location: Bronx Science High School
+link:
+---
+It's the final and biggest divisional of the year! And to celebrate it, there will be a couple awesome things going on at the divisional.
+
+- [Secret Snowflake](https://docs.google.com/forms/d/19reS4kI905HHSZZBbT5OdosRN_G00PyFBMUZ8VZ2Tv8/viewform): Gift exchange with other Key Clubbers in Division 11
+- [Toy Stuffing](): Stuffing animals to donate to Toys for Tots, and choice of stuffing another animal to keep
+
+Most of all, it'll be bonding and enjoying the holiday spirit. We highly encourage you to attend!
