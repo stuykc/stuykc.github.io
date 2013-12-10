@@ -3,7 +3,7 @@ layout: event
 title: December Divisional
 time: 5PM - 8PM
 location: Bronx Science High School
-link:
+link: https://docs.google.com/forms/d/143RDBX_XW9wa_lCwA9Kahx0g8B43zxlEV-NiRGwhkjI
 ---
 It's the final and biggest divisional of the year! And to celebrate it, there will be a couple awesome things going on at the divisional.
 
