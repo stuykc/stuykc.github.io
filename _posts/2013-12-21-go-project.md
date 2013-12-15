@@ -1,6 +1,6 @@
 ---
 layout: event
-title: Go Project
+title: GO! Project
 time: 9:00AM - 1:30PM
 location: Grace Church School (86th 4th Avenue, New York, NY 10003)
 link: https://docs.google.com/forms/d/1GH4QpCEfLxNn1RS9ql6jvoCh7W8CHLgMHefPfPesOOg/viewform
