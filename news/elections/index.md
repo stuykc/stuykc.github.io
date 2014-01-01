@@ -5,6 +5,9 @@ title: Elections
 This year, elections will be held towards the end of January. But before that, there are logistical things that must be taken care of!  
 We will be having an Officer Training Conference (OTC) before elections so that you can learn more about the various positions. This conference is mandatory for anyone wishing to run for a position. *Not sure what you want to run for just yet?* At the [bottom of this page](#positions), brief descriptions of the tasks of each position is listed.
 
+<h2 class="text-center"><a href="https://docs.google.com/forms/d/1X4r1Atq2j7DmkWgLdHP6yAIGc0d-8cof3Qnjy1wGtbY/viewform">Sign up for OTC!</a></h2>
+<br>
+
 To **vote**, you must be an official Key Club member (paid your $13 dues) and have at least 10 hours by the date of election.
 
 To **run**, you must be an official Key Club member (paid your $13 dues), have at least 20 hours by the date of election, attend the Officer Training Conference, and score a minimum of 70% on the Key Club test. The Key Club test is a tradition that we have done each year to determine the order of the candidates' speeches. This is the first year we are implementing a minimum score, but like every other year, we will send out a study sheet to the candidates with enough time in advance so they can study. The test is straightforward and if you actually put time into studying, you should have no problem getting a good grade, never mind a 70%.
