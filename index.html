@@ -92,7 +92,7 @@ carousel:
                             </td>
                         {% else %}
                             <td>Date:&nbsp;</td>
-                            <td>{{ event.date | date: "%a, %B %d, %Y"}}{% if event.time %} ({{ event.time }}){% endif %}</td>
+                            <td>{{ event.date | date: "%a, %B %-d, %Y"}}{% if event.time %} ({{ event.time }}){% endif %}</td>
                         {% endif %}
                         </tr></tbody>
                     </table>
