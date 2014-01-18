@@ -3,7 +3,7 @@ layout: page
 title: Elections
 ---
 This year, elections will be held towards the end of January. But before that, there are logistical things that must be taken care of!  
-We will be having an Officer Training Conference (OTC) before elections so that you can learn more about the various positions. This conference is mandatory for anyone wishing to run for a position. *Not sure what you want to run for just yet?* At the [bottom of this page](#positions), brief descriptions of the tasks of each position is listed.
+We will be having an Officer Training Conference (OTC) before elections so that you can learn more about the various positions. This conference is mandatory for anyone wishing to run for a position. *Not sure what you want to run for just yet?* At the [bottom of this page](#positions), brief descriptions of the tasks of each position are listed.
 
 <h2 class="text-center"><a href="https://docs.google.com/forms/d/1X4r1Atq2j7DmkWgLdHP6yAIGc0d-8cof3Qnjy1wGtbY/viewform">Sign up for OTC!</a></h2>
 <br>
