@@ -2,7 +2,7 @@
 layout: page
 title: Elections
 ---
-To **vote**, you must be an official Key Club member (paid your $13 dues) and have at least 10 hours by the date of election.
+To **vote**, you must be an official Key Club member (paid your $13 dues) and have at least 10 hours by the date of election. If you are eligible to vote, please come and listen to candidates' speeches, ask questions and WHO you want to lead the club next year!
 
 To **run**, you must be an official Key Club member (paid your $13 dues), have at least 20 hours by the date of election, attend the Officer Training Conference, and score a minimum of 70% on the Key Club test. The Key Club test is a tradition that we have done each year to determine the order of the candidates' speeches. This is the first year we are implementing a minimum score, but like every other year, we will send out a study sheet to the candidates with enough time in advance so they can study. The test is straightforward and if you actually put time into studying, you should have no problem getting a good grade, never mind a 70%.
 
