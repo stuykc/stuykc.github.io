@@ -25,8 +25,13 @@ layout: none
   <loc>http://stuykc.org/resources/key-club-event-log.pdf</loc>
   <changefreq>weekly</changefreq>
 </url>
-  <url>
+<url>
   <loc>http://stuykc.org/resources/PRF.xlsx</loc>
   <changefreq>weekly</changefreq>
 </url>
+<url>
+  <loc>http://stuykc.org/resources/how-to-be-a-good-project-captain.pdf</loc>
+  <changefreq>weekly</changefreq>
+</url>
+
 </urlset>
