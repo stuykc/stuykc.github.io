@@ -7,7 +7,7 @@ dates:
     - Sun, March 30, 2014
 location: Holiday Inn - Albany, New York
 ---
-<link rel"stylesheet" type="text/css" href="/css/onepage-scroll.css">
+<link rel="stylesheet" type="text/css" href="/css/onepage-scroll.css">
 <link href='http://fonts.googleapis.com/css?family=Raleway:200,300,700' rel='stylesheet' type='text/css'>
 <style>
     h1, h2, h3, h4, h5, h6 {font-family: Raleway; padding: 10px 0; margin: 0;}
@@ -17,20 +17,22 @@ location: Holiday Inn - Albany, New York
     .container {height: 100%; overflow: hidden;}
     [class*="span"] {height: 100%;}
     #page1 {background-color: #DDDDDD;}
-    #page1 .text-center {position: relative; top: 10%;}
-    #page1 img {max-width: 90%; max-height: 70%; padding: 10px 0px;}
+    #page1 .text-center {position: relative; top: 5%;}
+    #page1 img {max-width: 90%; max-height: 65%; padding: 10px 0px;}
     #page2 .span7, #page3 .span7, #page4 .span7 {position: relative;}
     #page2 {background-color: #7FDBFF;}
     #page2 .img-polaroid {background-color: #0074D9;}
     #page4, #page4 .img-polaroid {background-color: #FFDC00;}
-    #page5 .container {position: relative; top: 15%;}
+    #page5 .container {position: relative; top: 10%;}
     #page5 .form-horizontal {padding-top: 10px;}
     .img-polaroid {position: absolute; margin: auto 0; top: -46px; bottom: 0; border-radius: 50px; max-width: 90%;}
-    .text-container {position: relative; top: 28%; padding: 0 3px;}
+    .text-container {position: relative; top: 50%; margin-top: -140px; padding: 0 5px;}
+    @media screen and (max-width: 979px) {.text-container {margin-top: -160px;}}
     .error-text {padding-left:7px; padding-top:7px; color: #f00;}
     .disabled-onepage-scroll .onepage-wrapper .section, .disabled-onepage-scroll [class*="span"] {height: auto; text-align: center;}
     .disabled-onepage-scroll .img-polaroid {position: relative; top: 0; max-width: 70%; margin: 20px 0 10px;}
     .disabled-onepage-scroll .form-horizontal {top: 0; padding: 0 15px;}
+    .disabled-onepage-scroll .text-container {margin: 0;}
     @media screen and (max-width: 480px) {#page5 .form-horizontal .btn {display: block; width: 100%;}}
 </style>
 <!-- event-css -->
@@ -39,7 +41,7 @@ location: Holiday Inn - Albany, New York
 <!-- more -->
 <section id="page1">
 <div class="text-center">
-    <h1 data-scrollReveal="wait .3s enter top move 24px over 1.8s">L<small>eadership</small>T<small>raining</small>C<small>onference</small> • March 28 - 30</h1>
+    <h1 data-scrollReveal="wait .3s enter top move 24px over 1.8s">L<small>eadership</small> T<small>raining</small> C<small>onference</small><br>March 28 - 30</h1>
     <img data-scrollReveal="wait .3s enter bottom move 5px over 1.8s" src="/img/carousel/ltc-2014.jpg" alt="LTC 2014" />
 </div>
 </section>
@@ -64,7 +66,7 @@ location: Holiday Inn - Albany, New York
     <div class="span4 pull-left">
         <div class="text-container">
             <h2>Receive AWARDS</h2>
-            <h3>Get recognized for your efforts this past year! <small>(Distinguished Key Clubber)!</small></h3>
+            <h3>Get recognized for your efforts this past year!<br><small>(Distinguished Key Clubber)!</small></h3>
         </div>
     </div>
 </div>
@@ -120,7 +122,7 @@ location: Holiday Inn - Albany, New York
         </div>
     </form>
 </div>
-<div class="container alert text-center" style="height:auto;"></div>
+<div class="container alert text-center" style="height:auto; display:none;"></div>
 </section>
 <!-- event-scripts -->
 <script src='/js/scrollReveal.js'></script>
