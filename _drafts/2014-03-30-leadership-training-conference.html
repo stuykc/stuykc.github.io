@@ -1,13 +1,13 @@
 ---
-layout: event 
+layout: onepage-scroll
 title: The 66th Annual Leadership Training Conference!
 dates:
     - Fri, March 28, 2014
     - Sat, March 29, 2014
     - Sun, March 30, 2014
 location: Holiday Inn - Albany, New York
-published: false
 ---
+<link rel"stylesheet" type="text/css" href="/css/onepage-scroll.css">
 <style>.error-text {padding-left:7px; padding-top:7px; color: #f00;}</style>
 <!-- event-css -->
 <p>Leadership Training Conference is the New York District Key Club's annual district convention where over 800-1000 Key Clubbers join together to celebrate Key Club and its achievements in a year. This is an action packed weekend where you will be able to meet many other Key Clubbers from all over the district, not just New York City, but Long Island and the rest of New York State! </strong>This is an amazing experience to be part of with workshops, dances, motivational speakers, large-scale icebreakers, entertainment and much more.</strong></p>
@@ -48,6 +48,7 @@ published: false
         </div>
     </div>
 </form>
+</div>
 <!-- event-scripts -->
 <script>
 $(document).ready(formResize);
@@ -91,14 +92,14 @@ $('#email').keyup(function() {
 });
 function check(name, id, email) {
   var check = true;
-  if(name == '') {
+  if (name == '') {
     $('#error-name').show();
     check = false;
   }
   else {
     $('#error-name').hide();
   }
-  if(id == '') {
+  if (id == '') {
     $('#error-id').show();
     check = false;
   }
@@ -106,7 +107,7 @@ function check(name, id, email) {
     $('#error-id').hide();
   }
   var re = new RegExp(/^[+a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/i);
-  if(email == '') {
+  if (email == '') {
     $('#error-email').text("Please input your email").show();
     check = false;
   }
@@ -137,7 +138,7 @@ $(document).ready(function() {
           });
       }
       catch(e) {
-        $('.alert').text("Something went wrong! Instead, Email us at contact@stuykc.org with your information!");
+        $('.alert').text("Something went wrong! Instead, Email us at stuyvesantkeyclub@gmail.com with your information!");
       }
     }
     $('.alert').show();
