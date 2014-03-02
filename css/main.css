@@ -1,6 +1,16 @@
 .navbar {
     font-family:Open Sans;
 }
+@media screen and (min-width: 301px) {
+    .navbar .logo-text-small {
+        display: none;
+    }
+}
+@media screen and (max-width: 300px) {
+    .navbar .logo-text {
+        display: none;
+    }
+}
 .keyclub-navbar-logo {
     width: 25px; 
     height: 25px; 
