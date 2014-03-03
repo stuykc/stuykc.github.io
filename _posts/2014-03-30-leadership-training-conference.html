@@ -218,7 +218,7 @@ $(document).ready(function() {
         })
           .always(function() {
               $('#form').hide();
-              $('.alert').removeClass('alert-error').addClass('alert-success').html("<h2>You have successfully signed up!</h2><h5>We'll be sending you more information very soon! In the meantime, get pumped for the most excited event of the year!</h5>");
+              $('.alert').addClass('alert-error').html("<h2>Unfortunately, the deadline to sign up has passed. ☹</h2><h5>However, we'll try our best to see if you can go! We will notify you as soon as we find out!</h5>");
           });
       }
       catch(e) {
