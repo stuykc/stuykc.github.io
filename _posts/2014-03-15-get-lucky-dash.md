@@ -1,6 +1,6 @@
 ---
 layout: event
-title: Get Luck Dash
+title: Get Lucky Dash
 time: 8:45AM - 11:15AM
 location: Chelsea Brewing Co, Pier 59
 link: https://docs.google.com/forms/d/1v7OH6J9ZFIvfrwm4BHhMgSitjuMfjaTtuGBVLLVpPes/viewform
