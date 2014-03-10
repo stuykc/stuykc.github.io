@@ -1,0 +1,17 @@
+<div class="footer navbar navbar-static-top">
+    <div class="text-center">
+        --- &copy; Stuyvesant Key Club 2014 ---
+    </div>
+</div>
+<script>
+$(document).ready(footerDown);
+$(window).resize(footerDown);
+function footerDown() {
+  if ($('html').height() + (($('.footer').css('position') == 'fixed')? 55:0) < $(window).height()) {
+    $('.footer').addClass('footer-fixed');
+  }
+  else {
+    $('.footer').removeClass('footer-fixed');
+  }
+}
+</script>

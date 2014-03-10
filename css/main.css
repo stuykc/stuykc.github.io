@@ -16,6 +16,27 @@
     height: 25px; 
     margin: -11px 0px -5px;
 }
+.footer {
+    margin-top: 15px;
+    margin-bottom: 0;
+    background-color: #003366;
+    background-image: -ms-linear-gradient(top, #FFFFFF 0%, #003366 10%);
+    background-image: -moz-linear-gradient(top, #FFFFFF 0%, #003366 10%);
+    background-image: -o-linear-gradient(top, #FFFFFF 0%, #003366 10%);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #FFFFFF), color-stop(.1, #003366));
+    background-image: -webkit-linear-gradient(top, #FFFFFF 0%, #003366 10%);
+    background-image: linear-gradient(to bottom, #FFFFFF 0%, #003366 10%);
+}
+.footer div {
+    padding: 10px;
+    color: #fff;
+}
+.footer-fixed {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
 .event-info {
     font-size: 15px;
     font-weight: bold;
@@ -46,15 +67,4 @@ iframe {
     margin: 0;
     border: 0;
 }
-.bio {
-    display: inline-block;
-}
-.bio-photo {
-    padding-right: 10px;
-    padding-bottom: 10px;
-}
-.bio-paragraph {
-    font-family: Open Sans;
-    font-size: 13px;
-    line-height: 20px;
-}
+
