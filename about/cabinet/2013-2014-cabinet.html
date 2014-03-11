@@ -1,0 +1,83 @@
+---
+layout: page
+title: About our Cabinet
+cabinet:
+    pres:
+        name: Bonnie Lee
+        img: /img/cabinet/bonnielee.jpg
+        bio: Hey StuyKC! My name is Bonnie Lee and I am proud to be serving as your 2013-2014 President. As last year’s vice president, I’m extremely honored to be a leader for yet another year. Key Club has been a tremendous part of my life for the past two years and I am eager to continue to develop leadership, perform outstanding service, and make more memories with each and every one of you. Outside of Key Club, I enjoy playing golf and rollerblading. Feel free to contact me at <a href="mailto:bonnielee.pres@stuykc.org">bonnielee.pres@stuykc.org</a> for anything. I look forward to hearing from you!
+    vp:
+        name: Wendy Huang
+        img: /img/cabinet/wendyhuang.jpg
+        bio: Hi StuyKC! I'm Wendy Huang, vice president of the 2013-2014 service year. After discovering Key Club since freshmen year, I have truly fell for everything that Key Club represents. From making new friends to volunteering at various events, Key Club has played a major role within my social life, contrary to popular belief that Stuy students don't have social lives. Outside of school and Key Club, I enjoy swimming, playing badminton, dancing, and shopping. If you guys have any questions or concerns, feel free to email me at <a href="mailto:wendyhuang.vp@stuykc.org">wendyhuang.vp@stuykc.org</a> or just chat me on Facebook instead.
+    sec:
+        name: Cindy Lee
+        img: /img/cabinet/cindylee.jpg
+        bio: Hey, Key Clubbers! I am your 2013-14 secretary Cindy Lee. I feel enthusiastic to serve the community and hope that you guys will find this aspect within yourselves. Straying away from Key Club for a bit, some of my interests include solving Rubix Cubes, mimicking K-Pop dances, singing with my friends on Skype, and playing volleyball and tennis. If you guys have any questions or concerns, feel free to contact me at <a href="mailto:cindylee.sec@stuykc.org">cindylee.sec@stuykc.org</a>. Let's have a great and fun service year!
+    treas:
+        name: Jacky Lin
+        img: /img/cabinet/jackylin.jpg
+        bio: Jacky knows what it means to be a treasurer of a large club. He is the one that solves our money problems and without him, we would not be able to plan the amazing things we have for the members! Jacky looks forward to this school year as he has planned many exciting things for the members. So keep your eyes open for those! His passion for Key Club is only matched by his lovable personality and his amazing looks. Talk to him and see what we mean! His email is <a href="mailto:jackylin.treas@stuykc.org">jackylin.treas@stuykc.org</a>.
+    edit:
+        name: Dorothy Chen
+        img: /img/cabinet/dorothychen.jpg
+        bio: My name is Dorothy Chen, and I'm a junior at Stuyvesant High School. I am glad to be your Bulletin Editor this service year. Since joining Key Club, community service has become an indispensable part in my life. Besides, I enjoy watching movies. I realized my love for fiction when I watched Lord of the Rings and Star Wars over and over again. Now I started to watch some literary film and tried to understand them. Key Club is a family, giving me friendship, spirit and enthusiasm. I hope you can find the same things and even more here! You can contact me at <a href="mailto:dorothychen.editor@stuykc.org">dorothychen.editor@stuykc.org</a>.
+    web:
+        name: Danny Qiu
+        img: /img/cabinet/dannyqiu.jpg
+        bio: Hey Key Club! As your webmaster this year, I have the task of updating this website and any others our club uses. I'm not your average tech person - you can find me at many of our events! I love volunteering not only because it's beneficial to our community, but also because you get to meet amazing people everytime. The experiences I've had with Key Club are truly memorable and I can't wait to have even more this year! I'm extremely excited to serve you guys as webmaster and if you have any questions, feel free to contact me at <a href="mailto:dannyqiu.web@stuykc.org">dannyqiu.web@stuykc.org</a>. I'm open to questions of all kinds!
+---
+<style>
+.bio {display: inline-block;}
+.bio-photo {padding-right: 10px; padding-bottom: 10px;}
+.bio-paragraph {font-family: Open Sans; font-size: 13px; line-height: 20px;}
+</style>
+<!-- css -->
+<div class="row">
+    <div class="span6">
+        <h3>President <small>- {{ page.cabinet.pres.name }}</small></h3>
+        <div class="bio">
+            <img class="pull-left bio-photo" alt="{{ page.cabinet.pres.name }}" src="{{ page.cabinet.pres.img }}">
+            <p class="bio-paragraph">{{ page.cabinet.pres.bio }}</p>
+        </div>
+    </div>
+    <div class="span6">
+        <h3>Vice President <small>- {{ page.cabinet.vp.name }}</small></h3>
+        <div class="bio">
+            <img class="pull-left bio-photo" alt="{{ page.cabinet.vp.name }}" src="{{ page.cabinet.vp.img }}">
+            <p class="bio-paragraph">{{ page.cabinet.vp.bio }}</p>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="span6">
+        <h3>Secretary <small>- {{ page.cabinet.sec.name }}</small></h3>
+        <div class="bio">
+            <img class="pull-left bio-photo" alt="{{ page.cabinet.sec.name }}" src="{{ page.cabinet.sec.img }}">
+            <p class="bio-paragraph">{{ page.cabinet.sec.bio }}</p>
+        </div>
+    </div>
+    <div class="span6">
+        <h3>Treasurer <small>- {{ page.cabinet.treas.name }}</small></h3>
+        <div class="bio">
+            <img class="pull-left bio-photo" alt="{{ page.cabinet.treas.name }}" src="{{ page.cabinet.treas.img }}">
+            <p class="bio-paragraph">{{ page.cabinet.treas.bio }}</p>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="span6">
+        <h3>Editor <small>- {{ page.cabinet.edit.name }}</small></h3>
+        <div class="bio">
+            <img class="pull-left bio-photo" alt="{{ page.cabinet.edit.name }}" src="{{ page.cabinet.edit.img }}">
+            <p class="bio-paragraph">{{ page.cabinet.edit.bio }}</p>
+        </div>
+    </div>
+    <div class="span6">
+        <h3>Webmaster <small>- {{ page.cabinet.web.name }}</small></h3>
+        <div class="bio">
+            <img class="pull-left bio-photo" alt="{{ page.cabinet.web.name }}" src="{{ page.cabinet.web.img }}">
+            <p class="bio-paragraph">{{ page.cabinet.web.bio }}</p>
+        </div>
+    </div>
+</div>
