@@ -1,3 +1,5 @@
 User-agent: *
 Disallow: /about/cabinet/
 Disallow: /img/cabinet/
+Disallow: /boomba/
+Disallow: /web/

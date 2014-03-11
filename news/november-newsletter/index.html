@@ -1,0 +1,19 @@
+---
+layout: page
+title: November Newsletter!
+title-small: 2013
+---
+<iframe id="newsletter" src="//e.issuu.com/embed.html#1074157/5832787" allowfullscreen>Loading...</iframe>
+<!-- scripts -->
+<script>
+$(document).ready(newsletterFit);  
+$(window).resize(newsletterFit);
+function newsletterFit() {
+  if($('#newsletter').width() > 740) {
+    $('#newsletter').height($('#newsletter').width() * .64);
+  }
+  else {
+    $('#newsletter').height($('#newsletter').width() * .74);
+  }
+}
+</script>

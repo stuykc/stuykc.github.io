@@ -16,7 +16,7 @@ Through the experiences we gain with from voluteering, fundraising, and advocati
 - $&nbsp;&nbsp;&nbsp;.50 for Stuvesant Key Club
 - &#61; **$13.00 Total Dues**
 
-*Dues are used to pay for membership items such as booklets, cards and pins. Ultimately, __the dues will go back to you, the members__, since they go to paying for Key Club's amazing events such as Fall Rally, and the [district/international conferences]({% post_url 2013-03-24-leadership-training-conference %})!*
+*Dues are used to pay for membership items such as booklets, cards and pins. Ultimately, __the dues will go back to you, the members__, since they go to paying for Key Club's amazing events such as Fall Rally, and the [district/international conferences]({% post_url 2014-03-30-leadership-training-conference %})!*
 
 <div class="text-center">
     <img src="/img/photos/stuykc.jpg" alt="Stuyvesant Key Club">

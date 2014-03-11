@@ -2,24 +2,20 @@
 layout: default
 title: Stuyvesant High School Key Club 
 carousel:
-    - img: /img/carousel/kiwanis-family-month.jpg
-      caption-header: November is Kiwanis Family Month!
-      caption-body: Celebrate this month with the K-Family during events such as Key to Your Future by the Young Professionals Kiwanis!
-      read-more-link: /events/2013/11/23/key-to-your-future/
-    - img: /img/carousel/trick-or-treat-unicef.jpg
-      caption-header: This Halloween, let's Trick-o-Treat for UNICEF!
-      caption-body: Get your box today and start raising money for The Eliminate Project!
-      read-more-link: /news/trick-or-treat-unicef/
-    - img: /img/carousel/october-newsletter.jpg
-      caption-header: The October Newsletter has arrived!
-      caption-body: This month, we have letters from the cabinet and event reflections by members! Truly, a great way to start off the school year.
-      read-more-link: /news/october-newsletter/
-    - img: /img/carousel/shirts.png
-      caption-header: T-SHIRTS!!
-      caption-body: It's time to order your Stuyvesant Key Club t-shirt! Show your support for stuykc with one of these amazing shirts!
-      read-more-link: /news/shirts/
+    - img: /img/carousel/dirty-little-secret.jpg
+      caption-header: Take part in the Thirst Project! &#35;<span style='color:#3aa;'>dirty</span>littlesecret
+      caption-body: Carry around a dirty bottle of water this month to raise awareness for the global water crisis!
+      read-more-link: http://thirstproject.org/dirtylittlesecret/
+    - img: /img/carousel/ltc-2014.jpg
+      caption-header: Discover the MAGIC of service
+      caption-body: Don't miss out - Make LTC your destination from March 28-30!
+      read-more-link: /events/2014/03/30/leadership-training-conference
+    - img: /img/carousel/elections.jpg
+      caption-header: Election results for the 2014-2015 board!
+      caption-body: Find out who will be part of the next board for the upcoming service year!
+      read-more-link: /news/election-results-2014/
 ---
-{% assign show = 2 %}
+{% assign show = 4 %}
 <style>
 .carousel {margin-top:15px;}
 .carousel .btn {margin-top:-2px; vertical-align:top;}
@@ -65,8 +61,14 @@ carousel:
             {% if show == 0 %}
             <div class="event-preview">
                 <div class="event-info" style="margin-top:30px;color:#46a546;">
-                    Sorry, we currently don't have any events for you :(<br>
-                    However, this doesn't mean you should stop volunteering!
+                    <p>
+                        Sorry, we currently don't have any events for you :(<br>
+                        However, this doesn't mean you should stop volunteering!
+                    </p>
+                    <p>
+                        Check back later for future events!
+                        We will keep you updated! :)
+                    </p>
                 </div>
             </div>
             <hr>
@@ -86,7 +88,7 @@ carousel:
                             </td>
                         {% else %}
                             <td>Date:&nbsp;</td>
-                            <td>{{ event.date | date: "%a, %B %d, %Y"}}{% if event.time %} ({{ event.time }}){% endif %}</td>
+                            <td>{{ event.date | date: "%a, %B %-d, %Y"}}{% if event.time %} ({{ event.time }}){% endif %}</td>
                         {% endif %}
                         </tr></tbody>
                     </table>
@@ -131,15 +133,19 @@ carousel:
             <div class="useful-links">
                 <h4>Useful Links</h4>
                 <ul>
+                    <li><a href="http://nydkc-11.wix.com/keyclub">Division 11 Key Club</a>
                     <li><a href="http://www.nydkc.org">New York District Key Club</a></li>
                     <li><a href="http://www.keyclub.org/home.aspx">Key Club International</a></li>
                     <li><a href="http://sites.kiwanis.org/Kiwanis/en/Alumni/Home/AlumniReconnect.aspx">Key Club Alumni</a></li>
+                    <li><a href="http://www.circlek.org/home.aspx">Circle K International</a></li>
+                    <li><a href="http://www.kiwanis.org">Kiwanis International</a></li>
                 </ul>
                 <h4>Service Partners</h4>
                 <ul>
                     <li><a href="http://www.unicef.org">UNICEF</a></li>
                     <li><a href="http://childrensmiraclenetworkhospitals.org">Children's Miracle Network</a></li>
                     <li><a href="http://marchofdimesyouth.com">March of Dimes</a></li>
+                    <li><a href="http://sites.kiwanis.org/Kiwanis/en/theELIMINATEproject/home.aspx">The Eliminate Project</a></li>
                 </ul>
             </div>
         </div>
