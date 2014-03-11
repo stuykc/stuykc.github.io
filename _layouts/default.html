@@ -1,19 +1,25 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>{% unless page.url =='/index.html' %}Stuy KC | {% endunless %}{{ page.title }}</title>
         <meta name="description" content="Stuyvesant Key Club is part of an international organization focused on providing its members with opportunities to provide service, build character, and develop leadership qualities.">
-        <meta name="viewport" content="width=device-width">
         <meta name="msvalidate.01" content="4B42B721C8F24A5E99FACCF7ADAD3ED7" />
 
         <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="/css/bootstrap-theme.min.css">
         <link rel="stylesheet" type="text/css" href="/css/main.css">
         {% if content contains "<!-- css -->" %}
             {{ content | split: "<!-- css -->" | first }}
         {% endif %}
 
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
         <link href='http://fonts.googleapis.com/css?family=Bree+Serif|Open+Sans:400,700' rel='stylesheet' type='text/css'>
     </head>
     <body>
@@ -22,7 +28,7 @@
 
         {{ content | split: "<!-- css -->" | last | split: "<!-- scripts -->" | first }}
 
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="/js/jquery-1.9.1.min.js"><\/script>');</script>
         <script src="/js/bootstrap.min.js"></script>
 
