@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About our Committees
+title: The Committees
 ---
 <div class="text-center" markdown="1">
 ### [Sign up for a committee!](https://docs.google.com/forms/d/19qwnTHh_4dNVq_czH8r6ZugQg91eC7rpuqXXFLM3SDU/viewform)
