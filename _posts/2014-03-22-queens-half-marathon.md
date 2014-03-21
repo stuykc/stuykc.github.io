@@ -1,7 +1,7 @@
 ---
 layout: event
 title: Queens Half Marathon
-time: 7AM
+time: 7AM - 12PM
 location: <a href="http://d11directions.github.io/2014/03/22/Queens_Half_Marathon/">Flushing Meadows - Corona Park near Arthur Ashe Stadium</a>
 link: https://docs.google.com/forms/d/1-qeJmkbToCVEG03KNbcnImF8mSl2cToa7i3ySjAFSsw/viewform
 ---
