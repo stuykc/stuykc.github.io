@@ -1,6 +1,6 @@
 ---
 layout: event
-title: Amazing Race
+title: Amazing Race - Spring 2014
 time: 8AM
 location: NYC Area (unreleased)
 ---
