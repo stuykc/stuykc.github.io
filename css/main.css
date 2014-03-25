@@ -1,6 +1,11 @@
 .navbar {
     font-family:Open Sans;
 }
+.keyclub-navbar-logo {
+    width: 25px;
+    height: 25px;
+    margin: -11px 0px -5px;
+}
 @media screen and (min-width: 301px) {
     .navbar .logo-text-small {
         display: none;
@@ -10,11 +15,6 @@
     .navbar .logo-text {
         display: none;
     }
-}
-.keyclub-navbar-logo {
-    width: 25px; 
-    height: 25px; 
-    margin: -11px 0px -5px;
 }
 .footer {
     margin-top: 15px;
@@ -58,6 +58,11 @@
 }
 .kc-divider {
     width: 100%;
+}
+@media screen and (max-width: 767px) {
+    .kc-header h1 {
+        text-align: center;
+    }
 }
 #newsletter {
     width: 100%;

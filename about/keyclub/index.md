@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About Key Club International
+title: Key Club International
 ---
 *I pledge, on my honor, to uphold the Objects of Key Club International; to build my home, school and community; to serve my nation and God; and combat all forces which tend to undermine these institutions.*
 
@@ -26,6 +26,8 @@ Originally, Key Club adopted as its motto, "We Build," the same motto as its par
 
 High school leaders from 32 countries unite every day to provide service in their homes, schools, and communities, completing more than 12 million hours of service. Key Clubbers work to help eliminate HIV/AIDS in Africa, stop premature birth, and battle for the rights of children in their communities. Key Club is currently represented in these locations around the globe:
 
+<div class="row">
+<div class="span6" markdown="1">
 - Antigua and Barbuda
 - Aruba
 - Australia
@@ -42,6 +44,8 @@ High school leaders from 32 countries unite every day to provide service in thei
 - Germany
 - Guadeloupe
 - Italy
+</div>
+<div class="span6" markdown="1">
 - Jamaica
 - Malaysia
 - Martinique
@@ -58,3 +62,5 @@ High school leaders from 32 countries unite every day to provide service in thei
 - Trinidad and Tobago
 - Turk and Caicos Islands
 - United States of America
+</div>
+</div>
