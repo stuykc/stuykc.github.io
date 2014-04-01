@@ -33,6 +33,10 @@
 
         {% unless page.url contains '/points/' %}{% include footer.html %}{% endunless %}
 
+        <button class="btn btn-danger btn-large" style="position:fixed; bottom:0; left:0; right:0; width: 100%;" onclick="$(body).addClass((Math.random() < .5)? 'barrel-roll':'barrel-roll-backwards'); setTimeout(function(){$(body).removeClass('barrel-roll barrel-roll-backwards')},3100);">BARREL ROLL!?!</button>
+        <style type="text/css"> @-webkit-keyframes roll {   from { -webkit-transform: rotate(0deg) }   to { -webkit-transform: rotate(360deg) } } @-moz-keyframes roll {   from { -moz-transform: rotate(0deg) }   to { -moz-transform: rotate(360deg) } } @keyframes roll {   from { transform: rotate(0deg) }   to { transform: rotate(360deg) } } .barrel-roll {   -moz-animation-name: roll;   -moz-animation-duration: 3s;   -moz-animation-iteration-count: 1;   -webkit-animation-name: roll;   -webkit-animation-duration: 3s;   -webkit-animation-iteration-count: 1; }
+        @-webkit-keyframes roll-backwards {   from { -webkit-transform: rotate(360deg) }   to { -webkit-transform: rotate(0deg) } } @-moz-keyframes roll-backwards {   from { -moz-transform: rotate(360deg) }   to { -moz-transform: rotate(0deg) } } @keyframes roll-backwards {   from { transform: rotate(360deg) }   to { transform: rotate(0deg) } } .barrel-roll-backwards {   -moz-animation-name: roll-backwards;   -moz-animation-duration: 3s;   -moz-animation-iteration-count: 1;   -webkit-animation-name: roll-backwards;   -webkit-animation-duration: 3s;   -webkit-animation-iteration-count: 1; } </style>
+
         <script type="text/javascript">var _gaq = _gaq || []; _gaq.push(['_setAccount', 'UA-40677232-1']); _gaq.push(['_trackPageview']); (function() {var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);})();</script>
     </body>
 </html>        
