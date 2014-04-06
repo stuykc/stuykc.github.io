@@ -1,6 +1,6 @@
 ---
 layout: event
-title: Pride Stride NY Walk
+title: Purple Stride NY Walk
 time: 8:00AM to 2:00PM
 location: <a href = "http://goo.gl/maps/rRwO7"> Prospect Park </a>
 link: https://docs.google.com/forms/d/1KLKFccd0lT6iBpu-5Y92zAjFyhkkir-YEBGlmuVS4hk/viewform
