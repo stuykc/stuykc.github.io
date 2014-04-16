@@ -9,4 +9,4 @@ The Amazing Race is back for another season and will be better than ever before!
 - Volunteer registration is [here](https://docs.google.com/forms/d/1BqdIP4D9Pw-cB5Fi3lFxlYWcBfdT1H5rAs2Iv4HYfTQ/viewform)!
 - Participants registration is [here](https://docs.google.com/forms/d/187at0GpdwZiRqHe6_y8TKDxRyFC_zCiMkjKwNFPcKUI/viewform)!
 
-Please register by April 5th to guarentee your spot in this race!
+Please register by April 13th to guarentee your spot in this race!

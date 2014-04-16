@@ -1,7 +1,7 @@
 ---
 layout: event
 title: JCC Tween + Teen Cookie Stand
-time: 4:30PM to 6:00PM
+time: 4:30PM - 6PM
 location: JCC in Manhattan
 link: https://docs.google.com/forms/d/1SOrsbiJa12fUhoaVmeGCaM_TKhq9wblk-clvPHeHu8g/viewform
 ---
