@@ -2,10 +2,6 @@
 layout: page
 title: The Committees
 ---
-<div class="text-center" markdown="1">
-### [Sign up for a committee!](https://docs.google.com/forms/d/19qwnTHh_4dNVq_czH8r6ZugQg91eC7rpuqXXFLM3SDU/viewform)
-</div>
-
 ## Advocacy <small> - Amy Ji</small>
 
 <blockquote>The Advocacy Committee is responsible for writing letters to support an important cause they deem important and sending these letters to government officials and influential figures. These causes can range from ending human trafficking to protecting endangered animals.</blockquote>
