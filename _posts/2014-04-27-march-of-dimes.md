@@ -2,7 +2,7 @@
 layout: event
 title: March of Dimes
 time: 9:00AM - 12PM
-location: Lincoln Center Area - 65th Street and Amsterdam New York, NY 10023
+location: <a href = "http://d11directions.github.io/2014/04/27/March_of_Dimes/"> Lincoln Center Area - 65th Street and Amsterdam New York, NY 10023 </a>
 link: https://docs.google.com/forms/d/1shXMRo3Pvt_SCh4HO5Vo-BJQiFfxeqWEXysgNWYIf2c/viewform
 redirect_from: /events/2014/04/27/march-or-dimes/
 ---
