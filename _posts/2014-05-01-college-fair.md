@@ -1,7 +1,7 @@
 ---
 layout: event
 title: College Fair
-time: 6:30PM - 8:30PM
+time: 2:45PM - 7:30PM
 location: Stuyvesant High School
 link: https://docs.google.com/forms/d/1fQuD1sJr3MEnvq7GSU-xgM9DO5bj21-tdEOXEJh98IQ/viewform
 ---
