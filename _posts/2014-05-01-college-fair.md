@@ -17,9 +17,9 @@ In addition, there is an orientation with Ms. Pedrick after 10th period in the c
 
 4:30 - 5:15pm: Meet & greet college representatives coming in from the 1st and 2nd floors (we will have separate groups of volunteers for each floor).
 
-- Volunteers will be picking up the representatives from the bridge and 1st floor entrances and will be taking them to the elevator where you will ask them if they wish to report directly to the library for refreshments or to their assigned classroom in order to drop off their belongings and college materials. There will be a piece of paper given to you that will state each college and their respective room number. If any of them say that they already sent their materials to Stuyvesant, tell them that it will be in the room that they are assigned to. If they went to their classroom, bring them to the library afterwards!
+- Volunteers will be picking up the representatives from the bridge and 1st floor entrances and will be taking them to the elevator where you will ask them if they wish to report directly to the cafeteria for refreshments or to their assigned classroom in order to drop off their belongings and college materials. There will be a piece of paper given to you that will state each college and their respective room number. If any of them say that they already sent their materials to Stuyvesant, tell them that it will be in the room that they are assigned to. If they went to their classroom, bring them to the cafeteria afterwards!
 
-- If any representatives are late, simply bring them up to the library.
+- If any representatives are late, simply bring them up to the cafeteria.
 
 5:30 - 6:55pm: Junior & parent tours take place
 
@@ -27,6 +27,6 @@ In addition, there is an orientation with Ms. Pedrick after 10th period in the c
 
 These times are not definite since the schedule may not go exactly as planned! Since our student Metrocards stop working at 8:30PM, we will try our best to get everyone out of the building before then, but we need your cooperation as well!
 
-Signing out will occur in the library, The people who will be signing everyone in will also be signing everone out so be sure to do both! If you have an extracurricular activity afterschool and are not able to come directly after your last class, you are still welcome to help out and should go to the library in order to sign in. 
+Signing out will occur in the cafeteria, The people who will be signing everyone in will also be signing everone out so be sure to do both! If you have an extracurricular activity afterschool and are not able to come directly after your last class, you are still welcome to help out and should go to the cafeteria in order to sign in. 
 
 Also, please try to wear the Stuyvesant Key Club T-Shirt or any other Stuyvesant apparel. Thank you guys for signing up on such a short notice and have fun!
