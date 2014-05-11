@@ -4,7 +4,7 @@ layout: default
 {% if content contains "<!-- css -->" %}
     {{ content | split: "<!-- css -->" | first }} <!-- css -->
 {% endif %}
-<div class="container-fluid eliminate-container">
+<div class="container-fluid">
     <div class="container">
         <div class="kc-header">
             <h1>{{ page.title }} {% if page.title-small %}<small>{{ page.title-small }}</small>{% endif %}</h1>
