@@ -2,8 +2,8 @@
 layout: event
 title: Weekend Walk
 dates:
-    - Sat, May 31, 2014 (8AM - 1PM)
-    - Sat, May 31, 2014 (1PM - 6PM)
+    - Sat, Jun 28, 2014 (8AM - 1PM)
+    - Sat, Jun 28, 2014 (1PM - 6PM)
 time: 8AM - 6PM
 location: Chinatown Partnership - 60 St. James Place
 link: https://docs.google.com/forms/d/1bXcDr9Ojjkbcz0psvJBG4VT6NAVc5gecEELHztyJQsw/viewform
