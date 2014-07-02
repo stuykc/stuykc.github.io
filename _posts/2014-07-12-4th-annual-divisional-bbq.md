@@ -1,6 +1,6 @@
 ---
 layout: event
-titile: 4th Annual Divisional BBQ
+title: 4th Annual Divisional BBQ
 time: 10:30AM - 3PM
 location: <a href="http://tinyurl.com/nydkc11bbq">Flushing Meadows Corona Park </a>
 link: https://docs.google.com/forms/d/1pMAxppsYrG01cpc6UrS-56YHp_f4n_wwpUqmW7iuhao/viewform
