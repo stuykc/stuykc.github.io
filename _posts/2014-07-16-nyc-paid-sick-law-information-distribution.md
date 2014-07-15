@@ -1,7 +1,7 @@
 ---
 layout: event
 title: NYC Paid Sick Law Information Distribution
-times:
+dates:
     7AM - 9AM (Shift 1)
     5PM - 7PM (Shift 2)
 location: Canal St Station (4/5/6/J/Z/N/Q/R)
