@@ -1,0 +1,83 @@
+---
+layout: page
+title: The Cabinet
+cabinet:
+    pres:
+        name: Jakcy Lyn
+        img: /img/cabinet/guy.jpg
+        bio: I'm the pres cause I'm the best looking out of everyone.  Get on my level
+    vp:
+        name: Wilsin Lou
+        img: /img/cabinet/guy.jpg
+        bio: YOOOO I'm VP. Hey Guys I'm VP. I WON!
+    sec:
+        name: Do Rot Hy Chen 
+        img: /img/cabinet/girl.jpg
+        bio: I love to read and stuff.  Books for the win
+    treas:
+        name: Ni Cole Ng
+        img: /img/cabinet/girl.jpg
+        bio: Money Money Money Money Money Money Money
+    edit:
+        name: Jan E Chen
+        img: /img/cabinet/girl.jpg
+        bio: Please submit articles and pictures for the LokSmith
+    web:
+        name: Stanely Lok & Key
+        img: /img/cabinet/guy.jpg
+        bio: I was bored so why not make this
+---
+<style>
+.bio {display: inline-block;}
+.bio-photo {padding-right: 10px; padding-bottom: 10px;}
+.bio-paragraph {font-family: Open Sans; font-size: 13px; line-height: 20px;}
+</style>
+<!-- css -->
+<div class="row">
+    <div class="span6">
+        <h3>President <small>- {{ page.cabinet.pres.name }}</small></h3>
+        <div class="bio">
+            <img class="pull-left bio-photo" alt="{{ page.cabinet.pres.name }}" src="{{ page.cabinet.pres.img }}">
+            <p class="bio-paragraph">{{ page.cabinet.pres.bio }}</p>
+        </div>
+    </div>
+    <div class="span6">
+        <h3>Vice President <small>- {{ page.cabinet.vp.name }}</small></h3>
+        <div class="bio">
+            <img class="pull-left bio-photo" alt="{{ page.cabinet.vp.name }}" src="{{ page.cabinet.vp.img }}">
+            <p class="bio-paragraph">{{ page.cabinet.vp.bio }}</p>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="span6">
+        <h3>Secretary <small>- {{ page.cabinet.sec.name }}</small></h3>
+        <div class="bio">
+            <img class="pull-left bio-photo" alt="{{ page.cabinet.sec.name }}" src="{{ page.cabinet.sec.img }}">
+            <p class="bio-paragraph">{{ page.cabinet.sec.bio }}</p>
+        </div>
+    </div>
+    <div class="span6">
+        <h3>Treasurer <small>- {{ page.cabinet.treas.name }}</small></h3>
+        <div class="bio">
+            <img class="pull-left bio-photo" alt="{{ page.cabinet.treas.name }}" src="{{ page.cabinet.treas.img }}">
+            <p class="bio-paragraph">{{ page.cabinet.treas.bio }}</p>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="span6">
+        <h3>Editor <small>- {{ page.cabinet.edit.name }}</small></h3>
+        <div class="bio">
+            <img class="pull-left bio-photo" alt="{{ page.cabinet.edit.name }}" src="{{ page.cabinet.edit.img }}">
+            <p class="bio-paragraph">{{ page.cabinet.edit.bio }}</p>
+        </div>
+    </div>
+    <div class="span6">
+        <h3>Webmaster <small>- {{ page.cabinet.web.name }}</small></h3>
+        <div class="bio">
+            <img class="pull-left bio-photo" alt="{{ page.cabinet.web.name }}" src="{{ page.cabinet.web.img }}">
+            <p class="bio-paragraph">{{ page.cabinet.web.bio }}</p>
+        </div>
+    </div>
+</div>

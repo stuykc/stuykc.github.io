@@ -4,52 +4,43 @@ title: Check Your Points
 ---
 <style>
 #points-container {position:absolute; margin-left:-20px; overflow:hidden; width:100%;}
-.hidden-desktop #points {position:relative; width:100%; top:-43px;}
-.visible-desktop #points {position:absolute; width:100%; top:-142px; min-height:360px;}
+#points.desktop {position:absolute; width:100%; top:-141px; min-height:360px;}
+#points {position:relative; width:100%; top:-27px;}
 </style>
 <!-- css -->
-<div class="hidden-desktop" id="points-container">
-    <iframe id="points" src='//docs.google.com/spreadsheet/lv?key=0Am7xy3_LFsTldF9XM2NBb0N4ZlA5QUNOdEU3eTh6Snc&rowsperpage=500'></iframe>
-</div>
-<div class="visible-desktop" id="points-container">
-    <iframe id="points" src='//docs.google.com/spreadsheet/ccc?key=0Am7xy3_LFsTldF9XM2NBb0N4ZlA5QUNOdEU3eTh6Snc#gid=0'></iframe>
+<div id="points-container">
+    <iframe class="desktop" id="points"></iframe>
 </div>
 <!-- scripts -->
 <script>
-$(document).ready(points);
-$(window).resize(points);
-function points() {
+$(document).ready(spreadsheet);
+$(document).resize(spreadsheet);
+function spreadsheet() {
   var h = $(window).height();
   var w = $(window).width();
-  if (w <= 567) {
-    $('div #points-container').each(function() {$(this).height(h - 5);});
-    $('div #points').each(function() {$(this).height(h + 90);});
-  }
-  else if (w <= 767) {
-    $('div #points-container').each(function() {$(this).height(h - 5);});
-    $('div #points').each(function() {$(this).height(h + 82);});
-  }
-  else if (w <= 979) {
-    $('div #points-container').each(function() {$(this).height(h - 53);});
-    $('div #points').each(function() {$(this).height(h + 35);});
+  if (w <= 767) {
+    $('#points').attr('src', '//docs.google.com/spreadsheets/d/1skD7dw75-NgeuTKDVrjheV92I3wA67tEI2txQ3CO_Hc/pubhtml').removeClass("desktop");
   }
   else {
-    $('div #points-container').each(function() {$(this).height(h - 51);});
-    $('div #points').each(function() {$(this).height(h + 125);});
+    $('#points').attr('src', '//docs.google.com/spreadsheets/d/1skD7dw75-NgeuTKDVrjheV92I3wA67tEI2txQ3CO_Hc/edit').addClass("desktop");
+  }
+  if (w <= 767) {
+    $('#points-container').height(h);
+    $('#points').height(h + 27);
+  }
+  else {
+    $('#points-container').height(h - 51);
+    $('#points').height(h + 125);
   }
 }
 </script>
 <script>
 $(document).ready(function() {
   $(window).focus(function() {
-    $('div[id="points-container"]').each(function() {
-      $(this).css("top", "").css("position", "absolute");
-    });
+    $('#points.desktop').parent().css("top", "").css("position", "absolute");
   });
   $(window).blur(function() {
-    $('div[id="points-container"]').each(function() {
-      $(this).css("top", "50px").css("position", "fixed");
-    });
+    $('#points.desktop').parent().css("top", "50px").css("position", "fixed");
   });
 });
 </script>

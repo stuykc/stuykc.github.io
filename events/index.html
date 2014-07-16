@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: events-page
 title: Events
 ---
 {% for event in paginator.posts %}
@@ -60,6 +60,7 @@ title: Events
     {% else %}
         <li class="disabled"><span>&laquo;</span></li>
     {% endif %}
+  {% if paginator.total_pages < 8 %} {% comment %} Nice navigation when there are a lot of pages {% endcomment %}
     {% for count in (1..paginator.total_pages) %}
         {% if paginator.page == forloop.index %}
             <li class="active"><span>{{ count }}</span></li>
@@ -69,6 +70,50 @@ title: Events
             <li><a href="/events/page{{ count }}/">{{ count }}</a></li>
         {% endif %}
     {% endfor %}
+  {% else %}
+    {% if paginator.page == 1 %}
+        <li class="active"><span>{{ paginator.page }}</span></li>
+        <li><a href="/events/page{{ paginator.next_page }}">{{ paginator.next_page }}</a></li>
+        <li><a href="/events/page{{ paginator.next_page | plus: 1 }}">{{ paginator.next_page | plus: 1 }}</a></li>
+        <li><a href="/events/page{{ paginator.next_page | plus: 2 }}">{{ paginator.next_page | plus: 2 }}</a></li>
+        <li class="disabled"><span> ... </span></li>
+        <li><a href="/events/page{{ paginator.total_pages }}/">{{ paginator.total_pages }}</a></li>
+    {% elsif paginator.page == 2 %}
+        <li><a href="/events/">1</a></li>
+        <li class="active"><span>{{ paginator.page }}</span></li>
+        <li><a href="/events/page{{ paginator.next_page }}">{{ paginator.next_page }}</a></li>
+        <li><a href="/events/page{{ paginator.next_page | plus: 1 }}">{{ paginator.next_page | plus: 1 }}</a></li>
+        <li class="disabled"><span> ... </span></li>
+        <li><a href="/events/page{{ paginator.total_pages }}/">{{ paginator.total_pages }}</a></li>
+    {% elsif paginator.next_page == paginator.total_pages %}
+        <li><a href="/events/">1</a></li>
+        <li class="disabled"><span> ... </span></li>
+        <li><a href="/events/page{{ paginator.previous_page | minus: 1 }}/">{{ paginator.previous_page | minus: 1 }}</a></li>
+        <li><a href="/events/page{{ paginator.previous_page }}/">{{ paginator.previous_page }}</a></li>
+        <li class="active"><span>{{ paginator.page }}</span></li>
+        <li><a href="/events/page{{ paginator.total_pages }}/">{{ paginator.total_pages }}</a></li>
+    {% elsif paginator.page == paginator.total_pages %}
+        <li><a href="/events/">1</a></li>
+        <li class="disabled"><span> ... </span></li>
+        <li><a href="/events/page{{ paginator.previous_page | minus: 2 }}/">{{ paginator.previous_page | minus: 2 }}</a></li>
+        <li><a href="/events/page{{ paginator.previous_page | minus: 1 }}/">{{ paginator.previous_page | minus: 1 }}</a></li>
+        <li><a href="/events/page{{ paginator.previous_page }}/">{{ paginator.previous_page }}</a></li>
+        <li class="active"><span>{{ paginator.page }}</span></li>
+    {% else %}
+        <li><a href="/events/">1</a></li>
+        {% unless paginator.page == 3 %}
+            <li class="disabled"><span> ... </span></li>
+        {% endunless %}
+        <li><a href="/events/page{{ paginator.previous_page }}/">{{ paginator.previous_page }}</a></li>
+        <li class="active"><span>{{ paginator.page }}</span></li>
+        <li><a href="/events/page{{ paginator.next_page }}/">{{ paginator.next_page }}</a></li>
+        {% assign ugh = paginator.total_pages | minus: 2 %}
+        {% unless paginator.page == ugh %}
+            <li class="disabled"><span> ... </span></li>
+        {% endunless %}
+        <li><a href="/events/page{{ paginator.total_pages }}/">{{ paginator.total_pages }}</a></li>
+    {% endif %}
+  {% endif %}
     {% if paginator.next_page %}
         <li><a href="/events/page{{ paginator.next_page }}/">&raquo;</a></li>
     {% else %}

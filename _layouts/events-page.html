@@ -1,0 +1,26 @@
+---
+layout: default
+---
+{% if content contains "<!-- css -->" %}
+    {{ content | split: "<!-- css -->" | first }}<!-- css -->
+{% endif %}
+<div class="container">
+    <div class="kc-header">
+        <div class="row">
+            <div class="span5">
+                <h1>{{ page.title }}{% unless paginator.page == 1 %} <small> - Page {{ paginator.page }}</small>{% endunless %}</h1>
+            </div>
+            <div class="span5 offset2">
+                <script>(function() {var cx = '016316703540146747241:8qznlrnyhro';var gcse = document.createElement('script');gcse.type = 'text/javascript';gcse.async = true;gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +'//www.google.com/cse/cse.js?cx=' + cx;var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(gcse, s);})();</script>
+                {% comment %}Styles to customize CSE{% endcomment %}
+                <style>.gsc-control-cse {padding: 20px 1em 0 1em; line-height: normal;} #gsc-i-id1 {background: none !important;} .gsc-control-cse input, input:focus {box-shadow: none !important; transition: none !important;} .gscb_a {font: 20px/20px arial,sans-serif;} @media screen and (max-width: 767px) {.gsc-results-wrapper-overlay {margin-left: -18px;}}</style>
+                <gcse:search></gcse:search>
+            </div>
+        </div>
+        <img class="kc-divider" src="/img/green-divider.png" alt="Key Club Pencil">
+    </div>
+    {{ content | split: "<!-- css -->" | last | split: "<!-- scripts -->" | first }}
+</div>
+{% if content contains "<!-- scripts -->" %}
+    <!-- scripts --> {{ content | split: "<!-- scripts -->" | last }}
+{% endif %}

@@ -11,4 +11,4 @@ Also, please fill out [this waiver form](https://docs.google.com/document/d/1nuR
 
 <!-- more -->
 
-### Directions: <small markdown="1">[https://docs.google.com/file/d/0B27xy3_LFsTlc3VwTU9mbGVIcmc/edit](https://docs.google.com/file/d/0B27xy3_LFsTlc3VwTU9mbGVIcmc/edit)</small>
+_Directions:_ [https://docs.google.com/file/d/0B27xy3_LFsTlc3VwTU9mbGVIcmc/edit](https://docs.google.com/file/d/0B27xy3_LFsTlc3VwTU9mbGVIcmc/edit)
