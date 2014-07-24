@@ -9,4 +9,4 @@ link: https://docs.google.com/forms/d/1Drt53u1sEHiLzXyrN6bilL2_9x3Gu7S_vXZlKe81F
 ---
 Come join us participate in a huge awareness campaign for Hepatitis B and C.  This is a huge event and we would love if everyone can sign up and participate in this event.  So go out there with your friends and join us in the freeze mob
  
-**Also Sign up [Here](https://docs.google.com/forms/d/16ODBKHkDtuM2TVZXBGsYwkZgZmx2_7YCxQmJLZ82Kis/viewform) **
+**Also Sign up [Here](https://docs.google.com/forms/d/16ODBKHkDtuM2TVZXBGsYwkZgZmx2_7YCxQmJLZ82Kis/viewform)**
