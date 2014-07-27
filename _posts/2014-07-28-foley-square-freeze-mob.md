@@ -1,7 +1,7 @@
 ---
 layout: event
 title: World Hepatitis Day 5 Borough Awareness Event and Foley Square Freeze Mob
-time: 12PM - 1PM
+time: 11AM - 1PM
 locations:
     - <a href="http://directions.nydkc11.org/2014/07/28/World_Hepatitis_Day/">Awareness Event - Chinatown, Charles B. Wang Community Health Center, 268 Canal St</a>
     - <a href="http://directions.nydkc11.org/2014/07/28/World_Hepatitis_Day/">Foley Square Freeze Mob -  Foley Square Centre St & Worth St</a>
