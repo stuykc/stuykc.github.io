@@ -6,9 +6,9 @@ dates:
     - Sat, Aug 9, 2014 (6:30AM - 10AM/10AM - 1PM)
     - Sat, Aug 16, 2014 (6:30AM - 10AM/10AM - 1PM)
 locations:
-    - <a href="http://directions.nydkc11.org/2014/08/02/Summer_Streets/">Zones 1 and 2 - E 51st St &amp; Park Av, New York, NY 10022</a>
-    - <a href="http://directions.nydkc11.org/2014/08/02/Summer_Streets/">Zones 3 and 4 - E 24th St &amp; Park Av, New York, NY 10010</a>
-    - <a href="http://directions.nydkc11.org/2014/08/02/Summer_Streets/">Zones 5 and 6 - Kenmare St &amp; Lafayette St, New York, NY 10010</a>
+    - <a href="http://directions.nydkc11.org/2014/08/09/Summer_Streets/">Zones 1 and 2 - E 51st St &amp; Park Av, New York, NY 10022</a>
+    - <a href="http://directions.nydkc11.org/2014/08/09/Summer_Streets/">Zones 3 and 4 - E 24th St &amp; Park Av, New York, NY 10010</a>
+    - <a href="http://directions.nydkc11.org/2014/08/09/Summer_Streets/">Zones 5 and 6 - Kenmare St &amp; Lafayette St, New York, NY 10010</a>
 link: https://docs.google.com/forms/d/1wEQSs33lfOCGfGvJ8icY54m9bQf0g4ZAKYJURxbhWn0/viewform
 redirect_from: /events/2014/08/02/summer-streets/
 ---
