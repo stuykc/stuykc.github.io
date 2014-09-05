@@ -2,7 +2,7 @@
 layout: event
 title: NYC Century Bike Tour
 time: 9:30AM - 2:30PM
-location: Central Park
+location: <a href="http://directions.nydkc11.org/2014/09/07/NYC_Century_Bike_Tour/">Central Park</a>
 link: https://docs.google.com/forms/d/18Kz6_ERLzr-Cw_UYWkl7xnTinT0g8b3j0UsU8hvEofY/viewform
 ---
 Help out at the 25th NYC Century Bike Tour by setting up for the race, volunteering at local parts, or guiding bicyclists. You will receive a free T-shirt to wear, so be sure to include your T-shirt size.
