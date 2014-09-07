@@ -2,7 +2,7 @@
 layout: event
 title: NYC Marathon
 time: 11:30AM - 4:30PM
-location: Mile 18 of the Marathon (1st ave and 96th)
+location: Mile 18 of the Marathon (1st Ave and 96th)
 link: https://docs.google.com/forms/d/16W1uk24z-4o1_ubV-ZM74YvbR22za6RW90K3EpU_wH4/viewform
 ---
 The annual NYC Marathon needs our help in order to be a smooth experience for everyone that is running.  As a result, we will be helping out by filling water and handing it out to runners along the route.  We will be helping out at Mile 18 of the marathon during the 2nd Shfit.  Although this event is in November, the volunteer sign ups are occurring now and are filling up rapidly.  To sign up for it, follow the instructions in this document:
