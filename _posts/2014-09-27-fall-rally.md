@@ -15,6 +15,8 @@ This year's Fall Rally will be better than ever, and will include
  - Guest Speakers
  - Lunch
 
-*Please Note that Admission is $10*
+*Please Note that Admission is $10 and the dress code is Business Casual*
+
+We will be selling T-shirts at Fall Rally
 
 Please also sign up [here](https://docs.google.com/forms/d/1TMk3dszKsbblOhB41fhl3nbpwJa3nCBvYQSq_xZ_RT8/viewform)
