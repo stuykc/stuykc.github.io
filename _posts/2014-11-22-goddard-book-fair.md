@@ -2,7 +2,7 @@
 layout: event
 title: Goddard Book Fair
 location: 593 Columbus Avenue, New York, NY 10024
-times:
+dates:
     - Sat, 11/22: 9AM - 2PM
     - Sat, 11/22: 1:30PM - 6PM
     - Sun, 11/23: 10AM - 3PM
