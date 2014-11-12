@@ -2,8 +2,8 @@
 layout: event
 title: Goddard Book Fair
 dates:
-    - Saturday, November 22 (9AM - 2PM/1:30PM - 6PM)
-    - Sunday, November 23 (10AM - 3PM/2:30 PM - 7PM/5PM - 8PM)
+    - Saturday, Nov 22 (9AM - 2PM/1:30PM - 6PM)
+    - Sunday, Nov 23 (10AM - 3PM/2:30 PM - 7PM/5PM - 8PM)
 location: 593 Columbus Avenue, New York, NY 10024
 link: https://docs.google.com/forms/d/14nadZ2Eis4AkFm2cQK9uOQB1RkJ4o5MAOTd4bNGLf8U/viewform
 ---
