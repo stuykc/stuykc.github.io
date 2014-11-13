@@ -1,7 +1,7 @@
 ---
 layout: event
 title: Goddard Book Fair Sorting
-time: 5PM - 9PM (Subject to Change)
+time: 5PM - 7PM (You may stay later)
 location: 593 Columbus Avenue, New York, NY 10024
 link: https://docs.google.com/forms/d/1LhNf5BazoHdY28DjVlNNUeEmTWk4FtDbXmknp7SUbMY/viewform
 ---
