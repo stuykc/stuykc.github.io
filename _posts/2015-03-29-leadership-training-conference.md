@@ -12,5 +12,5 @@ We will be joining the rest of New York District Key Clubbers in an annual confe
 
 As of now, we do not have a final price available for people who will be attending as we are working hard to get funding for you guys so you will have to pay the least. We are expecting the cost to be somewhere around $200. We know that this is a lot of money for most of you guys but we will continue to get other sources of money as the official pricing is $280 per person. We will continue to keep you posted about any updates and information available. If you have any questions, feel free to email us or ask about it in our next meeting.
 
-**However, to be able to participate in this trip, you MUST be an official Key Clubber. This means that you HAVE to pay dues with us. Please sign up on the link above if you are interested in going.**
+**However, to be able to participate in this trip, you MUST be an official Key Clubber. This means that you HAVE to pay dues with us. Please sign up with the link below if you are interested in going.**
 
