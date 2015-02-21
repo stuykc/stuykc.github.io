@@ -1,7 +1,7 @@
 ---
 layout: event
 title: Chinese New Year Parade
-time: 10AM - 2PM
+time: 11AM - 2PM
 location: Mott St & Hester St, New York, NY 10013
 link: https://docs.google.com/forms/d/1NhHtMkRv8O7lwHREFH9k5dVm-GcFmPPO97Hh99ajpjc/viewform
 ---
