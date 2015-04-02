@@ -1,7 +1,7 @@
 ---
 layout: event
 title: Easter Extravaganza 2015
-time: 11:00AM - 4:00PM
+time: 10:00AM - 3:30PM
 location: Target East Harlem Garden
 link: http://goo.gl/forms/Zov4VPeFNi
 ---
