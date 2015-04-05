@@ -1,7 +1,7 @@
 ---
 layout: event
 title: Serving Dinner at Ronald McDonald House
-time: 5:30PM - 8:30PM
+time: 5:30PM - 9:00PM
 location: Ronald McDonald House (405 East 73rd Street, New York, NY 10021)
 link: http://goo.gl/forms/zGP4EWrzlR
 ---
