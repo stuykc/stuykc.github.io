@@ -1,7 +1,7 @@
 ---
 layout: event
 title: April Divisional
-time: 6:00PM - 7:00PM
+time: 6:00PM - 7:30PM
 location: Hunter College High School (71 East 94th Street, New York, NY 10128)
 link: http://goo.gl/rCsVZt
 ---
