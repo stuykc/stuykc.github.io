@@ -1,25 +1,9 @@
 ---
 layout: default
 title: Stuyvesant High School Key Club 
-carousel:
-    - img: img/carousel/join.jpg
-      caption-header: Join Stuyvesant Key Club
-      caption-body: Welcome to Stuyvesant Key Club
-      read-more-link: http://join.stuykc.org
-    - img: img/carousel/trick-or-treat-unicef.jpg
-      caption-header: Trick-or-Treat Unicef
-      caption-body: Help raise money for the ELIMINATE Project by collecting loose change
-      read-more: /news/trick-or-treat-unicef/
-    - img: /img/carousel/library-tutoring.jpg
-      caption-header: Library Tutoring
-      caption-body: Come help out our local libraries by tutoring kids!
-      read-more-link: /news/library-tutoring/
-
 redirect_from:
     - /test/
 ---
-{% assign show = 9 %}
-
 <style>
 .carousel {margin-top:15px;}
 .carousel .btn {margin-top:-2px; vertical-align:top;}
@@ -29,7 +13,7 @@ redirect_from:
 .keyclub-logo {padding:15px 0px; max-width:85%;} 
 </style>
 {% comment %}
-{% for event in site.posts reversed limit: show %}
+{% for event in site.posts reversed limit: site.data.settings.front_page_events %}
     {% if event.content contains "<!-- event-css -->" %}
         {{ event.content | split: "<!-- event-css -->" | first }}
     {% endif %}
@@ -40,7 +24,7 @@ redirect_from:
     <div id="myCarousel" class="carousel slide">
         <!-- Carousel items -->
         <div class="carousel-inner">
-            {% for item in page.carousel %}
+            {% for item in site.data.carousel %}
                 <div class="{% if forloop.first %}active {% endif %}item">
                     <img src="{{ item.img }}" alt="{{ item.caption-header }}">
                     {% if item.caption-header or item.caption-body %}
@@ -60,7 +44,7 @@ redirect_from:
     <div class="row">
         <div class="span9">
             <h1 id="events-header">Upcoming Events:</h1>
-            {% if show == 0 %}
+            {% if site.data.settings.front_page_events == 0 %}
             <div class="event-preview">
                 <div class="event-info" style="margin-top:30px;color:#46a546;">
                     <p>
@@ -75,7 +59,7 @@ redirect_from:
             </div>
             <hr>
             {% else %}
-            {% for event in site.posts reversed limit: show %}
+            {% for event in site.posts reversed limit: site.data.settings.front_page_events %}
             <div class="event-preview">
                 <h3><a href="{{ event.url }}">&raquo; {{ event.title }}</a></h3>
                 <div class="event-info">
@@ -162,7 +146,7 @@ $(document).ready(function() {
 });
 </script>
 {% comment %}
-{% for event in site.posts reversed limit: show %}
+{% for event in site.posts reversed limit: site.data.settings.front_page_events %}
     {% if event.content contains "<!-- event-scripts -->" %}
         {{ event.content | split: "<!-- event-scripts -->" | last }}
     {% endif %}
