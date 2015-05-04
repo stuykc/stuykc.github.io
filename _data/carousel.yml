@@ -1,12 +1,16 @@
-- img: img/carousel/join.jpg
-  caption-header: join stuyvesant key club
-  caption-body: welcome to stuyvesant key club
+- img: /img/carousel/join.jpg
+  caption-header: Join Stuyvesant Key Club
+  caption-body: Welcome to Stuyvesant Key Club
   read-more-link: http://join.stuykc.org
-- img: img/carousel/trick-or-treat-unicef.jpg
-  caption-header: trick-or-treat unicef
-  caption-body: help raise money for the eliminate project by collecting loose change
+- img: /img/carousel/elections-person.jpg
+  caption-header: 2015-2016 Election Results
+  caption-body: Congratulations to the newly elected officers for the 2015-2016 service year!
+  read-more-link: /news/election-results-2015/
+- img: /img/carousel/trick-or-treat-unicef.jpg
+  caption-header: Trick-or-Treat for Unicef
+  caption-body: Help raise money for the eliminate project by collecting loose change.
   read-more: /news/trick-or-treat-unicef/
 - img: /img/carousel/library-tutoring.jpg
-  caption-header: library tutoring
-  caption-body: come help out our local libraries by tutoring kids!
+  caption-header: Library Tutoring
+  caption-body: Come help out our local libraries by tutoring kids!
   read-more-link: /news/library-tutoring/
