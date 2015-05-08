@@ -18,6 +18,7 @@ Through the experiences we gain with from voluteering, fundraising, and advocati
 
 *Dues are used to pay for membership items such as booklets, cards and pins. Ultimately, __the dues will go back to you, the members__, since they go to paying for Key Club's amazing events such as Fall Rally, and the [district/international conferences]({% post_url 2014-03-30-leadership-training-conference %})!*
 
-<div class="text-center">
-    <img src="/img/photos/stuykc.jpg" alt="Stuyvesant Key Club">
+<div class="span8 offset2">
+    <img src="/img/photos/stuykc-yearbook-2015.jpg" alt="Stuyvesant Key Club">
+    <p class="text-center"><i>Together, we are one proud and happy family :)</i></p>
 </div>
