@@ -1,7 +1,7 @@
 ---
 layout: event
 title: CPLDC 8th Annual Fundraising Gala
-time: 4:00AM - 9:00PM
+time: 4:00PM - 9:00PM
 location: <a href="http://tiny.cc/sm1uyx">Jing Fong Restaurant</a>
 link: http://goo.gl/forms/fwOQZiO89F
 ---
