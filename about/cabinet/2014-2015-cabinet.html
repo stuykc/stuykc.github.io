@@ -1,0 +1,83 @@
+---
+layout: page
+title: The Cabinet
+cabinet:
+    pres:
+        name: Jacky Lin
+        img: /img/cabinet/jackylin.jpg
+        bio: Jacky knows what it means to be a president of a large club. He is the one that solves our money problems and without him, we would not be able to plan the amazing things we have for the members! Jacky looks forward to this school year as he has planned many exciting things for the members. So keep your eyes open for those! His passion for Key Club is only matched by his lovable personality and his amazing looks. Talk to him and see what we mean! His email is <a href="mailto:jackylin.treas@stuykc.org">jackylin.pres@stuykc.org</a>.
+    vp:
+        name: Wilson Luo
+        img: /img/cabinet/wilsonluo.jpg
+        bio: Hey Stuy Key Club! I am Wilson Luo, and I'm proud to say that I am your Vice President of the 2014-2015 service year. Key Club has opened my eyes to many aspects of life, from service, to leadership, and I hope that I can serve you well this year so you could have an even better experience than I did. Outside of Key Club, I enjoy watching anime and playing basketball and handball. If you have any questions, feel free to contact me at <a href="mailto:wilsonluo.vp@stuykc.org"> wilsonluo.vp@stuykc.org </a> or find me on Facebook! Hope we have a great year!
+    sec:
+        name: Dorothy Chen 
+        img: /img/cabinet/dorothychen.jpg
+        bio: My name is Dorothy Chen and I am glad to be your Secretary this service year. Since joining Key Club, community service has become an indispensable part in my life. Besides, I enjoy watching movies. I realized my love for fiction when I watched Lord of the Rings and Star Wars over and over again. Now I started to watch some literary film and tried to understand them. Key Club is a family, giving me friendship, spirit and enthusiasm. I hope you can find the same things and even more here! You can contact me at <a href="dorothychen.sec@stuykc.org">dorothychen.sec@stuykc.org</a>.
+    treas:
+        name: Nicole Ng
+        img: /img/cabinet/nicoleng.jpg
+        bio: Hi, Key Clubbers! I am Nicole Ng, your treasurer for this service year. I am excited to serve as your treasurer and to plan amazing fundraisers for you guys. Being in Key Club has been a truly rewarding experience. I have made a lot of new friends and I enjoy volunteering with them. Key Club has been a part of my high school life since I was a freshman and it will continue to be. I am always eager to hear your suggestions and questions so feel free to contact me anytime at <a href="nicoleng.treas@stuykc.org">nicoleng.treas@stuykc.org</a>
+    edit:
+        name: Jane Chen
+        img: /img/cabinet/janechen.jpg
+        bio: Hello everyone! I’m Jane and it’s my pleasure working with you as Stuy Key Club’s bulletin editor. I’ve been with Key Club since the start of my sophomore year, so I am excited to be part of the cabinet for the 2014-2015 service year. I really look forward to continuing the legacy of The Locksmith that our previous bulletin editor revived. Aside from Key Club and writing, I also enjoy spending most of my leisure watching newly released anime and videos on Youtube. If anyone is interested in writing for our newsletter, feel free to contact me at <a href="janechen.editor@stuykc.org">janechen.editor@stuykc.org</a> or message me on Facebook. 
+    web:
+        name: Stanley Lok
+        img: /img/cabinet/stanleylok.jpg
+        bio: Hey Key Club! As your webmaster this year, I am tasked with updating this website. However, my most important duty is to be out and about volunteering at many differet events and be with the rest of Stuyvesant Key Club. I believe that volunteering is the best part about key club because you not only get to help the community out, but you can meet other people that are just as passionate as you are. If you have any suggestions about the website or have any questions feel free to contact me at <a href="mailto:stanleylok@stuykc.org">stanleylok@stuykc.org</a>.
+---
+<style>
+.bio {display: inline-block;}
+.bio-photo {padding-right: 10px; padding-bottom: 10px;}
+.bio-paragraph {font-family: Open Sans; font-size: 13px; line-height: 20px;}
+</style>
+<!-- css -->
+<div class="row">
+    <div class="span6">
+        <h3>President <small>- {{ page.cabinet.pres.name }}</small></h3>
+        <div class="bio">
+            <img class="pull-left bio-photo" alt="{{ page.cabinet.pres.name }}" src="{{ page.cabinet.pres.img }}">
+            <p class="bio-paragraph">{{ page.cabinet.pres.bio }}</p>
+        </div>
+    </div>
+    <div class="span6">
+        <h3>Vice President <small>- {{ page.cabinet.vp.name }}</small></h3>
+        <div class="bio">
+            <img class="pull-left bio-photo" alt="{{ page.cabinet.vp.name }}" src="{{ page.cabinet.vp.img }}">
+            <p class="bio-paragraph">{{ page.cabinet.vp.bio }}</p>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="span6">
+        <h3>Secretary <small>- {{ page.cabinet.sec.name }}</small></h3>
+        <div class="bio">
+            <img class="pull-left bio-photo" alt="{{ page.cabinet.sec.name }}" src="{{ page.cabinet.sec.img }}">
+            <p class="bio-paragraph">{{ page.cabinet.sec.bio }}</p>
+        </div>
+    </div>
+    <div class="span6">
+        <h3>Treasurer <small>- {{ page.cabinet.treas.name }}</small></h3>
+        <div class="bio">
+            <img class="pull-left bio-photo" alt="{{ page.cabinet.treas.name }}" src="{{ page.cabinet.treas.img }}">
+            <p class="bio-paragraph">{{ page.cabinet.treas.bio }}</p>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="span6">
+        <h3>Editor <small>- {{ page.cabinet.edit.name }}</small></h3>
+        <div class="bio">
+            <img class="pull-left bio-photo" alt="{{ page.cabinet.edit.name }}" src="{{ page.cabinet.edit.img }}">
+            <p class="bio-paragraph">{{ page.cabinet.edit.bio }}</p>
+        </div>
+    </div>
+    <div class="span6">
+        <h3>Webmaster <small>- {{ page.cabinet.web.name }}</small></h3>
+        <div class="bio">
+            <img class="pull-left bio-photo" alt="{{ page.cabinet.web.name }}" src="{{ page.cabinet.web.img }}">
+            <p class="bio-paragraph">{{ page.cabinet.web.bio }}</p>
+        </div>
+    </div>
+</div>
