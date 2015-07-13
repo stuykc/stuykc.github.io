@@ -7,4 +7,4 @@ link: https://docs.google.com/forms/d/1MVYcXEXGOo43rKW5j4JlfQ7zx-fu_xfBhfLzaIMAN
 ---
 Fall Rally is one of the largest events of the service year. Not only will you be able to learn about Key Club, but you will also have the opportunity to meet Key Clubbers from other divisions. There will be over 25 workshops and panels presented by Key Club International, handouts and presentation materials, free lunch, and the opportunity to meet the super cool Thirst Project Team!
 
-**The admission price is $10.Also, if you would like to hold a workshop, please apply [here](https://docs.google.com/forms/d/1aSE8peXYB9WZZLySaMimsI8gE7cXlNBReRhFjK2e0Ow/viewform?c=0&w=1) and email our Lieutenant Governor your presentations by September 20th.**
+**The admission price is $10. Also, if you would like to hold a workshop, please apply [here](https://docs.google.com/forms/d/1aSE8peXYB9WZZLySaMimsI8gE7cXlNBReRhFjK2e0Ow/viewform?c=0&w=1) and email our Lieutenant Governor your presentations by September 20th.**
