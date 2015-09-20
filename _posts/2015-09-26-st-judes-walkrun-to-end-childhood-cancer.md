@@ -7,7 +7,7 @@ link: http://goo.gl/forms/Jddfi7wUAA
 ---
 On September 26th, St Judes will be hosting a walk to raise funds for St. Judes Children's Research Hospital. This hospital works to end childhood cancer entirely free of cost. We will assist with tasks such as event set up, breakdown, cheering along the course, etc. Volunteers will be provided with T-shirts and refreshments so come and invite your friends!
 
-**Also sign up [here](http://fundraising.stjude.org/site/TR/Walk/Walk?pg=entry&fr_id=40396)**
+**Also, please sign up [here](http://fundraising.stjude.org/site/TR/Walk/Walk?pg=entry&fr_id=40396).**
 
 *To sign up on the second link you must register and select: Join a team.
 Search for Stuyvesant Key Club and select "Join". Select "Fundraise Only" on the next page. On the next page just fill out all required fields and the rest should be self-explanatory. If you need help with registering just send an email back to us.
