@@ -1,10 +1,22 @@
 ---
 layout: event
-title: Divisions 8-13 Fall Rally
+title: Fall Rally
 time: 9:00AM - 4:00PM
-location: <a href="https://www.here.com/directions/drive/mylocation/NYU-Global-Spiritual-Life-NYU-Center-for-Spiritual-Life:40.72987,-73.998177?map=40.72987,-73.99818,14,traffic&x=ep">NYU Global Center for Academic and Spiritual Life</a>
-link: https://docs.google.com/forms/d/1MVYcXEXGOo43rKW5j4JlfQ7zx-fu_xfBhfLzaIMANss/viewform?c=0&w=1
+location: <a href="https://www.google.com/maps/place/238+Thompson+St,+New+York,+NY+10012/@40.7298729,-73.9982425,17z/data=!3m1!4b1!4m2!3m1!1s0x89c25991a91649b3:0x900beb64e42cf49e">NYU Center for Spiritual Life</a>
+link: http://goo.gl/forms/34rOhJEnPM
 ---
-Fall Rally is one of the largest events of the service year. Not only will you be able to learn about Key Club, but you will also have the opportunity to meet Key Clubbers from other divisions. There will be over 25 workshops and panels presented by Key Club International, handouts and presentation materials, free lunch, and the opportunity to meet the super cool Thirst Project Team!
+Fall Rally is one of the largest events of the service year. Not only will you be able to learn about Key Club, but you will also have the opportunity to meet Key Clubbers from other divisions. 
 
-**The admission price is $10. Also, if you would like to hold a workshop, please apply [here](https://docs.google.com/forms/d/1aSE8peXYB9WZZLySaMimsI8gE7cXlNBReRhFjK2e0Ow/viewform?c=0&w=1) and email our Lieutenant Governor your presentations by September 20th.**
+**The admission price is $10.**
+What's included:
+<ul>
+<li>Over 25 workshops or panels presented by Key Club International</li>
+<li>Handouts and presentation materials</li>
+<li>Free lunch</li>
+<li>Get to meet the super cool Thirst Project Team!</li>
+</ul>
+
+**If you would like to hold a workshop, please apply [here](https://docs.google.com/forms/d/1aSE8peXYB9WZZLySaMimsI8gE7cXlNBReRhFjK2e0Ow/viewform?c=0&w=1)**
+Workshop presentations should be emailed to LTG Emily Li by <bold>September 20</bold>
+
+**Please sign up [here](https://docs.google.com/forms/d/1MVYcXEXGOo43rKW5j4JlfQ7zx-fu_xfBhfLzaIMANss/viewform?c=0&w=1) as well**
