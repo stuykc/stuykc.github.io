@@ -8,7 +8,7 @@ link: http://goo.gl/forms/34rOhJEnPM
 Fall Rally is one of the largest events of the service year. Not only will you be able to learn about Key Club, but you will also have the opportunity to meet Key Clubbers from other divisions. 
 
 **The admission price is $10.**
-What's included:
+Here's what's included:
 <ul>
 <li>Over 25 workshops or panels presented by Key Club International</li>
 <li>Handouts and presentation materials</li>
@@ -16,7 +16,8 @@ What's included:
 <li>Get to meet the super cool Thirst Project Team!</li>
 </ul>
 
-**If you would like to hold a workshop, please apply [here](https://docs.google.com/forms/d/1aSE8peXYB9WZZLySaMimsI8gE7cXlNBReRhFjK2e0Ow/viewform?c=0&w=1)**
-Workshop presentations should be emailed to LTG Emily Li by <bold>September 20</bold>
+**If you would like to hold a workshop, please apply [here](https://docs.google.com/forms/d/1aSE8peXYB9WZZLySaMimsI8gE7cXlNBReRhFjK2e0Ow/viewform?c=0&w=1).**
 
-**Please sign up [here](https://docs.google.com/forms/d/1MVYcXEXGOo43rKW5j4JlfQ7zx-fu_xfBhfLzaIMANss/viewform?c=0&w=1) as well**
+Workshop presentations should be emailed to LTG Emily Li by <bold>September 20th</bold>.
+
+**Please sign up [here](https://docs.google.com/forms/d/1MVYcXEXGOo43rKW5j4JlfQ7zx-fu_xfBhfLzaIMANss/viewform?c=0&w=1) as well.**

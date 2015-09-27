@@ -10,4 +10,4 @@ We will also be giving out the prizes to our “Become a Key Player” promotion
 
 Current Key Clubbers who come support us at the interest meeting will receive 30 points and you'll receive an additional 30 points for wearing Key Club apparel, so please come out to show your Key Club pride!
 
-**Sign up for Stuyvesant Key Club [here](http://join.stuykc.org/)**
+**Sign up to join Stuyvesant Key Club [here](http://join.stuykc.org/)!**
