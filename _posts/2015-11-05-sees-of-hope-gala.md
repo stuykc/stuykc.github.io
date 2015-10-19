@@ -1,6 +1,6 @@
 ---
 layout: event
-title: Nami-NYC Sees of Hope Gala
+title: Nami-NYC Seeds of Hope Gala
 time: 4:00PM - 8:00PM
 location: Metropolitan Pavilion (123 West 18th Street, New York, NY 10011)
 link: http://goo.gl/forms/QODp9YyWbB
