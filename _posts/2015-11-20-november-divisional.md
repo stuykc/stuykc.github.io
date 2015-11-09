@@ -6,5 +6,6 @@ location: The High School of Math, Science, and Engineering (240 Convent Ave, Ne
 link: http://goo.gl/forms/QmCsftUlbk
 ---
 Come meet fellow Key Clubbers while learning about updates and new events in our division!
+
 **Also, please be sure to sign up [here](http://goo.gl/forms/hdBcLqoNDL).**
 
