@@ -4,6 +4,7 @@ title: B&N Tribeca Gift Wrap
 dates:
     - Tuesday, December 1st (3:00PM - 8:00PM)
     - Wednesday, December 2nd (3:00PM - 8:00PM)
+    - Monday, December 7th (3:00PM - 8:00PM)
 location: Barnes & Nobles at Tribeca (by Stuyvesant)
 link: http://goo.gl/forms/KO3PPkklBE
 ---
