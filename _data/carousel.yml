@@ -6,10 +6,10 @@
   caption-header: 2015-2016 Election Results
   caption-body: Congratulations to the newly elected officers for the 2015-2016 service year!
   read-more-link: /news/election-results-2015/
-- img: /img/carousel/trick-or-treat-unicef.jpg
-  caption-header: Trick-or-Treat for Unicef
-  caption-body: Help raise money for the eliminate project by collecting loose change.
-  read-more-link: /news/trick-or-treat-unicef/
+##- img: /img/carousel/trick-or-treat-unicef.jpg
+##  caption-header: Trick-or-Treat for Unicef
+##  caption-body: Help raise money for the eliminate project by collecting loose change.
+##  read-more-link: /news/trick-or-treat-unicef/
 - img: /img/carousel/library-tutoring.jpg
   caption-header: Library Tutoring
   caption-body: Come help out our local libraries by tutoring kids!
