@@ -9,4 +9,4 @@ This is a really fun divisional in which we will be stuffing toys to give away t
 
 **Make sure to also sign up [here](http://bit.ly/1Oxp9ux)!**
 
-**And pick a stuffed animal [here](http://bit.ly/1Q5DVKA)!**
+**The deadline to sign up for animals to stuff has already passed, but please still come!**
