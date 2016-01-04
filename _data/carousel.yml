@@ -1,6 +1,3 @@
-- img: /img/carousel/happy-holidays.jpg
-  caption-header: Merry Christmas!!!
-  caption-body: On behalf of all of us, we would like to wish you a Merry Christmas and Happy Holidays!! Even with all the work we may have, please enjoy this time with friends and family!
 - img: /img/carousel/join.jpg
   caption-header: Join Stuyvesant Key Club
   caption-body: Welcome to Stuyvesant Key Club! Feel free to sign up to join and start receiving our emails! 
@@ -9,7 +6,4 @@
   caption-header: Library Tutoring
   caption-body: Come help out our local libraries by tutoring kids!
   read-more-link: /news/library-tutoring/
-- img: /img/carousel/elections-person.jpg
-  caption-header: 2015-2016 Election Results
-  caption-body: Congratulations to the newly elected officers for the 2015-2016 service year!
-  read-more-link: /news/election-results-2015/
+
