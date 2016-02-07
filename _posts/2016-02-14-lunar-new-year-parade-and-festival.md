@@ -1,8 +1,10 @@
 ---
 layout: event
-title: Lunar New Year Parade & Festival
+title: Lunar New Year Parade
 time: 9AM - 4PM
-location: TBA (<a href="http://betterchinatown.com/wp-content/uploads/2014/11/Screen-Shot-2014-11-29-at-7.48.10-PM.png">parade route</a>)
-link: http://goo.gl/forms/sAvx0SoUXE
+location: <a href="https://www.google.com/maps/place/Mott+St+%26+Hester+St,+New+York,+NY+10013">Mott St. and Hester St.</a>
+link: http://goo.gl/forms/QuxUkHt30x
 ---
-Better Chinatown Society will be hosting their annual Lunar New Year celebrations will be held all throughout February this year! Sunday, February 14 is the 17th Annual New Year Parade in Chinatown. We will be setting up and walking with the organization that is backbone of it all: Better Chinatown. In past years, we handed out flyers and freebies, shot off confetti sticks at passing floats, and interacted with tourists and celebrity guests before the parade. You won't want to miss this!
+This year, Key Club will be walking with Chinatown Kiwanis in the annual Chinese New Year Parade! The parade will be looping around Chinatown, starting at Mott Street and finishing off on Grand Street. Chinatown Kiwanis is our sponsoring Kiwanis club, so we highly encourage you guys to come to the event! Also, it's just cool to march in the parade and have all those strangers cheering us on!
+
+<i>If you are members of another school's Key Club, you can attend the event with us! Just put in the 4-digit ID space the name of your school.</i>
