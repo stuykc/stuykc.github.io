@@ -1,7 +1,7 @@
 ---
 layout: event
 title: Amazing Race Planning Committee Application
-time: Due March 21st, 11:59PM
+time: Due March 23rd, 11:59PM
 location: Online
 link: http://goo.gl/forms/Z3wjvcUCZQ
 ---
