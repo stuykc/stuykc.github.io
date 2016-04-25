@@ -1,0 +1,83 @@
+---
+layout: page
+title: The Cabinet
+cabinet:
+    pres:
+        name: Sissi Zheng
+        img: /img/cabinet/sissizheng.jpg
+        bio: Hi Key Clubbers! I am Wenxi (Sissi) Zheng, better known as just Sissi. I am very excited to serve you guys as your President this service year, and I hope I can lead us to greater accomplishments and new heights! This year I plan to implement numerous changes such as planning more effective meetings and promoting Key Club more within our school. With these changes, Key Club will have increased membership and participation in our volunteer events! Moving on from the serious stuff, all my friends known that I LOVE to eat, and I also love meeting new people and getting to know each and every one of them. My hobbies are writing, drawing, singing, eating, cooking, dancing, and finding good EDM music to listen to!
+    vp:
+        name: Nicole Ng
+        img: /img/cabinet/nicoleng2015.jpg
+        bio: Hi Key Clubbers!! I am Nicole Ng and I am so glad to be able to serve you all as vice president this year. When I first started Key Club as a freshman, I never would have imagined myself as an office. Key Club has helped me develop as a person and a leader. Being in Key Club has allowed me to help the community and make new friends. I hope to provide the same opportunities for all of you. If you see me at meetings or events, don't hesitate to talk to me! I'm very friendly and won't bite! When I have free time, I like doing art, especially painting, and in the winter, I also really love ice skating! Even though Stuyvesant is a lot of work, never stop doing the things you love!
+    sec:
+        name: Chuan Lin 
+        img: /img/cabinet/chuanlin.jpg
+        bio: Hey Stuyvesant Key Club! My name is Chuan and I'll be your secretary for the 2015-2016 service year! I enjoy being a weeb, and doing weeb things like cosplaying and singing "Unravel" by Ling Tosire Sigure. Aside from that I dig volunteering and recently I've been learning how to crochet. Anyway, if you see me in real life, I'm almost always wearing a hoodie. Regarding Key Club, I plan on doing a ton of things this year, such as finding new events for you guys and making a more friendly-to-use Distinguished Key Clubber Guide for the Distinguished Key Clubber Award. I also plan on increasing our club's membership and working with the rest of the cabinet to hold more fundraisers. 
+    treas:
+        name: Bryan Kay
+        img: /img/cabinet/bryankay.jpg
+        bio: Beaver One, Beaver All! Hello fellow Key Clubbers! I'm Bryan Kay and I'll serve you in the 2015-2016 service year as your club treasurer. My goal for this year is to revamp fundraising in Key Club. For the past few years, large scale fundraisers have been non-existent; however, the benefits that come along with large-scale fundraiers are many, including but not limited to, increased recognition in the community, a greater sense of unit and more money to assist those in need. My hobbies are swimming, binge watching House of Cards, and reading. During my free time, I have a paid internship at a law firm and look up various fundraisers that Stuyvesant Key Club might be interested in. If you would like to help fundraisers or have a good fundraising idea, please contact me through social media or by email, <a href="bryankay123@gmail.com">bryankay123@gmail.com</a>. It is an honor to serve you all this service year!
+    edit:
+        name: Sally Leung
+        img: /img/cabinet/sallyleung.jpg
+        bio: Hey Key Clubbers! I am Sally Leung and I am glad to serve you guys this year as your bulletin editor. I joined Key Club freshman year, but did not become active until the summer of my sophomore year. Prior to volunteering at Key Club events, I was often intimidated by how bubbly and dedicated Key Clubbers were. However, once I joined in the fun, I realized that Key Club was more than just a community service club. It was truly an eye-opening experience, especially to your typical shy freshman. Although I enjoy passing my time volunteering in the community, I also enjoy reading and writing, which is why I chose to become an editor. If you enjoy writing too, I highly recommend that you join the Locksmith Committee by emailing <a href="locksmith@stuykc.org">locksmith@stuykc.org</a> with your name and ID. This awesome committee is responsible for writing articles and taking pictures for Key Club events. If you have any questions relevant to the Locksmith, feel free to talk to me.
+    web:
+        name: Caleb Sooknanan
+        img: /img/cabinet/calebsooknanan.jpg
+        bio: Hello fellow Key Clubbers! My name is Caleb Sooknanan, and I am your 2015-2016 Club Webmaster. I am already excited for the possibilities and opportunities that I hope to share with you this year. For me, Key Club is one of the most special student-led organiations in the world, a global army fighting for the improvement of life and the components thereof. At first, I joined Key Club to acquire community service credits for college, but it quickly became a cause for me to love performing service and, at the same time, be with friends working for the same cause. Aside from community service, I enjoy playing the piano, reading, performing in the Stuyvesant Concert Chorus, doing scientific research, and playing arcade video games. If you have suggestions for the website or Key Club in general, you can always reach me through Facebook or email, <a href="caleb.sooknanan@gmail.com">caleb.sooknanan@gmail.com</a>. This service year is going to be amazing!
+---
+<style>
+.bio {display: inline-block;}
+.bio-photo {padding-right: 10px; padding-bottom: 10px;}
+.bio-paragraph {font-family: Open Sans; font-size: 13px; line-height: 20px;}
+</style>
+<!-- css -->
+<div class="row">
+    <div class="span6">
+        <h3>President <small>- {{ page.cabinet.pres.name }}</small></h3>
+        <div class="bio">
+            <img class="pull-left bio-photo" alt="{{ page.cabinet.pres.name }}" src="{{ page.cabinet.pres.img }}">
+            <p class="bio-paragraph">{{ page.cabinet.pres.bio }}</p>
+        </div>
+    </div>
+    <div class="span6">
+        <h3>Vice President <small>- {{ page.cabinet.vp.name }}</small></h3>
+        <div class="bio">
+            <img class="pull-left bio-photo" alt="{{ page.cabinet.vp.name }}" src="{{ page.cabinet.vp.img }}">
+            <p class="bio-paragraph">{{ page.cabinet.vp.bio }}</p>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="span6">
+        <h3>Secretary <small>- {{ page.cabinet.sec.name }}</small></h3>
+        <div class="bio">
+            <img class="pull-left bio-photo" alt="{{ page.cabinet.sec.name }}" src="{{ page.cabinet.sec.img }}">
+            <p class="bio-paragraph">{{ page.cabinet.sec.bio }}</p>
+        </div>
+    </div>
+    <div class="span6">
+        <h3>Treasurer <small>- {{ page.cabinet.treas.name }}</small></h3>
+        <div class="bio">
+            <img class="pull-left bio-photo" alt="{{ page.cabinet.treas.name }}" src="{{ page.cabinet.treas.img }}">
+            <p class="bio-paragraph">{{ page.cabinet.treas.bio }}</p>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="span6">
+        <h3>Editor <small>- {{ page.cabinet.edit.name }}</small></h3>
+        <div class="bio">
+            <img class="pull-left bio-photo" alt="{{ page.cabinet.edit.name }}" src="{{ page.cabinet.edit.img }}">
+            <p class="bio-paragraph">{{ page.cabinet.edit.bio }}</p>
+        </div>
+    </div>
+    <div class="span6">
+        <h3>Webmaster <small>- {{ page.cabinet.web.name }}</small></h3>
+        <div class="bio">
+            <img class="pull-left bio-photo" alt="{{ page.cabinet.web.name }}" src="{{ page.cabinet.web.img }}">
+            <p class="bio-paragraph">{{ page.cabinet.web.bio }}</p>
+        </div>
+    </div>
+</div>
