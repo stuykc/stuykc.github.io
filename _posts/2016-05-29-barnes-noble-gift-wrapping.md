@@ -1,6 +1,6 @@
 ---
 layout: event
-title: Barns & Noble Gift Wrapping
+title: Barnes & Noble Gift Wrapping
 dates:
     - Saturday, May 28th (10 AM - 2 PM)
     - Sunday, May 29th (10 AM - 2 PM)
