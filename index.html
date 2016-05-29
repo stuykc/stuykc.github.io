@@ -10,7 +10,9 @@ redirect_from:
 .carousel .carousel-control {opacity:0;}
 .carousel:hover .carousel-control {opacity:.7;}
 #events-header {padding-bottom:10px;}
-.keyclub-logo {padding:15px 0px; max-width:85%;} 
+.keyclub-logo {padding:15px 0px; max-width:85%;}
+.resizeCal {position: relative; padding-bottom: 75%; height: 0; overflow: hidden;}
+.resizeCal iframe {position: absolute; top:0; left: 0; width: 100%; height: 100%;}
 </style>
 {% comment %}
 {% for event in site.posts reversed limit: site.data.settings.front_page_events %}
