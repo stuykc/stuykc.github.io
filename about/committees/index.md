@@ -30,4 +30,4 @@ title: The Committees
 
 <blockquote>The Web/Video Committee helps work on the <a href="/">website</a> along with the webmaster by providing ideas for improving the site. The committee will also be responsible for posting up members' points on the website, posting up pictures of events, and compiling a list of our recent and upcoming events.</blockquote> 
 
-<!--### <a href="/about/committees/Committees.html">Committee History</a>-->
+### <a href="Committees.html">Committee History</a>
