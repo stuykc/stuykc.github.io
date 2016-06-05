@@ -29,3 +29,5 @@ title: The Committees
 ## Web/Video <small> Caleb Sooknanan </small>
 
 <blockquote>The Web/Video Committee help work on the <a href="/">website</a> along with the webmaster by providing ideas for improving the site. They are also responsible for posting up member’s points on the website, posting up pictures of events, as well as compiling a list of our recent and upcoming events.</blockquote> 
+
+### <a href="/about/committees/Committees.html">Committee History</a>

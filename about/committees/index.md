@@ -2,28 +2,32 @@
 layout: page
 title: The Committees
 ---
-## Art <small> Jiaqi Gao </small>
+<img src="keyclubdirectors2016.jpg">
+<br>
+<br>
 
-<blockquote>The Art Committee helps redecorate the bulletin every so often to make it look BEAUTIFUL! Also, this committee helps us work on the picture scrapbook that we submit at the New York District Leadership Training Conference each year.</blockquote>
+## Art <small> Jennifer Lu & Jennifer Min Kim </small>
 
-## Fundraising <small> Sarah Rim </small>
+<blockquote>The Art Committee helps decorate the bulletin board often with updated Key Club events. In addition, the committee will work together on the picture-themed scrapbook that will be judged at the annual New York District Leadership Training Conference.</blockquote>
 
-<blockquote>The Fundraising Committee is responsible for raising money for organizations, such as the March of Dimes and UNICEF. This committee helps come up with new fundraising ideas and works to get them going.</blockquote>
+## Fundraising <small> Julia Qin & Panda Zhou </small>
 
-## Locksmith <small> Sijia Ma </small>
+<blockquote>The Fundraising Committee works to organize and implement Stuy KC's own original events, a factor that distinguishes Key Club among the many volunteer opportunities in Stuyvesant. In this committee, you will learn valuable communication and administrative skills, while being able to exercise your creativity for the advancement of the club. We look forward to you joining our committee for the 2016-2017 service year.</blockquote>
 
-<blockquote>The Locksmith Committee puts together <em>The Locksmith</em>, the official newsletter of Stuyvesant Key Club. Key Clubbers can contribute to the Locksmith Committee by submitting articles about an event they have attended or by taking pictures of events.</blockquote>
+## Locksmith <small> Tiffany Chen </small>
 
-## New Projects <small> David Lee and Yuki Lau </small>
+<blockquote>The Locksmith Committee creates the Locksmith, Stuyvesant Key Club's official newsletter, four times a year. Key Clubbers can contribute to the Locksmith by writing articles about events they recently attended and submitting pictures of events.</blockquote>
 
-<blockquote>The New Projects Committee helps find new events to go to and come up with ideas for an event in school or for members of the club to participate in. This does not have to be just events for us to volunteer at, but also activities among club members where we charge a small amount which will be donated to a cause. For example, a few years ago we had a photo hunt around Stuy and recently, we had a Karoake event where we raised money for the <a href="http://www.keyclub.org/service/TheEliminateProject.aspx">Eliminate Project</a>.</blockquote>
+## New Projects <small> Wavian Li & Bingyi Zeng </small>
 
-## Public Relations <small> Jennifer Hong and Bingyi Zeng </small> 
+<blockquote>The New Projects Committee is dedicated to finding new and exciting events for our members to volunteer at. Whether the activities are within our community or on a larger scale, we compile them to involve and encourage members to engage themselves into every event.</blockquote>
 
-<blockquote>The Public Relations Committee helps spread the word about Key Club, both inside the school and out. This might also involve making posters for meetings/events that we want to tell people about.</blockquote>
+## Public Relations <small> Henry Zheng </small> 
 
-## Web/Video <small> Alvin Zhu </small>
+<blockquote>The Public Relations Committee helps spread the word about Key Club, through the use of posters and social media. It also assists in spreading the word about any upcoming fundraisers, such as the YUDA band fundraiser.</blockquote>
+
+## Web/Video <small> Jason Lam </small>
 
 <blockquote>The Web/Video Committee helps work on the <a href="/">website</a> along with the webmaster by providing ideas for improving the site. The committee will also be responsible for posting up members' points on the website, posting up pictures of events, and compiling a list of our recent and upcoming events.</blockquote> 
 
-### <a href="/about/committees/Committees.html"> Previous Committees</a>
+### <a href="/about/committees/Committees.html">Committee History</a>
