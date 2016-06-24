@@ -38,8 +38,20 @@ layout: page
         </table>
     </div>
     {{ content | split: "<!-- event-css -->" | last | split: "<!-- event-scripts -->" | first }}
+
+    {% if page.links %}
+    <span class="event-info">Sign up
+      {% for link in page.links %}
+        {% if page.links[0] == link %}
+        <a href="{{ link }}">here</a>
+        {% else %}
+        and <a href="{{ link }}">here</a>
+        {% endif %}
+      {% endfor %}
+    !</span>
+    {% endif %}
     {% if page.link %}
-    <span class="event-info">Sign up here:</span> <a href="{{ page.link }}">{{ page.link }}</a>
+    <span class="event-info">Sign up <a href="{{ page.link }}">here</a>!</span>
     {% endif %}
 </div>
 {% if content contains "<!-- event-scripts -->" %}

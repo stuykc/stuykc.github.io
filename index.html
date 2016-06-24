@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Stuyvesant High School Key Club 
+title: Stuyvesant High School Key Club
 redirect_from:
     - /test/
 ---
@@ -63,10 +63,10 @@ redirect_from:
             {% else %}
             {% for event in site.posts reversed limit: site.data.settings.front_page_events %}
             <div class="event-preview">
-                <h3><a href="{{ event.url }}">&raquo; {{ event.title }}</a></h3>
+                <h3><a href="{{ event.url }}" style="font-size:110%">&raquo; {{ event.title }}</a></h3>
                 <div class="event-info">
                     <table class="clearfix">
-                        <tbody><tr>
+                        <tbody><tr style="font-size:110%">
                         {% if event.dates %}
                             <td>Dates:&nbsp;</td>
                             <td>
@@ -81,7 +81,7 @@ redirect_from:
                         </tr></tbody>
                     </table>
                     <table class="clearfix">
-                        <tbody><tr>
+                        <tbody><tr style="font-size:110%">
                         {% if event.locations %}
                             <td>Locations:&nbsp;</td>
                             <td>
@@ -100,9 +100,22 @@ redirect_from:
                 {% if event.content contains "<!-- more -->" %}
                 <p class="text-center event-more"><a href="{{ event.url }}">More information on this event &raquo;</a></p>
                 {% endif %}
-                {% if event.link %}
-                <a href="{{ event.link }}"><span class="event-info">Sign up for this event!</span></a>
+
+                {% if event.links %}
+                <span class="event-info" style="font-size:115%">Sign up
+                  {% for link in event.links %}
+                    {% if event.links[0] == link %}
+                    <a href="{{ link }}">here</a>
+                    {% else %}
+                    and <a href="{{ link }}">here</a>
+                    {% endif %}
+                  {% endfor %}
+                !</span>
                 {% endif %}
+                {% if event.link %}
+                  <span class="event-info" style="font-size:115%">Sign up <a href="{{ page.link }}">here</a>!</span>
+                {% endif %}
+
             </div>
             <hr>
             {% endfor %}
@@ -127,7 +140,7 @@ redirect_from:
                     <li><a href="http://www.keyclub.org/home.aspx">Key Club International</a></li>
                     <li><a href="http://sites.kiwanis.org/Kiwanis/en/Alumni/Home/AlumniReconnect.aspx">Key Club Alumni</a></li>
                     <li><a href="http://www.circlek.org/home.aspx">Circle K International</a></li>
-                    <li><a href="http://www.kiwanis.org">Kiwanis International</a></li>                    
+                    <li><a href="http://www.kiwanis.org">Kiwanis International</a></li>
                 </ul>
                 <h4>Service Partners</h4>
                 <ul>
