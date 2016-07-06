@@ -38,9 +38,10 @@
 
           <li class="divider-vertical"></li>
 
-          <li  class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Calendar <b class="caret"></b></a>
+          <li  class="dropdown{% if page.url contains '/events/' %} active{% endif %}">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Events <b class="caret"></b></a>
             <ul class="dropdown-menu">
+	      <li><a href="/events/" style="text-align:center"><b>All Events List</b></a></li>
               <li>
 		<div class="visible-desktop">
                   <iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;height=400&amp;wkst=1&amp;bgcolor=%236666cc&amp;src=stuyvesantkeyclub%40gmail.com&amp;color=%2329527A&amp;ctz=America%2FNew_York" style="border-width:0" width="600" height="400" frameborder="0" scrolling="no"></iframe>
@@ -57,9 +58,9 @@
 
           <li class="divider-vertical"></li>
 
-          <li{% if page.url contains '/events/' %} class="active"{% endif %}><a href="/events/">Events</a></li>
+          <!--<li{% if page.url contains '/events/' %} class="active"{% endif %}><a href="/events/">Events</a></li>
 
-          <li class="divider-vertical"></li>
+          <li class="divider-vertical"></li>-->
 
           <!--<li><a href="https://www.youtube.com/channel/UCvm5y7Dw6bBwySATMJmK1HQ">YouTube</a></li>
 
@@ -70,7 +71,7 @@
           <li class="divider-vertical"></li>
 
           <li  class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown">News<b class="caret"></b></a>
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">News <b class="caret"></b></a>
             <ul class="dropdown-menu">
               <li><a href="https://www.facebook.com/groups/stuyvesantkeyclub/">Facebook Group</a></li>
               <li><a href="http://www.issuu.com/stuykc">The Locksmith</a></li>
