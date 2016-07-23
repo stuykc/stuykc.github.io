@@ -3,8 +3,8 @@ layout: page-large
 title: Check Your Points
 ---
 <style>
-#points-container {position:absolute; margin-left:-20px; overflow:hidden; width:100%;}
-#points.desktop {position:absolute; width:100%; top:-141px; min-height:360px;}
+#points-container {position:absolute; margin-left:0px; overflow:hidden; width:97%;}
+#points.desktop {position:absolute; width:100%; top:-144px; min-height:360px;}
 #points {position:relative; width:100%; top:-27px;}
 </style>
 <!-- css -->
@@ -32,8 +32,8 @@ function spreadsheet() {
     $('#points').height(h + 27);
   }
   else {
-    $('#points-container').height(h - 51);
-    $('#points').height(h + 125);
+    $('#points-container').height(h - 195);
+    $('#points').height(h + 60);
   }
 }
 </script>
@@ -43,7 +43,7 @@ $(document).ready(function() {
     $('#points.desktop').parent().css("top", "").css("position", "absolute");
   });
   $(window).blur(function() {
-    $('#points.desktop').parent().css("top", "50px").css("position", "fixed");
+    $('#points.desktop').parent().css("top", "").css("position", "absolute");
   });
 });
 </script>
