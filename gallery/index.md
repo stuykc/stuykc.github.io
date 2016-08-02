@@ -3,7 +3,9 @@ layout: page
 title: Gallery
 ---
 <style>
-.photos {display:none;}
+.photos {
+  display:none;
+}
 #lightbox {
     position:fixed; // keeps the lightbox window in the current viewport
     top:0;
@@ -11,12 +13,15 @@ title: Gallery
     width:100%;
     height:100%;
     background: rgba(0,0,0,.5);
-};
+}
+#lightbox a {
+  font-size: 50px;
+}
 #lightbox img {
     box-shadow:0 0 25px #111;
     -webkit-box-shadow:0 0 25px #111;
     -moz-box-shadow:0 0 25px #111;
-};
+}
 </style>
 <!-- scripts -->
 <script>
