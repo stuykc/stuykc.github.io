@@ -11,7 +11,6 @@ title: Gallery
     width:100%;
     height:100%;
     background: rgba(0,0,0,.5);
-    text-align:center;
 };
 #lightbox img {
     box-shadow:0 0 25px #111;
@@ -42,21 +41,29 @@ jQuery(document).ready(function($) {
 function make(which){
   var source = $("."+which).attr("src");
   var caption = $("."+which).attr("alt");
+  var number = parseInt(which.split("pic")[1]);
+  var prev = "pic" + (number - 1);
+  var next = "pic" + (number + 1);
+
+  var lightbox =
+  '<div id="lightbox">' +
+    '<div id="content" style="text-align:center"><tr>';
+  if (prev != "pic0" ){
+    lightbox += '<a href="javascript:make(\'' + prev + '\')">\<</a>';
+  }
+  lightbox += '<img src="' + source +'" style="margin-top:120px;"/>';
+  if (next != "pic4"){
+    lightbox += '<a href="javascript:make(\'' + next + '\')">\></a>';
+  }
+  lightbox += '<p style="color: white;font-size:16px;padding-top:10px;">' + caption + '</p>' +
+  '</div></div>';
 
   if ($('#lightbox').length > 0) {
-    $('#content').html('<img src="' + source + '" style="margin-top:120px;"/><p style="color: white;font-size:16px;padding-top:10px;">' + caption + '</p>');
+    $('#content').html(lightbox);
     $('#lightbox').show();
   }
 
   else {
-    var lightbox =
-    '<div id="lightbox">' +
-      '<div id="content">' +
-        '<img src="' + source +'" style="margin-top:120px;"/>' +
-        '<p style="color: white;font-size:16px;padding-top:10px;">' + caption + '</p>' +
-      '</div>' +
-    '</div>';
-
     $('.navbar').append(lightbox);
   }
 }
