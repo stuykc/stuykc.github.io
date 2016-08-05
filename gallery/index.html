@@ -10,22 +10,30 @@ body {
   display:none;
   float: left;
 }
+.photos p{
+  margin-top: 10px;
+  margin-left: 10px;
+}
 .thumb {
   max-height: 300px;
   max-width: 300px;
-  margin-left: 20px;
-  margin-bottom: 20px;
+}
+.explode {
+  margin-top: 30px;
+  height: 240px;
+  width: 220px;
+  overflow: hidden;
+  display: inline-block;
 }
 .crop {
   height: 200px;
   width: 200px;
   overflow: hidden;
   display: inline-block;
+  margin-top: 10px;
+  margin-left: 10px;
 }
-.photos:hover img {
-  opacity: .8;
-}
-.photos img:hover {
+.crop:hover {
   opacity: 1;
   transform: scale(1.15);
 }
@@ -50,11 +58,12 @@ function toggleDiv(divId) {
     <h2><a href="javascript:toggleDiv('jul16')">July</a></h2>
       <div class="photos" id="jul16">
         {% for item in site.data.jul16 %}
-          <div class="crop">
+          <div class="explode"><div class="crop">
             <a href="https://drive.google.com/uc?id={{ item.url | split: '/file/d/' | last | split: '/' | first }}" data-lightbox="jul16" data-title="{{ item.caption }}">
               <img class="thumb" src="https://drive.google.com/uc?id={{ item.url | split: '/file/d/' | last | split: '/' | first }}" alt="{{ item.caption }}">
             </a>
-          </div>
+
+          </div><p>{{ item.caption }}</p></div>
         {% endfor %}
       </div>
     <!--<h2><a href="javascript:toggleDiv('jun16')">June</a></h2>
