@@ -44,9 +44,11 @@ function toggleDiv(divId) {
     <h2><a href="javascript:toggleDiv('jul16')">July</a></h2>
       <div class="photos" id="jul16">
         {% for item in site.data.jul16 %}
-          <a href="https://drive.google.com/uc?id={{ item.url | split: '/file/d/' | last | split: '/' | first }}" data-lightbox="jul16" data-title="{{ item.caption }}">
+          <div class="crop">
+            <a href="https://drive.google.com/uc?id={{ item.url | split: '/file/d/' | last | split: '/' | first }}" data-lightbox="jul16" data-title="{{ item.caption }}">
               <img class="thumb" src="https://drive.google.com/uc?id={{ item.url | split: '/file/d/' | last | split: '/' | first }}" alt="{{ item.caption }}">
-          </a>
+            </a>
+          </div>
         {% endfor %}
       </div>
     <!--<h2><a href="javascript:toggleDiv('jun16')">June</a></h2>
