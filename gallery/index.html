@@ -1,0 +1,42 @@
+---
+layout: page
+title: Gallery
+---
+<style>
+.photos {
+  display:none;
+}
+.thumb {
+  max-height: 200px;
+  max-width: 200px;
+}
+</style>
+<!-- css -->
+<link href="../css/lightbox.css" rel="stylesheet">
+<!-- scripts -->
+<script src="lightbox.js"></script>
+<script>
+function toggleDiv(divId) {
+    $("#"+divId).toggle();
+}
+</script>
+<script>
+    lightbox.option({
+      'albumLabel': $(this).attr("alt");
+    })
+</script>
+
+<body>
+<div class="container">
+    <h2><a href="javascript:toggleDiv('jul16')">July</a></h2>
+      <div class="photos" id="jul16">
+        {% for item in site.data.jul16 %}
+          <a href="https://drive.google.com/uc?id={{ item.url | split: '/file/d/' | last | split: '/' | first }}" data-lightbox="jul16">
+              <img class="thumb" src="https://drive.google.com/uc?id={{ item.url | split: '/file/d/' | last | split: '/' | first }}" alt="{{ item.caption }}">
+          </a>
+        {% endfor %}
+      </div>
+    <h2><a href="javascript:toggleDiv('jun16')">June</a></h2>
+      <div class="photos" id="jun16">nothing right now :(</div>
+</div>
+</body>
