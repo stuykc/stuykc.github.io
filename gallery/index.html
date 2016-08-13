@@ -3,9 +3,6 @@ layout: page
 title: Gallery
 ---
 <style>
-body {
-  padding-bottom: 50px;
-}
 .photos {
   display:none;
   float: left;
@@ -36,6 +33,12 @@ body {
 .explode:hover .crop {
   transform: scale(1.15);
 }
+.carousel-inner img {
+  height: 400px;
+}
+hr {
+  border-color: #036;
+}
 </style>
 <!-- css -->
 <link href="../css/lightbox.css" rel="stylesheet">
@@ -54,20 +57,38 @@ function toggleDiv(divId) {
 
 <body>
 <div class="container">
-    <h2><a href="javascript:toggleDiv('jul16')">July</a></h2>
-      <div class="photos" id="jul16">
-        {% for item in site.data.jul16 %}
-          <div class="explode">
-            <div class="crop">
-              <a href="https://drive.google.com/uc?id={{ item.url | split: '/file/d/' | last | split: '/' | first }}" data-lightbox="jul16" data-title="{{ item.caption }} {{ item.date }}">
-                <img class="thumb" src="https://drive.google.com/uc?id={{ item.url | split: '/file/d/' | last | split: '/' | first }}" alt="{{ item.caption }}">
-              </a>
-            </div>
-            <p>{{ item.caption }}<br>{{ item.date }}</p>
-          </div>
-        {% endfor %}
+  <h3>Highlights</h3>
+  <div id="myCarousel" class="carousel slide">
+      <!-- Carousel items -->
+      <div class="carousel-inner">
+          {% for item in site.data.highlights %}
+              <div class="{% if forloop.first %}active {% endif %}item">
+                  <img src="https://drive.google.com/uc?id={{ item.img | split: '/file/d/' | last | split: '/' | first }}" height="100">
+                  <div class="carousel-caption">
+                      <h4 style="text-align:center">{{ item.event }}</h4>
+                  </div>
+              </div>
+          {% endfor %}
       </div>
-    <!--<h2><a href="javascript:toggleDiv('jun16')">June</a></h2>
-      <div class="photos" id="jun16">nothing right now :(</div>-->
+      <!-- Carousel nav -->
+      <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+      <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+  </div>
+
+  <hr>
+
+  <h2><a href="javascript:toggleDiv('jul16')">July</a></h2>
+    <div class="photos" id="jul16">
+      {% for item in site.data.jul16 %}
+        <div class="explode">
+          <div class="crop">
+            <a href="https://drive.google.com/uc?id={{ item.url | split: '/file/d/' | last | split: '/' | first }}" data-lightbox="jul16" data-title="{{ item.caption }} {{ item.date }}">
+              <img class="thumb" src="https://drive.google.com/uc?id={{ item.url | split: '/file/d/' | last | split: '/' | first }}" alt="{{ item.caption }}">
+            </a>
+          </div>
+          <p>{{ item.caption }}<br>{{ item.date }}</p>
+        </div>
+      {% endfor %}
+    </div>
 </div>
 </body>
