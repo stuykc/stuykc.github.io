@@ -39,6 +39,10 @@ title: Gallery
 hr {
   border-color: #036;
 }
+.creds {
+  font-size: 16px;
+  color: #ccb781;
+}
 </style>
 <!-- css -->
 <link href="../css/lightbox.css" rel="stylesheet">
@@ -77,12 +81,56 @@ function toggleDiv(divId) {
 
   <hr>
 
+  <h2><a href="javascript:toggleDiv('jun16')">June</a></h2>
+    <div class="photos" id="jun16">
+      {% for item in site.data.jun16 %}
+        <div class="explode">
+          <div class="crop">
+            {% if item.credit %}
+            <a href="https://drive.google.com/uc?id={{ item.url | split: '/file/d/' | last | split: '/' | first }}" data-lightbox="jun16" data-title="{{ item.caption }} {{ item.date }}<br><span class='creds'>Credits to {{ item.credit }}</span>">
+            {% else %}
+            <a href="https://drive.google.com/uc?id={{ item.url | split: '/file/d/' | last | split: '/' | first }}" data-lightbox="jun16" data-title="{{ item.caption }} {{ item.date }}">
+            {% endif %}
+              <img class="thumb" src="https://drive.google.com/uc?id={{ item.url | split: '/file/d/' | last | split: '/' | first }}" alt="{{ item.caption }}">
+            </a>
+          </div>
+          <p>{{ item.caption }}<br>{{ item.date }}</p>
+        </div>
+      {% endfor %}
+    </div>
+
+  <br>
+
   <h2><a href="javascript:toggleDiv('jul16')">July</a></h2>
     <div class="photos" id="jul16">
       {% for item in site.data.jul16 %}
         <div class="explode">
           <div class="crop">
+            {% if item.credit %}
+            <a href="https://drive.google.com/uc?id={{ item.url | split: '/file/d/' | last | split: '/' | first }}" data-lightbox="jul16" data-title="{{ item.caption }} {{ item.date }}<br><span class='creds'>Credits to {{ item.credit }}</span>">
+            {% else %}
             <a href="https://drive.google.com/uc?id={{ item.url | split: '/file/d/' | last | split: '/' | first }}" data-lightbox="jul16" data-title="{{ item.caption }} {{ item.date }}">
+            {% endif %}
+              <img class="thumb" src="https://drive.google.com/uc?id={{ item.url | split: '/file/d/' | last | split: '/' | first }}" alt="{{ item.caption }}">
+            </a>
+          </div>
+          <p>{{ item.caption }}<br>{{ item.date }}</p>
+        </div>
+      {% endfor %}
+    </div>
+
+    <br>
+
+  <h2><a href="javascript:toggleDiv('aug16')">August</a></h2>
+    <div class="photos" id="aug16">
+      {% for item in site.data.aug16 %}
+        <div class="explode">
+          <div class="crop">
+            {% if item.credit %}
+            <a href="https://drive.google.com/uc?id={{ item.url | split: '/file/d/' | last | split: '/' | first }}" data-lightbox="aug16" data-title="{{ item.caption }} {{ item.date }}<br><span class='creds'>Credits to {{ item.credit }}</span>">
+            {% else %}
+            <a href="https://drive.google.com/uc?id={{ item.url | split: '/file/d/' | last | split: '/' | first }}" data-lightbox="aug16" data-title="{{ item.caption }} {{ item.date }}">
+            {% endif %}
               <img class="thumb" src="https://drive.google.com/uc?id={{ item.url | split: '/file/d/' | last | split: '/' | first }}" alt="{{ item.caption }}">
             </a>
           </div>
