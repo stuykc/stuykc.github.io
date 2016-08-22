@@ -33,7 +33,9 @@ redirect_from:
                     <div class="carousel-caption">
                         <h4>{{ item.caption-header }}</h4>
                         <p>{{ item.caption-body }}
-                        {% if item.read-more-link %}<a href="{{ item.read-more-link }}" class="btn btn-mini">Read more <i class="icon-chevron-right"></i></a>{% endif %}</p>
+                          {% if item.read-more-link %}<a href="{{ item.read-more-link }}" class="btn btn-mini">Read More <i class="icon-chevron-right"></i></a>{% endif %}
+                          {% if item.name %}<a href="{{ item.link }}" class="btn btn-mini">{{ item.name }}</a>{% endif %}
+                        </p>
                     </div>
                     {% endif %}
                 </div>
