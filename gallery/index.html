@@ -54,6 +54,12 @@ hr {
 <script>
 function toggleDiv(divId) {
     $("#"+divId).toggle();
+    $("#"+divId+" a").each(function(){
+      $(this).attr("href",$(this).attr("wait"));
+    });
+    $("#"+divId+" img").each(function(){
+      $(this).attr("src",$(this).attr("wait"));
+    });
 }
 </script>
 <script>
@@ -113,12 +119,8 @@ SOFTWARE.
       {% for item in site.data.jun16 %}
         <div class="explode">
           <div class="crop">
-            {% if item.credit %}
-            <a href="https://drive.google.com/uc?id={{ item.url | split: '/file/d/' | last | split: '/' | first }}" data-lightbox="jun16" data-title="{{ item.caption }} {{ item.date }}<br><span class='creds'>Credits to {{ item.credit }}</span>">
-            {% else %}
-            <a href="https://drive.google.com/uc?id={{ item.url | split: '/file/d/' | last | split: '/' | first }}" data-lightbox="jun16" data-title="{{ item.caption }} {{ item.date }}">
-            {% endif %}
-              <img class="thumb" src="https://drive.google.com/uc?id={{ item.url | split: '/file/d/' | last | split: '/' | first }}" alt="{{ item.caption }}">
+            <a href="#" wait="https://drive.google.com/uc?id={{ item.url | split: '/file/d/' | last | split: '/' | first }}" data-lightbox="jun16" data-title="{{ item.caption }} {{ item.date }} {% if item.credit %} <br><span class='creds'>Credits to {{ item.credit }}</span>{% endif %}">
+              <img class="thumb" src="#" wait="https://drive.google.com/uc?id={{ item.url | split: '/file/d/' | last | split: '/' | first }}" alt="{{ item.caption }}">
             </a>
           </div>
           <p>{{ item.caption }}<br>{{ item.date }}</p>
@@ -133,12 +135,8 @@ SOFTWARE.
       {% for item in site.data.jul16 %}
         <div class="explode">
           <div class="crop">
-            {% if item.credit %}
-            <a href="https://drive.google.com/uc?id={{ item.url | split: '/file/d/' | last | split: '/' | first }}" data-lightbox="jul16" data-title="{{ item.caption }} {{ item.date }}<br><span class='creds'>Credits to {{ item.credit }}</span>">
-            {% else %}
-            <a href="https://drive.google.com/uc?id={{ item.url | split: '/file/d/' | last | split: '/' | first }}" data-lightbox="jul16" data-title="{{ item.caption }} {{ item.date }}">
-            {% endif %}
-              <img class="thumb" src="https://drive.google.com/uc?id={{ item.url | split: '/file/d/' | last | split: '/' | first }}" alt="{{ item.caption }}">
+            <a href="#" wait="https://drive.google.com/uc?id={{ item.url | split: '/file/d/' | last | split: '/' | first }}" data-lightbox="jul16" data-title="{{ item.caption }} {{ item.date }} {% if item.credit %} <br><span class='creds'>Credits to {{ item.credit }}</span>{% endif %}">
+              <img class="thumb" src="#" wait="https://drive.google.com/uc?id={{ item.url | split: '/file/d/' | last | split: '/' | first }}" alt="{{ item.caption }}">
             </a>
           </div>
           <p>{{ item.caption }}<br>{{ item.date }}</p>
@@ -153,12 +151,8 @@ SOFTWARE.
       {% for item in site.data.aug16 %}
         <div class="explode">
           <div class="crop">
-            {% if item.credit %}
-            <a href="https://drive.google.com/uc?id={{ item.url | split: '/file/d/' | last | split: '/' | first }}" data-lightbox="aug16" data-title="{{ item.caption }} {{ item.date }}<br><span class='creds'>Credits to {{ item.credit }}</span>">
-            {% else %}
-            <a href="https://drive.google.com/uc?id={{ item.url | split: '/file/d/' | last | split: '/' | first }}" data-lightbox="aug16" data-title="{{ item.caption }} {{ item.date }}">
-            {% endif %}
-              <img class="thumb" src="https://drive.google.com/uc?id={{ item.url | split: '/file/d/' | last | split: '/' | first }}" alt="{{ item.caption }}">
+            <a href="#" wait="https://drive.google.com/uc?id={{ item.url | split: '/file/d/' | last | split: '/' | first }}" data-lightbox="aug16" data-title="{{ item.caption }} {{ item.date }} {% if item.credit %} <br><span class='creds'>Credits to {{ item.credit }}</span>{% endif %}">
+              <img class="thumb" src="#" wait="https://drive.google.com/uc?id={{ item.url | split: '/file/d/' | last | split: '/' | first }}" alt="{{ item.caption }}">
             </a>
           </div>
           <p>{{ item.caption }}<br>{{ item.date }}</p>
