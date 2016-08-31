@@ -35,7 +35,7 @@
 
           <li class="divider-vertical"></li>
 
-          <li{% if page.url == '/points/index.html' %} class="active"{% endif %}><a href="/points/">Points</a></li>
+          <li{% if page.url contains '/points/' %} class="active"{% endif %}><a href="/points/">Points</a></li>
 
           <li class="divider-vertical"></li>
 
@@ -59,7 +59,7 @@
 
           <li class="divider-vertical"></li>
 
-          <li{% if page.url == '/gallery/index.html' %} class="active"{% endif %}><a href="/gallery/">Gallery</a></li>
+          <li{% if page.url contains '/gallery/' %} class="active"{% endif %}><a href="/gallery/">Gallery</a></li>
 
           <li class="divider-vertical"></li>
 
