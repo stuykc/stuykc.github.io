@@ -16,6 +16,8 @@ Through the experiences we gain with from voluteering, fundraising, and advocati
 - $ 2.00 for Stuvesant Key Club
 - &#61; **$15.00 Total Dues**
 
+<h2 style="text-align:center"><a href="http://join.stuykc.org/">Join Now!</a></h2>
+
 *Dues are used to pay for membership items such as booklets, cards and pins. Ultimately, __the dues will go back to you, the members__, since they go to paying for Key Club's amazing events such as Fall Rally, and the [district/international conferences]({% post_url 2014-03-30-leadership-training-conference %})!*
 
 <div class="span8 offset2">
