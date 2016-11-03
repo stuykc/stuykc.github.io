@@ -1,39 +1,39 @@
 /*link*/
 a {
     color:#08c;
-    color:#ee300c;
+    /*color:#ee300c;*/
 }
 
 /*hoover link*/
 a:hover, a:focus {
     color:#005580;
-    color:#560200;
+    /*color:#560200;*/
 }
 
 /*navbar*/
 .navbar-inner {
     background-color:#036;
     border:6px solid #00aeef;
-    background-color:#A42212;
-    border:6px solid #FFA300;
+    /*background-color:#A42212;
+    border:6px solid #FFA300;*/
 }
 
 /*navbar clicked*/
 .navbar .nav>.active>a,.navbar .nav>.active>a:hover,.navbar .nav>.active>a:focus{
     background-color:#00aeef;
-    background-color:#FFA300;
+    /*background-color:#FFA300;*/
 }
 
 /*navbar about*/
 .navbar .nav li.dropdown.open>.dropdown-toggle,.navbar .nav li.dropdown.active>.dropdown-toggle,.navbar .nav li.dropdown.open.active>.dropdown-toggle{
     background-color:#00aeef;
-    background-color:#FFA300;
+    /*background-color:#FFA300;*/
 }
 
 /*navbar hoover*/
 .navbar .nav>li>a:focus,.navbar .nav>li>a:hover{
     color:#FFEA00;
-    color:#FFEA00;
+    /*color:#FFEA00;*/
 }
 
 .dropdown-menu>li>a:hover,.dropdown-menu>li>a:focus,.dropdown-submenu:hover>a,.dropdown-submenu:focus>a{
@@ -42,11 +42,11 @@ a:hover, a:focus {
   background-image:-webkit-gradient(linear,0 0,0 100%,from(#08c),to(#0077b3));
   background-image:-webkit-linear-gradient(top,#08c,#0077b3);background-image:-o-linear-gradient(top,#08c,#0077b3);
   background-image:linear-gradient(to bottom,#08c,#0077b3);background-repeat:repeat-x;
-  background-color:#D2722D;
+  /*background-color:#D2722D;
   background-image:-moz-linear-gradient(top,#D2722D,#D2722D);
   background-image:-webkit-gradient(linear,0 0,0 100%,from(#D2722D),to(#D2722D));
   background-image:-webkit-linear-gradient(top,#D2722D,#D2722D);background-image:-o-linear-gradient(top,#D2722D,#D2722D);
-  background-image:linear-gradient(to bottom,#D2722D,#D2722D);background-repeat:repeat-x;
+  background-image:linear-gradient(to bottom,#D2722D,#D2722D);background-repeat:repeat-x;*/
 
 }
 
@@ -64,5 +64,5 @@ a:hover, a:focus {
 /*footer*/
 .footer {
     background-color:#003366;
-    background-color:#36000D;
+    /*background-color:#36000D;*/
 }
