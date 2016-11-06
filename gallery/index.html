@@ -177,6 +177,22 @@ SOFTWARE.
     </div>
 
     <br>
+  
+  <h2><a href="javascript:toggleDiv('oct16')">October</a></h2>
+    <div class="photos" id="oct16">
+      {% for item in site.data.oct16 %}
+        <div class="explode">
+          <div class="crop">
+            <a href="#" wait="https://drive.google.com/uc?id={{ item.url | split: '/file/d/' | last | split: '/' | first }}" data-lightbox="oct16" data-title="{{ item.caption }} {{ item.date }} {% if item.credit %} <br><span class='creds'>Credits to {{ item.credit }}</span>{% endif %}">
+              <img class="thumb" src="#" wait="https://drive.google.com/uc?id={{ item.url | split: '/file/d/' | last | split: '/' | first }}" alt="{{ item.caption }}">
+            </a>
+          </div>
+          <p>{{ item.caption }}<br>{{ item.date }}</p>
+        </div>
+      {% endfor %}
+    </div>
+
+    <br>
 
   <p style="text-align:center">Have questions or requests?<a id="contact-email" href="mailto:contact@stuykc.org" data-toggle="tooltip" data-placement="right" title="contact@stuykc.org">Contact us</a> with the subject <i>Website Gallery</i>!</p>
 </div>
