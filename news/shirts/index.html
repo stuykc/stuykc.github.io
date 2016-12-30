@@ -1,47 +1,35 @@
 ---
 layout: page
-title: T-Shirts!
+title: KC Apparel
 ---
-<style>
+<!--<style>
 h2 {padding-bottom:10px; color:#FF1919;}
 img {width:780px; margin:0px auto;}
-.modal-body {padding:0; max-height:500px;} 
+.modal-body {padding:0; max-height:500px;}
 @media (min-width:768px) {.modal {margin-left:-360px; width:720px;} #back {top:5%;} }
-</style>
+</style>-->
 <!-- css -->
 <div class="text-center">
-    <h2>Bringing The Sexy Back With E<small>at</small> S<small>leep</small> S<small>erve</small></h2>
-    <p>Thank you all who submitted t-shirt designs this year! The winner is the <em>"Eat. Sleep. Serve."</em> shirt!</p>
-    <p>If you are interested in buying a shirt, please come to one of our regular meetings or <a href="mailto:contact@stuykc.org">contact us!</a>!</p>
-    <img src="/img/carousel/shirts.png" alt="T-shirt" usemap="#tshirt"><br>
-    <map name="tshirt">
-        <area shape="rect" coords="0,0,469,400" data-toggle="modal" data-target="#front">
-        <area shape="rect" coords="471,0,940,400" data-toggle="modal" data-target="#back">
-    </map>
-    <h4><small>(Click on an image to enlarge)</small></h4>
+    <h2>2016 KC Apparel Design Contest</h2>
+    <h4>Due: January 21st, 2017</h4>
+    <p style="color:grey"><i>Late submissions won’t be accepted (maybe).</i></p>
 </div>
-<div id="front" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="front" aria-hidden="true">
-    <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-        <h3>Front</h3>
-    </div>
-    <div class="modal-body"></div>
+<img src="\img\news\2017shirtcontest.png">
+<div>
+  <h3>GuideLines:</h3>
+  <ul>
+    <li>The design can be anything as long as it has "Stuyvesant Key Club" or some variation of it such as “StuyKC.” You can <a href="mailto:contact@stuykc.org">contact us</a> if you want to make sure your variation is acceptable.</li>
+    <li>Email us a PNG of your design as well as share a <a href="http://www.customink.com/lab">Customink link</a> so we can see where your design goes and the color of the hoodie.</li>
+    <li>The winning design will be chosen by a club-wide vote sometime in early February.</li>
+  </ul>
+  <h3>Ideas:</h3>
+  <ul>
+    <li><b>Mascot</b>: Panda and Beaver</li>
+    <li><b>KC Colors</b>: White, Blue, and Gold</li>
+    <li><b>Motto</b>: Caring— Our way of life</li>
+  </ul>
 </div>
-<div id="back" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="back" aria-hidden="true">
-    <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-        <h3>Back</h3>
-    </div>
-    <div class="modal-body"></div>
+<br>
+<div class="text-center">
+  <a href="https://www.customink.com/lab"><h2>Get Designing!</h2></a>
 </div>
-<!-- scripts -->
-<script src="/js/rwdImageMaps.min.js"></script>
-<script>
-$(document).ready(function() {
-  $('img[usemap]').rwdImageMaps();
-  $('#front').on('show', function() {$('#front .modal-body').append('<img src="/img/photos/front.png" alt="front">')});
-  $('#front').on('hidden', function() {$('#front .modal-body img').detach()});
-  $('#back').on('show', function() {$('#back .modal-body').append('<img src="/img/photos/back.jpg" alt="back">')});
-  $('#back').on('hidden', function() {$('#back .modal-body img').detach()});
-});
-</script>

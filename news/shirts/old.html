@@ -1,0 +1,47 @@
+---
+layout: page
+title: T-Shirts!
+---
+<style>
+h2 {padding-bottom:10px; color:#FF1919;}
+img {width:780px; margin:0px auto;}
+.modal-body {padding:0; max-height:500px;} 
+@media (min-width:768px) {.modal {margin-left:-360px; width:720px;} #back {top:5%;} }
+</style>
+<!-- css -->
+<div class="text-center">
+    <h2>Bringing The Sexy Back With E<small>at</small> S<small>leep</small> S<small>erve</small></h2>
+    <p>Thank you all who submitted t-shirt designs this year! The winner is the <em>"Eat. Sleep. Serve."</em> shirt!</p>
+    <p>If you are interested in buying a shirt, please come to one of our regular meetings or <a href="mailto:contact@stuykc.org">contact us!</a>!</p>
+    <img src="/img/carousel/shirts.png" alt="T-shirt" usemap="#tshirt"><br>
+    <map name="tshirt">
+        <area shape="rect" coords="0,0,469,400" data-toggle="modal" data-target="#front">
+        <area shape="rect" coords="471,0,940,400" data-toggle="modal" data-target="#back">
+    </map>
+    <h4><small>(Click on an image to enlarge)</small></h4>
+</div>
+<div id="front" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="front" aria-hidden="true">
+    <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+        <h3>Front</h3>
+    </div>
+    <div class="modal-body"></div>
+</div>
+<div id="back" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="back" aria-hidden="true">
+    <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+        <h3>Back</h3>
+    </div>
+    <div class="modal-body"></div>
+</div>
+<!-- scripts -->
+<script src="/js/rwdImageMaps.min.js"></script>
+<script>
+$(document).ready(function() {
+  $('img[usemap]').rwdImageMaps();
+  $('#front').on('show', function() {$('#front .modal-body').append('<img src="/img/photos/front.png" alt="front">')});
+  $('#front').on('hidden', function() {$('#front .modal-body img').detach()});
+  $('#back').on('show', function() {$('#back .modal-body').append('<img src="/img/photos/back.jpg" alt="back">')});
+  $('#back').on('hidden', function() {$('#back .modal-body img').detach()});
+});
+</script>
