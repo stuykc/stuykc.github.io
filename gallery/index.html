@@ -194,6 +194,38 @@ SOFTWARE.
 
     <br>
 
+  <h2><a href="javascript:toggleDiv('nov16')">November</a></h2>
+    <div class="photos" id="nov16">
+      {% for item in site.data.gallery.nov16 %}
+        <div class="explode">
+          <div class="crop">
+            <a href="#" wait="https://drive.google.com/uc?id={{ item.url | split: '/file/d/' | last | split: '/' | first }}" data-lightbox="nov16" data-title="{{ item.caption }} {{ item.date }} {% if item.credit %} <br><span class='creds'>Credits to {{ item.credit }}</span>{% endif %}">
+              <img class="thumb" src="#" wait="https://drive.google.com/uc?id={{ item.url | split: '/file/d/' | last | split: '/' | first }}" alt="{{ item.caption }}">
+            </a>
+          </div>
+          <p>{{ item.caption }}<br>{{ item.date }}</p>
+        </div>
+      {% endfor %}
+    </div>
+
+    <br>
+    
+  <h2><a href="javascript:toggleDiv('dec16')">December</a></h2>
+    <div class="photos" id="dec16">
+      {% for item in site.data.gallery.dec16 %}
+        <div class="explode">
+          <div class="crop">
+            <a href="#" wait="https://drive.google.com/uc?id={{ item.url | split: '/file/d/' | last | split: '/' | first }}" data-lightbox="dec16" data-title="{{ item.caption }} {{ item.date }} {% if item.credit %} <br><span class='creds'>Credits to {{ item.credit }}</span>{% endif %}">
+              <img class="thumb" src="#" wait="https://drive.google.com/uc?id={{ item.url | split: '/file/d/' | last | split: '/' | first }}" alt="{{ item.caption }}">
+            </a>
+          </div>
+          <p>{{ item.caption }}<br>{{ item.date }}</p>
+        </div>
+      {% endfor %}
+    </div>
+
+    <br>  
+
   <p style="text-align:center">Have questions or requests?<a id="contact-email" href="mailto:contact@stuykc.org" data-toggle="tooltip" data-placement="right" title="contact@stuykc.org">Contact us</a> with the subject <i>Website Gallery</i>!</p>
 </div>
 </body>
