@@ -8,3 +8,5 @@ links:
   - https://goo.gl/zlDRo4
 ---
 Better Chinatown is hosting the Lunar New Year Parade Festival! We will be helping with set-up, break down, and helping the different companies run their booth. Don't worry, you'll have plenty of time during the event itself to enjoy the festival! Lunch will be provided. 
+
+<b>Note</b>: Red Cross and ARISTA may also be doing this event but please sign up on our form to be credited by Key Club.
