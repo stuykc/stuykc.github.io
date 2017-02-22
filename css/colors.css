@@ -1,30 +1,30 @@
 /*link*/
 a {
-    color:#E66689;
+    color:#08c;
     /*color:#08c;*/
 }
 
 /*hoover link*/
 a:hover, a:focus {
-    color:#A5394C;
+    color:#005580;
     /*color:#005580;*/
 }
 
 /*navbar*/
 .navbar-inner {
-    background-color:#D33757;
-    border:6px solid #E66689;
+    background-color:#036;
+    border:6px solid #00aeef;
     /*background-color:#036;
     border:6px solid #00aeef;*/
 }
 /*navbar clicked*/
 .navbar .nav>.active>a,.navbar .nav>.active>a:hover,.navbar .nav>.active>a:focus{
-    background-color:#E66689;
+    background-color:#00aeef;
     /*background-color:#00aeef;*/
 }
 /*navbar about*/
 .navbar .nav li.dropdown.open>.dropdown-toggle,.navbar .nav li.dropdown.active>.dropdown-toggle,.navbar .nav li.dropdown.open.active>.dropdown-toggle{
-    background-color:#E66689;
+    background-color:#00aeef;
     /*background-color:#00aeef;*/
 }
 
@@ -61,6 +61,6 @@ a:hover, a:focus {
 
 /*footer*/
 .footer {
-    background-color:#A5394C;
+    background-color:#003366;
     /*background-color:#003366;*/
 }
