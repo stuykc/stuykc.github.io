@@ -4,12 +4,14 @@ title: Check Your Points
 ---
 <style>
 #points-container {position:absolute; margin-left:0px; overflow:hidden; width:97%;}
-#points.desktop {position:absolute; width:100%; top:-144px; min-height:360px;}
+#points.desktop {position:absolute; width:100%; top:-113px; min-height:360px;}
 #points {position:relative; width:100%; top:-27px;}
 </style>
 <!-- css -->
 <div class="container">
-	Please report any errors/updates <a href="https://docs.google.com/forms/d/1bNVlOE-p7IFflaP4KH33YJ3ETKlyBIm8ueqTji5m3h8/edit">here</a>! <i>Note:</i> If there is no column for an event (meaning no other person was credited), we'll update it soon!<br>
+	Please report any errors/updates <a href="https://docs.google.com/forms/d/1bNVlOE-p7IFflaP4KH33YJ3ETKlyBIm8ueqTji5m3h8/edit">here</a>!<br>
+	For your past credits, click <a href="https://docs.google.com/spreadsheets/d/1XxGkBqlEhM_pQx47E9r9ev4TeFcoozFvG4RK-DLPrS8/edit?usp=sharing">here!</a><br>
+	<i>Note</i>: If the spreadsheet below does not appear, click <a href="https://docs.google.com/spreadsheets/d/1sabekYOzquR01zXggKYhoPV0h5ZKW8-Wv4vbbEY-toU">here</a>!
 </div>
 <div id="points-container">
     <iframe class="desktop" id="points"></iframe>
@@ -32,12 +34,12 @@ function spreadsheet() {
     $('#points').height(h + 27);
   }
   else {
-    $('#points-container').height(h - 195);
+    $('#points-container').height(h - 160);
     $('#points').height(h + 60);
   }
 }
 </script>
-<script>
+<!--<script>
 $(document).ready(function() {
   $(window).focus(function() {
     $('#points.desktop').parent().css("top", "").css("position", "absolute");
@@ -46,4 +48,4 @@ $(document).ready(function() {
     $('#points.desktop').parent().css("top", "").css("position", "absolute");
   });
 });
-</script>
+</script>-->
