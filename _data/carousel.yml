@@ -1,18 +1,11 @@
-- img: \img\news\2017shirtcontest.png
-  caption-header: Apparel Design Contest
-  caption-body: Stuyvesant Key Club is holding our annual Apparel Design Contest!
-  name: Read More
-  link: /news/shirts
+- img: /img/carousel/longterm.png
+  caption-header: Long-Term Events Page
+  caption-body: Check out our Long-Term Events page under the Events tab up above!
 - img: /img/carousel/16novdec.png
   caption-header: November/December Newsletter
   caption-body: Keep up with our updates for November & December!
   name: Read More
   link: https://issuu.com/stuykc/docs/novemberdecember_newsletter
-- img: /img/carousel/library-tutoring.jpg
-  caption-header: Library Tutoring
-  caption-body: Come help out our local libraries by tutoring kids!
-  name: Tutor Now
-  link: /news/library-tutoring/
 - img: /img/carousel/join.jpg
   caption-header: Join Stuyvesant Key Club
   caption-body: Welcome to Stuyvesant Key Club! Sign up to join and receive our emails!
