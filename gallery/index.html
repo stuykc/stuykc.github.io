@@ -223,6 +223,38 @@ SOFTWARE.
         </div>
       {% endfor %}
     </div>
+  
+  <br>
+    
+  <h2><a href="javascript:toggleDiv('jan17')">January</a></h2>
+    <div class="photos" id="jan17">
+      {% for item in site.data.gallery.jan17 %}
+        <div class="explode">
+          <div class="crop">
+            <a href="#" wait="https://drive.google.com/uc?id={{ item.url | split: '/file/d/' | last | split: '/' | first }}" data-lightbox="dec16" data-title="{{ item.caption }} {{ item.date }} {% if item.credit %} <br><span class='creds'>Credits to {{ item.credit }}</span>{% endif %}">
+              <img class="thumb" src="#" wait="https://drive.google.com/uc?id={{ item.url | split: '/file/d/' | last | split: '/' | first }}" alt="{{ item.caption }}">
+            </a>
+          </div>
+          <p>{{ item.caption }}<br>{{ item.date }}</p>
+        </div>
+      {% endfor %}
+    </div>
+  
+  <br>
+    
+  <h2><a href="javascript:toggleDiv('feb17')">February</a></h2>
+    <div class="photos" id="feb17">
+      {% for item in site.data.gallery.feb17 %}
+        <div class="explode">
+          <div class="crop">
+            <a href="#" wait="https://drive.google.com/uc?id={{ item.url | split: '/file/d/' | last | split: '/' | first }}" data-lightbox="dec16" data-title="{{ item.caption }} {{ item.date }} {% if item.credit %} <br><span class='creds'>Credits to {{ item.credit }}</span>{% endif %}">
+              <img class="thumb" src="#" wait="https://drive.google.com/uc?id={{ item.url | split: '/file/d/' | last | split: '/' | first }}" alt="{{ item.caption }}">
+            </a>
+          </div>
+          <p>{{ item.caption }}<br>{{ item.date }}</p>
+        </div>
+      {% endfor %}
+    </div>
 
   <br>
   <br>
