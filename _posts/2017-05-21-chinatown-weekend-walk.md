@@ -1,6 +1,6 @@
 ---
 layout: event
-title: Chinatown Weekend Walk
+title: 🏯Chinatown Weekend Walk🏯
 time: 7 AM - 6 PM
 location: <a href="https://www.google.com/maps/@40.7161926,-73.9987019,17z">Mott Stret From Canal to Catham Square</a>, Manhattan
 links:
