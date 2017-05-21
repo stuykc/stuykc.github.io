@@ -1,6 +1,6 @@
 ---
 layout: event
-title: Color Run Queens
+title: 🌈 Color Run Queens 🌈
 time: 7 AM - 12 PM
 location: <a href="https://www.google.com/maps/place/Citi+Field/@40.7549444,-73.8462035,14.71z/data=!4m5!3m4!1s0x89c25fe0b147d195:0xf55b95d4f099763b!8m2!3d40.7570877!4d-73.8458213">Citi Field</a>, Queens
 link: https://goo.gl/djeHs4
