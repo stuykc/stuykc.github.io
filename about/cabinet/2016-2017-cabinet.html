@@ -1,0 +1,90 @@
+---
+layout: page
+title: The Cabinet
+cabinet:
+    pres:
+        name: Jiaqi Gao
+        img: /img/cabinet/jiaqigao.jpg
+        bio: Hello Key Club! I am Jiaqi Gao and I am thrilled to serve as your 2016-2017 club president. Together with my wonderful cabinet members, we will make Key Club an even more rewarding club to be in. Whether it is by organizing meaningful, local events in New York City, or planning large-scale fundraisers for trips, like our annual Leadership Training Conference (LTC), or to raise money for lower education in Guatemala, we hope Key Club will become an inspiration to all its members. Key Club is more than a simple after school activity where members can gain volunteer hours and I aim to convince more students of this to increase our membership. I love meeting and getting to know new people, so don't be afraid to come up to me and say hello!
+    vp:
+        name: Michelle Yang
+        img: /img/cabinet/michelleyang.jpg
+        bio: Hey Key Clubbers! I'm Michelle Yang, but you could call me Michie. I'm honored to be your Vice President for this service year! As your Vice President, I will assist the President, Jiaqi, in accomplishing our goals for this year. We plan to promote Key Club within our school and increase membership participation in our events. Also, we plan to get our Key Clubbers  more involved in the club itself. We will hold more fundraisers so we would be able to donate more to charities and help improve the lives of those who are not as fortunate as us. Aside from Key Club, I really love music especially K-pop. My favorite groups are EXO and SHINee, and after them are every other group from SM! I like being introduced to new things (as long as it has nothing to do with heights :3). I also like dancing, preferably hip-hop but any kind is fine. Feel free to contact me about anything and/or everything. I don't bite, I promise.
+    edit:
+        name: Yvonne Pan
+        img: /img/cabinet/yvonnepan.jpg
+        bio: Beaver one, beaver all, Let’s all do the Beaver call! Hi beavers! My name is Yvonne Pan and I am so excited to be your editor for the 2016-2017 service year! I first joined Key Club in my freshman year and I’m honestly so glad I did. I’ve met so many awesome people in the past three years and I really love volunteering and serving the community. This year I plan to make our newsletter The Locksmith, more frequent and better than ever, so be sure to read it! Please send any articles or pictures of Key Club events to locksmith@stuykc.org with your name and ID to be featured in any future newsletters! Besides volunteering, I also love running, eating, and long walks on the beach. Key Club is such an incredible, student-led organization and I am so honored to be a part of it. I hope you feel the same way! I’m super friendly so don’t be afraid to sing the Beaver song with me if you see me in the hallway!
+    web:
+        name: Alvin Zhu
+        img: /img/cabinet/alvinzhu.jpg
+        bio: Hello Key Club! I am Alvin Zhu and I and so excited to be your new Webmaster! As your Webmaster, I will do everything in my power to make your online experiences as great as possible. I plan to streamline the website by eliminating unnecessary information and making important ones easier to find. Ironically, the less time you spend on the website the better because my job is to convey information in the clearest and quickest possible way. Furthermore, I will be giving our website incremental make-overs that would make it more beautiful while keeping its professionalism. Ultimately, I hope that our website will inspire you to be more active within Key Club and Kiwanis. Outside of Key Club, I love to watch TV shows and mess around with my phone. I am currently watching Game of Thrones, Fresh off the Boat, Once Upon a Time, The 100, and much more. Feel free to message me whenever you want to discuss about TV shows, Key Club, life, or anything else!
+    sec:
+        name: Yuki Lau
+        img: /img/cabinet/yukilau.jpg
+        bio: Hi Key Clubbers! My name is Yuki Lau and I am your secretary for the new service year. I first joined Key Club freshman year and I have made so many friends and new relationships through it. One of my best friends was someone that I have met through Key Club events. Most of my work is behind the scenes, like doing the points sheets, but I'm going to make those systems more organized and easier to access. I also really really love food and don't be surprised if we're talking and I suddenly say, 'do you wanna go to _______ to eat?' Don't be afraid to talk to me! I'm a really friendly person.
+    treas:
+        name: Sarah Rim
+        img: /img/cabinet/sarahrim.jpg
+        bio: Hey Stuyvesant Key Clubbers! It is my pleasure to serve as your treasurer for 2016-2017 and I assure you know that this cabinet will do our absolute best to create the best service year experience for you all. As treasurer, I will plan and carry out many fundraisers throughout the year to help out many different charities and organizations. Don't be afraid to pitch your own ideas and opinions; join fundraising committee! The ability we have as a club is endless! Therefore, let us together make a bigger impact on our club, school, and community.
+---
+<style>
+.bio {display: inline-block;}
+.bio-photo {padding-right: 10px; padding-bottom: 10px; max-width:200px}
+.bio-paragraph {font-family: Open Sans; font-size: 13px; line-height: 20px; padding-top: 10px}
+#contact-email{color:#1B0C6E; font-size:16px}
+</style>
+<!-- css -->
+<div class="row">
+    <div class="span6">
+        <h3>President <small>- {{ page.cabinet.pres.name }}</small></h3>
+        <div class="bio">
+            <img class="pull-left bio-photo" alt="{{ page.cabinet.pres.name }}" src="{{ page.cabinet.pres.img }}">
+            <a id="contact-email" href="mailto:jiaqigao12@gmail.com" data-toggle="tooltip" data-placement="right" title="jiaqigao12@gmail.com">jiaqigao12@gmail.com</a>
+            <p class="bio-paragraph">{{ page.cabinet.pres.bio }}</p>
+        </div>
+    </div>
+    <div class="span6">
+        <h3>Vice President <small>- {{ page.cabinet.vp.name }}</small></h3>
+        <div class="bio">
+            <img class="pull-left bio-photo" alt="{{ page.cabinet.vp.name }}" src="{{ page.cabinet.vp.img }}">
+            <a id="contact-email" href="mailto:librasapphire2000@gmail.com" data-toggle="tooltip" data-placement="right" title="librasapphire2000@gmail.com">librasapphire2000@gmail.com</a>
+            <p class="bio-paragraph">{{ page.cabinet.vp.bio }}</p>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="span6">
+        <h3>Editor <small>- {{ page.cabinet.edit.name }}</small></h3>
+        <div class="bio">
+            <img class="pull-left bio-photo" alt="{{ page.cabinet.edit.name }}" src="{{ page.cabinet.edit.img }}">
+            <a id="contact-email" href="mailto:cheessymatey@gmail.com" data-toggle="tooltip" data-placement="right" title="cheessymatey@gmail.com">cheessymatey@gmail.com</a>
+            <p class="bio-paragraph">{{ page.cabinet.edit.bio }}</p>
+        </div>
+    </div>
+    <div class="span6">
+        <h3>Webmaster <small>- {{ page.cabinet.web.name }}</small></h3>
+        <div class="bio">
+            <img class="pull-left bio-photo" alt="{{ page.cabinet.web.name }}" src="{{ page.cabinet.web.img }}">
+            <a id="contact-email" href="mailto:alvinzhu33@yahoo.com" data-toggle="tooltip" data-placement="right" title="alvinzhu33@yahoo.com">alvinzhu33@yahoo.com</a>
+            <p class="bio-paragraph">{{ page.cabinet.web.bio }}</p>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="span6">
+        <h3>Secretary <small>- {{ page.cabinet.sec.name }}</small></h3>
+        <div class="bio">
+            <img class="pull-left bio-photo" alt="{{ page.cabinet.sec.name }}" src="{{ page.cabinet.sec.img }}">
+            <a id="contact-email" href="mailto:stuyyuki@gmail.com" data-toggle="tooltip" data-placement="right" title="stuyyuki@gmail.com">stuyyuki@gmail.com</a>
+            <p class="bio-paragraph">{{ page.cabinet.sec.bio }}</p>
+        </div>
+    </div>
+    <div class="span6">
+        <h3>Treasurer <small>- {{ page.cabinet.treas.name }}</small></h3>
+        <div class="bio">
+            <img class="pull-left bio-photo" alt="{{ page.cabinet.treas.name }}" src="{{ page.cabinet.treas.img }}">
+            <a id="contact-email" href="mailto:sarahrim1221@gmail.com" data-toggle="tooltip" data-placement="right" title="sarahrim1221@gmail.com">sarahrim1221@gmail.com</a>
+            <p class="bio-paragraph">{{ page.cabinet.treas.bio }}</p>
+        </div>
+    </div>
+</div>
