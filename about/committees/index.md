@@ -2,7 +2,6 @@
 layout: page
 title: The Committees
 ---
-<img src="keyclubdirectors2016.jpg">
 <br>
 <br>
 
