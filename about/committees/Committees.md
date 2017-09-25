@@ -2,7 +2,9 @@
 layout: page
 title: Committee History
 ---
-## [2016-2017 Committee](index.html)
+## [2017-2018 Committee](index.html)
+
+## [2016-2017 Committee](2016-2017-Committee.html)
 
 ## [2015-2016 Committee](2015-2016-Committee.html)
 
