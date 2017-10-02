@@ -3,14 +3,13 @@ layout: page
 title: The Committees
 ---
 <br>
-<br>
 
 ## Art <small> Emily Xu & Jennifer Min Kim </small>
 
 <blockquote>
 
 -The Art Committee decorates the bulletin board often with updated Key Club events. 
--We will also work together to create a picture-themed scrapbook encompassing all of the club’s values, accomplishments and goals, which will be judged at the annual New York District Leadership Training Conference.
+-We will also work together to create a picture-themed scrapbook encompassing all of the clubâ€™s values, accomplishments and goals, which will be judged at the annual New York District Leadership Training Conference.
 
 </blockquote>
 
@@ -41,7 +40,7 @@ title: The Committees
 
 -New Projects is the team behind all of the New Event emails! 
 -We find a variety of interesting events for our volunteers to choose from and contact organizations to arrange them!
--You get to choose which events our Key Clubbers participate in (maybe adding an event you’ve always been interested in doing
+-You get to choose which events our Key Clubbers participate in (maybe adding an event youâ€™ve always been interested in doing
 -Learn essential outreach skills along the way!
 
 </blockquote>
