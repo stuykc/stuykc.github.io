@@ -13,8 +13,8 @@ Through the experiences we gain with from voluteering, fundraising, and advocati
 
 - $ 7.00 for Key Club International
 - $ 6.00 for New York District Key Club
-- $ 2.00 for Stuvesant Key Club
-- &#61; **$15.00 Total Dues**
+- $ 1.00 for Stuvesant Key Club
+- &#61; **$14.00 Total Dues**
 
 <h2 style="text-align:center"><a href="http://join.stuykc.org/">Join Now!</a></h2>
 
