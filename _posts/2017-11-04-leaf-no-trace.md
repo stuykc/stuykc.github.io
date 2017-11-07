@@ -22,7 +22,7 @@ title:
 \pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
 
 \fs24 \cf2 time: 10 AM - 1 PM\
-location:  <a href = \'93{\field{\*\fldinst{HYPERLINK "https://www.google.com/maps/place/Fort+Greene+Park/@40.691396,-73.974944,17z/data=!3m1!4b1!4m5!3m4!1s0x89c25bb6edaffebd:0x78ef226ebb3eed50!8m2!3d40.691396!4d-73.974944"}}{\fldrslt https://www.google.com/maps/place/Fort+Greene+Park/@40.691396,-73.974944,17z/data=!3m1!4b1!4m5!3m4!1s0x89c25bb6edaffebd:0x78ef226ebb3eed50!8m2!3d40.691396!4d-73.974944}}\'94>Fort Greene Park</a>, Brooklyn\
+location:  <a href=\'93{\field{\*\fldinst{HYPERLINK "https://www.google.com/maps/place/Fort+Greene+Park/@40.691396,-73.974944,17z/data=!3m1!4b1!4m5!3m4!1s0x89c25bb6edaffebd:0x78ef226ebb3eed50!8m2!3d40.691396!4d-73.974944"}}{\fldrslt \cf2 \cb3 https://www.google.com/maps/place/Fort+Greene+Park/@40.691396,-73.974944,17z/data=!3m1!4b1!4m5!3m4!1s0x89c25bb6edaffebd:0x78ef226ebb3eed50!8m2!3d40.691396!4d-73.974944}}\'94>Fort Greene Park</a>, Brooklyn\
 link: {\field{\*\fldinst{HYPERLINK "https://goo.gl/xThCHv"}}{\fldrslt 
 \fs28 \cf4 \cb1 \ul \ulc4 https://
 \fs26\fsmilli13333 goo.gl/xThCHv}}
