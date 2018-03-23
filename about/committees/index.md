@@ -9,21 +9,6 @@ title: The Committees
 
 <blockquote>We will also work together to create a picture-themed scrapbook encompassing all of the club’s values, accomplishments and goals, which will be judged at the annual New York District Leadership Training Conference.</blockquote>
 
-## Fundraising <small> Vicky Zhu & Evan Zou </small>
-
-<blockquote>
-The Fundraising committee seeks those motivated individuals to execute fundraisers in an efficient manner 
-</blockquote>
-<blockquote>
-Allows Key Clubbers to interact and develop lasting memories. 
-</blockquote>
-<blockquote>
-You must be prepared to take on the responsibilities of developing, organizing, and conducting events at the sacrifice of your own time.
-</blockquote>
-<blockquote>
-Joining this committee will provide the perfect opportunity to contribute to your community.
-</blockquote>
-
 ## Locksmith <small> Sammi Lin </small>
 
 <blockquote>
