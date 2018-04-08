@@ -1,26 +1,66 @@
 ---
 layout: page
-title: About Stuyvesant Key Club
-title-small: – Division 11
+title: Key Club International
 ---
-<style>ul {list-style:none;}</style>
-<!-- css -->
-Stuyvesant Key Club is a large community service club that focuses on helping our community and our school. In accordance with our motto, "Caring - Our Way of Life", our members dedicate themselves to improving New York City through our support of various causes, both small and large. We participate in a variety of events throughout all five boroughs, helping at major walks including Making Strides Against Breast Cancer and AIDS Walk, working to improve parks and gardens throughout the city, making food for the city's homeless. We also organize a number of fundraisers that occur year-round, as well as advocate for causes that need to be addressed.
+*I pledge, on my honor, to uphold the Objects of Key Club International; to build my home, school and community; to serve my nation and God; and combat all forces which tend to undermine these institutions.*
 
-Through the experiences we gain with from voluteering, fundraising, and advocating, our members develop leadership skills that can later make a difference in the world. Not only do we build the best possible leaders, but we also build the best possible person.
+**Key Club International**, a service leadership program of Kiwanis International, is the oldest and largest service organization for high school students, and gives its members opportunities to provide service, build character and develop leadership skills.  
+Started in California in 1925, Key Club today thrives in more than 5,000 high school campuses with a total membership of 265,000 in 32 countries, including North America, the Caribbean nations, Central and South America, and most recently, Asia and Australia.
 
-#### Our club dues:
+Key Club attributes its success to the fact that it is a student-led organization that teaches leadership through serving others. In other words, as members of the Kiwanis International family, Key Club members build themselves as they build their schools and communities.
 
-- $ 7.00 for Key Club International
-- $ 6.00 for New York District Key Club
-- $ 1.00 for Stuvesant Key Club
-- &#61; **$14.00 Total Dues**
+Among the opportunities provided to members are:
 
-<h2 style="text-align:center"><a href="https://goo.gl/forms/3viwifHWmqrIAla13">Join Now!</a></h2>
+- Leadership development
+- Vocational guidance
+- College scholarships
+- Subscription to KEY CLUB magazine
+- Service-learning
+- Personal enrichment
+- Value-added member benefit programs
+- Liability insurance coverage
 
-*Dues are used to pay for membership items such as booklets, cards and pins. Ultimately, __the dues will go back to you, the members__, since they go to paying for Key Club's amazing events such as Fall Rally, and the [district/international conferences]({% post_url 2014-03-30-leadership-training-conference %})!*
+Originally, Key Club adopted as its motto, "We Build," the same motto as its parent organization, Kiwanis International. In 1976, the program changed its motto to, "Caring—Our Way of Life," to more clearly convey members’ reasons for helping others. Dues paid by every member fund Key Club, and its officers are high school leaders elected by the members at district and International conventions.
 
-<div class="span8 offset2">
-    <img src="/img/photos/stuykc-yearbook-2016.jpg" alt="Stuyvesant Key Club">
-    <p class="text-center"><i>Together, we are one proud and happy family :)</i></p>
+### International Presence
+
+High school leaders from 32 countries unite every day to provide service in their homes, schools, and communities, completing more than 12 million hours of service. Key Clubbers work to help eliminate HIV/AIDS in Africa, stop premature birth, and battle for the rights of children in their communities. Key Club is currently represented in these locations around the globe:
+
+<div class="row">
+<div class="span6" markdown="1">
+- Antigua and Barbuda
+- Aruba
+- Australia
+- Bahamas
+- Barbados
+- Bermuda
+- Canada
+- Cayman Islands
+- Colombia
+- Costa Rica
+- Dominica
+- Ecuador
+- England
+- Germany
+- Guadeloupe
+- Italy
+</div>
+<div class="span6" markdown="1">
+- Jamaica
+- Malaysia
+- Martinique
+- Netherlands-Antilles
+- New Caledonia
+- New Zealand
+- Panama
+- Philippines
+- Singapore
+- South Korea 
+- St. Lucia
+- Taiwan
+- Thailand
+- Trinidad and Tobago
+- Turk and Caicos Islands
+- United States of America
+</div>
 </div>
