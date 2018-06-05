@@ -2,7 +2,7 @@
 layout: event
 title: 👟MG TriState Walk👟
 time: 8:00 AM - TBD
-location: <a href="https://goo.gl/maps/eiauo2mdbQS2">Hunter’s Point South Park</a>, Queens
+location: <a href="https://goo.gl/maps/ai5QnhiwVgG2">Hunter’s Point South Park</a>, Queens
 links: 
   - https://goo.gl/maps/P2yPdrm84ov
   - http://www.mgwalk.org/volunteer/
