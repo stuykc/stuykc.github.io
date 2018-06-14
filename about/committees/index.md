@@ -27,4 +27,4 @@ The Locksmith is a monthly official publication featuring the firing passion of 
 
 <blockquote>The web/video committee works to capture key club at its finest- at fundraisers, events, and more. We use videos taken by committee and club members, and we edit them and cut them together to create bimonthly recaps that showcase what our club has been doing. We also work closely with our webmaster to add to and improve our club's site.</blockquote>
 
-### <a href="/about/committees/Committees.html">Committee History</a>
+
