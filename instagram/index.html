@@ -2,17 +2,74 @@
 layout: page
 title: Instagram
 ---
-
+<style>
+.photos {
+  display:none;
+  float: left;
+}
+.photos p{
+  margin-top: 10px;
+  text-align: center;
+}
+.thumb {
+  max-height: 375px;
+  max-width: 375px;
+}
+.explode {
+  padding-bottom: 50px;
+  height: 240px;
+  width: 220px;
+  overflow: hidden;
+  display: inline-block;
+}
+.crop {
+  height: 200px;
+  width: 200px;
+  overflow: hidden;
+  display: inline-block;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.explode:hover .crop {
+  transform: scale(1.15);
+}
+.carousel-inner img {
+  height: 400px;
+}
+hr {
+  border-color: #036;
+}
+.creds {
+  font-size: 16px;
+  color: #ccb781;
+}
+.source {
+  display: none;
+}
 </style>
 <!-- css -->
 <link href="../css/lightbox.css" rel="stylesheet">
 <!-- scripts -->
 <script src="lightbox.js"></script>
-
+<script>
+function toggleDiv(divId) {
+    $("#"+divId).toggle();
+    $("#"+divId+" a").each(function(){
+      $(this).attr("href",$(this).attr("wait"));
+    });
+    $("#"+divId+" img").each(function(){
+      $(this).attr("src",$(this).attr("wait"));
+    });
+}
+</script>
+<script>
+    lightbox.option({
+      'albumLabel': $(this).attr("alt");
+    })
+</script>
 
 <body>
   <script src="https://apps.elfsight.com/p/platform.js" defer></script>
   <div class="elfsight-app-ae6b13ff-cece-46b6-943b-08bcbbe4cb0c"></div>
-
-</div>
+  
 </body>
