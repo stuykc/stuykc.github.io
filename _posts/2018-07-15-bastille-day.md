@@ -1,6 +1,6 @@
 ---
 layout: event
-title: 🎆Bastille Day🎆 
+title: 🎇Bastille Day🎇 
 time: 9:30 AM - 6:00 PM
 location: <a href="https://goo.gl/maps/GowehAyPsnH2">60th St between 5th Ave & Lexington Ave
 </a>, Manhattan
