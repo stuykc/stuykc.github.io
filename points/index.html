@@ -10,8 +10,8 @@ title: Check Your Points
 <!-- css -->
 <div class="container">
 	Please report any errors/updates <a href="https://docs.google.com/forms/d/1bNVlOE-p7IFflaP4KH33YJ3ETKlyBIm8ueqTji5m3h8/edit">here</a>!<br>
-	For your past credits, click <a href="https://docs.google.com/spreadsheets/d/1XxGkBqlEhM_pQx47E9r9ev4TeFcoozFvG4RK-DLPrS8/edit?usp=sharing">here!</a><br>
-	<i>Note</i>: If the spreadsheet below does not appear, click <a href="https://docs.google.com/spreadsheets/d/1j82GjRbrSXNQpFa4g_TZV8THXtOrwV3JtlXF7NW9NJQ/">here</a>!
+	For your past credits, click <a href="https://docs.google.com/spreadsheets/d/1dOv5ZTPgEx_xiKmVntyYIqLjDHC4lG3G8DPwnwbPo0M/edit?usp=sharing">here!</a><br>
+	<i>Note</i>: If the spreadsheet below does not appear, click <a href="">here</a>!
 </div>
 <div id="points-container">
     <iframe class="desktop" id="points"></iframe>
@@ -24,10 +24,10 @@ function spreadsheet() {
   var h = $(window).height();
   var w = $(window).width();
   if (w <= 767) {
-    $('#points').attr('src', 'https://docs.google.com/spreadsheets/d/1j82GjRbrSXNQpFa4g_TZV8THXtOrwV3JtlXF7NW9NJQ/pubhtml').removeClass("desktop");
+    $('#points').attr('src', 'https://docs.google.com/spreadsheets/d/1dOv5ZTPgEx_xiKmVntyYIqLjDHC4lG3G8DPwnwbPo0M/pubhtml').removeClass("desktop");
   }
   else {
-    $('#points').attr('src', 'https://docs.google.com/spreadsheets/d/1j82GjRbrSXNQpFa4g_TZV8THXtOrwV3JtlXF7NW9NJQ/edit').addClass("desktop");
+    $('#points').attr('src', 'https://docs.google.com/spreadsheets/d/1dOv5ZTPgEx_xiKmVntyYIqLjDHC4lG3G8DPwnwbPo0M/edit').addClass("desktop");
   }
   if (w <= 767) {
     $('#points-container').height(h);
