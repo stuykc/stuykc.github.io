@@ -15,11 +15,12 @@ title: Check Your Points
 	<a href = "https://drive.google.com/open?id=1sabekYOzquR01zXggKYhoPV0h5ZKW8-Wv4vbbEY-toU">here</a> for 16'-17' points<br>
 	<a href = "https://drive.google.com/open?id=1j82GjRbrSXNQpFa4g_TZV8THXtOrwV3JtlXF7NW9NJQ">here</a> for 17'-18' points<br>
 	<a href = "https://docs.google.com/spreadsheets/d/1dOv5ZTPgEx_xiKmVntyYIqLjDHC4lG3G8DPwnwbPo0M/edit?usp=sharing">here</a> for 18'-19' points<br>
+	https://docs.google.com/spreadsheets/d/1dOv5ZTPgEx_xiKmVntyYIqLjDHC4lG3G8DPwnwbPo0M/edit?usp=sharing">here</a>!
 </div>
 <div id="points-container">
     <iframe class="desktop" id="points"></iframe>
 </div>
-<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTS1BqIEyOj6KgkbcARIXjnTpugz37VU_IRnlWVTfxK0SP-uA7ES50LvLX50hGtGBieQdArU9QowlPX/pubhtml?widget=true&amp;headers=false"></iframe>
+<iframe width = 90% height = 90% src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTS1BqIEyOj6KgkbcARIXjnTpugz37VU_IRnlWVTfxK0SP-uA7ES50LvLX50hGtGBieQdArU9QowlPX/pubhtml?widget=true&amp;headers=false"></iframe>
 <!-- scripts -->
 <!--<script>
 $(document).ready(spreadsheet);
@@ -28,21 +29,21 @@ function spreadsheet() {
   var h = $(window).height();
   var w = $(window).width();
   if (w <= 767) {
-    $('#points').attr('src', 'https://docs.google.com/spreadsheets/d/1dOv5ZTPgEx_xiKmVntyYIqLjDHC4lG3G8DPwnwbPo0M/edit?usp=sharing').removeClass("desktop");
+    $('#points').attr('src', 'https://docs.google.com/spreadsheets/d/1dOv5ZTPgEx_xiKmVntyYIqLjDHC4lG3G8DPwnwbPo0M/pubhtml').removeClass("desktop");
   }
   else {
-    $('#points').attr('src', 'https://docs.google.com/spreadsheets/d/1dOv5ZTPgEx_xiKmVntyYIqLjDHC4lG3G8DPwnwbPo0M/edit?usp=sharing').addClass("desktop");
+    $('#points').attr('src', 'https://docs.google.com/spreadsheets/d/1dOv5ZTPgEx_xiKmVntyYIqLjDHC4lG3G8DPwnwbPo0M/edit').addClass("desktop");
   }
   if (w <= 767) {
     $('#points-container').height(h);
-    $('#points').height(h + 30);
+    $('#points').height(h + 27);
   }
   else {
     $('#points-container').height(h - 160);
-    $('#points').height(h + 0);
+    $('#points').height(h + 60);
   }
 }
-</script>-->
+</script>
 <!--<script>
 $(document).ready(function() {
   $(window).focus(function() {
