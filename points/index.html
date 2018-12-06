@@ -9,9 +9,12 @@ title: Check Your Points
 </style>
 <!-- css -->
 <div class="container">
-	Please report any errors/updates <a href="https://docs.google.com/forms/d/1bNVlOE-p7IFflaP4KH33YJ3ETKlyBIm8ueqTji5m3h8/edit">here</a>!<br>
-	For your past credits, click <a href="https://docs.google.com/spreadsheets/d/1dOv5ZTPgEx_xiKmVntyYIqLjDHC4lG3G8DPwnwbPo0M/edit?usp=sharing">here!</a><br>
-	<i>Note</i>: If the spreadsheet below does not appear, click <a href="">here</a>!
+	Please report any errors/updates to stuyvesantkeyclub@gmail.com!<br>
+	For your past credits, click<br>
+	<a href="https://drive.google.com/open?id=1-gL91weR4yb9-xnlseTA5Y29uBxQsczqFb-bgMJh6l8">here</a> for 15'-16' points<br>
+	<a href = "https://drive.google.com/open?id=1sabekYOzquR01zXggKYhoPV0h5ZKW8-Wv4vbbEY-toU">here</a> for 16'-17' points<br>
+	<a href = "https://drive.google.com/open?id=1j82GjRbrSXNQpFa4g_TZV8THXtOrwV3JtlXF7NW9NJQ">here</a> for 17'-18' points<br>
+	<a href = "https://docs.google.com/spreadsheets/d/1dOv5ZTPgEx_xiKmVntyYIqLjDHC4lG3G8DPwnwbPo0M/edit?usp=sharing">here</a> for 18'-19' points<br>
 </div>
 <div id="points-container">
     <iframe class="desktop" id="points"></iframe>
@@ -24,18 +27,18 @@ function spreadsheet() {
   var h = $(window).height();
   var w = $(window).width();
   if (w <= 767) {
-    $('#points').attr('src', 'https://docs.google.com/spreadsheets/d/1dOv5ZTPgEx_xiKmVntyYIqLjDHC4lG3G8DPwnwbPo0M/pubhtml').removeClass("desktop");
+    $('#points').attr('src', 'https://docs.google.com/spreadsheets/d/1dOv5ZTPgEx_xiKmVntyYIqLjDHC4lG3G8DPwnwbPo0M/edit?usp=sharing').removeClass("desktop");
   }
   else {
-    $('#points').attr('src', 'https://docs.google.com/spreadsheets/d/1dOv5ZTPgEx_xiKmVntyYIqLjDHC4lG3G8DPwnwbPo0M/edit').addClass("desktop");
+    $('#points').attr('src', 'https://docs.google.com/spreadsheets/d/1dOv5ZTPgEx_xiKmVntyYIqLjDHC4lG3G8DPwnwbPo0M/edit?usp=sharing').addClass("desktop");
   }
   if (w <= 767) {
     $('#points-container').height(h);
-    $('#points').height(h + 27);
+    $('#points').height(h + 30);
   }
   else {
     $('#points-container').height(h - 160);
-    $('#points').height(h + 60);
+    $('#points').height(h + 70);
   }
 }
 </script>
