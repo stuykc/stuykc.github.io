@@ -6,6 +6,7 @@ title: The Committees
 
 <blockquote>Hey guys, I'm back!
 Now that I'm the art director, I can't wait to do so many things this service year with my codirector. I'm determined to hold many workshops hosted by the art committee and make the scrapbook/ update the bulletin board. There's so many fun things in store and I believe art will be a tight knit group. All of you guys should apply for Art, even if you're not that artsy, and I believe we will make Key Club colorful together <3.
+
 ~ Heyy, my name is Lucy Wu for those of you that don’t know me. Key Club means the world to me, and I’ve enjoyed meeting so many people through it. Art is also my favorite hobby, so I’m thrilled to be working with Penny as one of your art directors for the 2019-2020 service year. As art director, I wish to get members of the art committee to be more involved by holding several workshops for things like scrapbooking or changing the theme of the bulletin board. I also want to work on time management to make sure we complete all assignments on time, especially the scrapbook. Let’s work on getting first place! I’ll do my best to make sure this service year is fun and memorable. :))
 </blockquote>
 
