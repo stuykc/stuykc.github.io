@@ -2,9 +2,12 @@
 layout: page
 title: The Committees
 ---
-## Art <small> Tina Chen & Kelly Guo </small>
+## Art <small> Penny Wang & Lucy Wu </small>
 
-<blockquote>The Stuyvesant Key club art committee is in charge of making posters for the various fundraisers we have, update the Key Club bulletin board near the second floor entrance, and to make our yearly scrapbook (Hawaiian Theme). What we hope to accomplish in the committee is to try to get more people to come to fundraisers and get more people involved. We plan to keep key club's reputation as fun and exciting as possible with art.</blockquote>
+<blockquote>Hey guys, I'm back!
+Now that I'm the art director, I can't wait to do so many things this service year with my codirector. I'm determined to hold many workshops hosted by the art committee and make the scrapbook/ update the bulletin board. There's so many fun things in store and I believe art will be a tight knit group. All of you guys should apply for Art, even if you're not that artsy, and I believe we will make Key Club colorful together <3.
+~ Heyy, my name is Lucy Wu for those of you that don’t know me. Key Club means the world to me, and I’ve enjoyed meeting so many people through it. Art is also my favorite hobby, so I’m thrilled to be working with Penny as one of your art directors for the 2019-2020 service year. As art director, I wish to get members of the art committee to be more involved by holding several workshops for things like scrapbooking or changing the theme of the bulletin board. I also want to work on time management to make sure we complete all assignments on time, especially the scrapbook. Let’s work on getting first place! I’ll do my best to make sure this service year is fun and memorable. :))
+</blockquote>
 
 ## Fundraising <small> Alan Guo & Vincent Huang</small>
 
@@ -26,5 +29,3 @@ The Locksmith is a monthly official publication featuring the firing passion of 
 ## Web/Video <small> Irene Chen </small>
 
 <blockquote>The web/video committee works to capture key club at its finest- at fundraisers, events, and more. We use videos taken by committee and club members, and we edit them and cut them together to create bimonthly recaps that showcase what our club has been doing. We also work closely with our webmaster to add to and improve our club's site.</blockquote>
-
-
